@@ -1,0 +1,117 @@
+2019-11-05 16:14:55,881 INFO 92844 [Timer] /Users/lirunkai/Documents/website/server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 44104122ms at 2019-11-06 04:30:00.003
+2019-11-05 16:14:55,882 INFO 92844 [Timer] /Users/lirunkai/Documents/website/server/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 27904119ms at 2019-11-06 00:00:00.001
+2019-11-05 16:14:55,882 INFO 92844 [Timer] /Users/lirunkai/Documents/website/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 27905118ms at 2019-11-06 00:00:01.000
+2019-11-05 16:14:55,786 INFO 92845 [egg-schedule]: register schedule /Users/lirunkai/Documents/website/server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-11-05 16:14:55,786 INFO 92845 [egg-schedule]: register schedule /Users/lirunkai/Documents/website/server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-11-05 16:14:55,786 INFO 92845 [egg-schedule]: register schedule /Users/lirunkai/Documents/website/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-11-05 18:18:02,352 INFO 3087 [Timer] /Users/lirunkai/Documents/website/server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 36717651ms at 2019-11-06 04:30:00.003
+2019-11-05 18:18:02,352 INFO 3087 [Timer] /Users/lirunkai/Documents/website/server/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 20517648ms at 2019-11-06 00:00:00.000
+2019-11-05 18:18:02,352 INFO 3087 [Timer] /Users/lirunkai/Documents/website/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 20518648ms at 2019-11-06 00:00:01.000
+2019-11-05 18:18:02,270 INFO 3090 [egg-schedule]: register schedule /Users/lirunkai/Documents/website/server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-11-05 18:18:02,270 INFO 3090 [egg-schedule]: register schedule /Users/lirunkai/Documents/website/server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-11-05 18:18:02,270 INFO 3090 [egg-schedule]: register schedule /Users/lirunkai/Documents/website/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-11-05 18:36:21,723 INFO 4037 [egg-schedule]: register schedule /Users/lirunkai/Documents/website/server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-11-05 18:36:21,724 INFO 4037 [egg-schedule]: register schedule /Users/lirunkai/Documents/website/server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-11-05 18:36:21,724 INFO 4037 [egg-schedule]: register schedule /Users/lirunkai/Documents/website/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-11-05 18:36:38,797 INFO 4131 [egg-schedule]: register schedule /Users/lirunkai/Documents/website/server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-11-05 18:36:38,797 INFO 4131 [egg-schedule]: register schedule /Users/lirunkai/Documents/website/server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-11-05 18:36:38,797 INFO 4131 [egg-schedule]: register schedule /Users/lirunkai/Documents/website/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-11-05 18:36:49,032 INFO 4159 [egg-schedule]: register schedule /Users/lirunkai/Documents/website/server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-11-05 18:36:49,032 INFO 4159 [egg-schedule]: register schedule /Users/lirunkai/Documents/website/server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-11-05 18:36:49,032 INFO 4159 [egg-schedule]: register schedule /Users/lirunkai/Documents/website/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-11-05 18:37:00,735 INFO 4187 [egg-schedule]: register schedule /Users/lirunkai/Documents/website/server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-11-05 18:37:00,735 INFO 4187 [egg-schedule]: register schedule /Users/lirunkai/Documents/website/server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-11-05 18:37:00,735 INFO 4187 [egg-schedule]: register schedule /Users/lirunkai/Documents/website/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-11-05 18:37:02,553 INFO 4212 [egg-schedule]: register schedule /Users/lirunkai/Documents/website/server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-11-05 18:37:02,553 INFO 4212 [egg-schedule]: register schedule /Users/lirunkai/Documents/website/server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-11-05 18:37:02,553 INFO 4212 [egg-schedule]: register schedule /Users/lirunkai/Documents/website/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-11-05 18:37:04,481 INFO 4235 [egg-schedule]: register schedule /Users/lirunkai/Documents/website/server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-11-05 18:37:04,481 INFO 4235 [egg-schedule]: register schedule /Users/lirunkai/Documents/website/server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-11-05 18:37:04,481 INFO 4235 [egg-schedule]: register schedule /Users/lirunkai/Documents/website/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-11-05 18:37:08,496 INFO 4268 [egg-schedule]: register schedule /Users/lirunkai/Documents/website/server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-11-05 18:37:08,496 INFO 4268 [egg-schedule]: register schedule /Users/lirunkai/Documents/website/server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-11-05 18:37:08,496 INFO 4268 [egg-schedule]: register schedule /Users/lirunkai/Documents/website/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-11-05 18:37:11,701 INFO 4296 [egg-schedule]: register schedule /Users/lirunkai/Documents/website/server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-11-05 18:37:11,702 INFO 4296 [egg-schedule]: register schedule /Users/lirunkai/Documents/website/server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-11-05 18:37:11,702 INFO 4296 [egg-schedule]: register schedule /Users/lirunkai/Documents/website/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-11-05 18:37:41,122 INFO 4341 [egg-schedule]: register schedule /Users/lirunkai/Documents/website/server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-11-05 18:37:41,122 INFO 4341 [egg-schedule]: register schedule /Users/lirunkai/Documents/website/server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-11-05 18:37:41,122 INFO 4341 [egg-schedule]: register schedule /Users/lirunkai/Documents/website/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-11-05 18:37:45,480 INFO 4383 [egg-schedule]: register schedule /Users/lirunkai/Documents/website/server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-11-05 18:37:45,480 INFO 4383 [egg-schedule]: register schedule /Users/lirunkai/Documents/website/server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-11-05 18:37:45,480 INFO 4383 [egg-schedule]: register schedule /Users/lirunkai/Documents/website/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-11-05 18:37:59,397 INFO 4457 [egg-schedule]: register schedule /Users/lirunkai/Documents/website/server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-11-05 18:37:59,398 INFO 4457 [egg-schedule]: register schedule /Users/lirunkai/Documents/website/server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-11-05 18:37:59,398 INFO 4457 [egg-schedule]: register schedule /Users/lirunkai/Documents/website/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-11-05 18:38:03,624 INFO 4501 [egg-schedule]: register schedule /Users/lirunkai/Documents/website/server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-11-05 18:38:03,624 INFO 4501 [egg-schedule]: register schedule /Users/lirunkai/Documents/website/server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-11-05 18:38:03,624 INFO 4501 [egg-schedule]: register schedule /Users/lirunkai/Documents/website/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-11-05 18:38:04,750 INFO 4522 [egg-schedule]: register schedule /Users/lirunkai/Documents/website/server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-11-05 18:38:04,750 INFO 4522 [egg-schedule]: register schedule /Users/lirunkai/Documents/website/server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-11-05 18:38:04,750 INFO 4522 [egg-schedule]: register schedule /Users/lirunkai/Documents/website/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-11-05 18:38:06,370 INFO 4548 [egg-schedule]: register schedule /Users/lirunkai/Documents/website/server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-11-05 18:38:06,370 INFO 4548 [egg-schedule]: register schedule /Users/lirunkai/Documents/website/server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-11-05 18:38:06,370 INFO 4548 [egg-schedule]: register schedule /Users/lirunkai/Documents/website/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-11-05 18:38:18,834 INFO 4685 [egg-schedule]: register schedule /Users/lirunkai/Documents/website/server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-11-05 18:38:18,834 INFO 4685 [egg-schedule]: register schedule /Users/lirunkai/Documents/website/server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-11-05 18:38:18,834 INFO 4685 [egg-schedule]: register schedule /Users/lirunkai/Documents/website/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-11-05 18:38:25,646 INFO 4717 [Timer] /Users/lirunkai/Documents/website/server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 35494357ms at 2019-11-06 04:30:00.003
+2019-11-05 18:38:25,646 INFO 4717 [Timer] /Users/lirunkai/Documents/website/server/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 19294354ms at 2019-11-06 00:00:00.000
+2019-11-05 18:38:25,646 INFO 4717 [Timer] /Users/lirunkai/Documents/website/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 19295354ms at 2019-11-06 00:00:01.000
+2019-11-05 18:38:25,578 INFO 4718 [egg-schedule]: register schedule /Users/lirunkai/Documents/website/server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-11-05 18:38:25,578 INFO 4718 [egg-schedule]: register schedule /Users/lirunkai/Documents/website/server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-11-05 18:38:25,578 INFO 4718 [egg-schedule]: register schedule /Users/lirunkai/Documents/website/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-11-05 18:39:02,819 INFO 4793 [egg-schedule]: register schedule /Users/lirunkai/Documents/website/server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-11-05 18:39:02,819 INFO 4793 [egg-schedule]: register schedule /Users/lirunkai/Documents/website/server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-11-05 18:39:02,819 INFO 4793 [egg-schedule]: register schedule /Users/lirunkai/Documents/website/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-11-05 18:39:05,425 INFO 4812 [egg-schedule]: register schedule /Users/lirunkai/Documents/website/server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-11-05 18:39:05,425 INFO 4812 [egg-schedule]: register schedule /Users/lirunkai/Documents/website/server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-11-05 18:39:05,425 INFO 4812 [egg-schedule]: register schedule /Users/lirunkai/Documents/website/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-11-05 18:39:09,301 INFO 4841 [egg-schedule]: register schedule /Users/lirunkai/Documents/website/server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-11-05 18:39:09,301 INFO 4841 [egg-schedule]: register schedule /Users/lirunkai/Documents/website/server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-11-05 18:39:09,301 INFO 4841 [egg-schedule]: register schedule /Users/lirunkai/Documents/website/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-11-05 18:39:16,069 INFO 4904 [egg-schedule]: register schedule /Users/lirunkai/Documents/website/server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-11-05 18:39:16,069 INFO 4904 [egg-schedule]: register schedule /Users/lirunkai/Documents/website/server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-11-05 18:39:16,069 INFO 4904 [egg-schedule]: register schedule /Users/lirunkai/Documents/website/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-11-05 18:39:21,051 INFO 4932 [egg-schedule]: register schedule /Users/lirunkai/Documents/website/server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-11-05 18:39:21,051 INFO 4932 [egg-schedule]: register schedule /Users/lirunkai/Documents/website/server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-11-05 18:39:21,051 INFO 4932 [egg-schedule]: register schedule /Users/lirunkai/Documents/website/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-11-05 18:39:26,197 INFO 4999 [egg-schedule]: register schedule /Users/lirunkai/Documents/website/server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-11-05 18:39:26,197 INFO 4999 [egg-schedule]: register schedule /Users/lirunkai/Documents/website/server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-11-05 18:39:26,197 INFO 4999 [egg-schedule]: register schedule /Users/lirunkai/Documents/website/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-11-06 14:21:45,093 INFO 29969 [Timer] /Users/lirunkai/Documents/website/server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 50894910ms at 2019-11-07 04:30:00.003
+2019-11-06 14:21:45,093 INFO 29969 [Timer] /Users/lirunkai/Documents/website/server/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 34694907ms at 2019-11-07 00:00:00.000
+2019-11-06 14:21:45,094 INFO 29969 [Timer] /Users/lirunkai/Documents/website/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 34695907ms at 2019-11-07 00:00:01.001
+2019-11-06 14:21:44,983 INFO 29970 [egg-schedule]: register schedule /Users/lirunkai/Documents/website/server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-11-06 14:21:44,983 INFO 29970 [egg-schedule]: register schedule /Users/lirunkai/Documents/website/server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-11-06 14:21:44,983 INFO 29970 [egg-schedule]: register schedule /Users/lirunkai/Documents/website/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-11-06 14:32:53,569 INFO 32409 [egg-schedule]: register schedule /Users/lirunkai/Documents/website/server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-11-06 14:32:53,569 INFO 32409 [egg-schedule]: register schedule /Users/lirunkai/Documents/website/server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-11-06 14:32:53,569 INFO 32409 [egg-schedule]: register schedule /Users/lirunkai/Documents/website/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-11-06 14:34:15,278 INFO 32673 [egg-schedule]: register schedule /Users/lirunkai/Documents/website/server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-11-06 14:34:15,278 INFO 32673 [egg-schedule]: register schedule /Users/lirunkai/Documents/website/server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-11-06 14:34:15,278 INFO 32673 [egg-schedule]: register schedule /Users/lirunkai/Documents/website/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-11-06 14:34:23,196 INFO 32745 [egg-schedule]: register schedule /Users/lirunkai/Documents/website/server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-11-06 14:34:23,196 INFO 32745 [egg-schedule]: register schedule /Users/lirunkai/Documents/website/server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-11-06 14:34:23,196 INFO 32745 [egg-schedule]: register schedule /Users/lirunkai/Documents/website/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-11-06 14:34:38,781 INFO 32854 [egg-schedule]: register schedule /Users/lirunkai/Documents/website/server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-11-06 14:34:38,781 INFO 32854 [egg-schedule]: register schedule /Users/lirunkai/Documents/website/server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-11-06 14:34:38,781 INFO 32854 [egg-schedule]: register schedule /Users/lirunkai/Documents/website/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-11-06 14:41:26,968 INFO 33630 [Timer] /Users/lirunkai/Documents/website/server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 49713035ms at 2019-11-07 04:30:00.003
+2019-11-06 14:41:26,969 INFO 33630 [Timer] /Users/lirunkai/Documents/website/server/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 33513032ms at 2019-11-07 00:00:00.001
+2019-11-06 14:41:26,969 INFO 33630 [Timer] /Users/lirunkai/Documents/website/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 33514031ms at 2019-11-07 00:00:01.000
+2019-11-06 14:41:26,861 INFO 33631 [egg-schedule]: register schedule /Users/lirunkai/Documents/website/server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-11-06 14:41:26,861 INFO 33631 [egg-schedule]: register schedule /Users/lirunkai/Documents/website/server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-11-06 14:41:26,861 INFO 33631 [egg-schedule]: register schedule /Users/lirunkai/Documents/website/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-11-06 14:48:46,398 INFO 34460 [egg-schedule]: register schedule /Users/lirunkai/Documents/website/server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-11-06 14:48:46,398 INFO 34460 [egg-schedule]: register schedule /Users/lirunkai/Documents/website/server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-11-06 14:48:46,398 INFO 34460 [egg-schedule]: register schedule /Users/lirunkai/Documents/website/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-11-06 14:48:51,984 INFO 34537 [egg-schedule]: register schedule /Users/lirunkai/Documents/website/server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-11-06 14:48:51,984 INFO 34537 [egg-schedule]: register schedule /Users/lirunkai/Documents/website/server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-11-06 14:48:51,984 INFO 34537 [egg-schedule]: register schedule /Users/lirunkai/Documents/website/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-11-06 14:48:54,850 INFO 34558 [egg-schedule]: register schedule /Users/lirunkai/Documents/website/server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-11-06 14:48:54,850 INFO 34558 [egg-schedule]: register schedule /Users/lirunkai/Documents/website/server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-11-06 14:48:54,850 INFO 34558 [egg-schedule]: register schedule /Users/lirunkai/Documents/website/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-11-06 14:49:06,975 INFO 34656 [egg-schedule]: register schedule /Users/lirunkai/Documents/website/server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-11-06 14:49:06,975 INFO 34656 [egg-schedule]: register schedule /Users/lirunkai/Documents/website/server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-11-06 14:49:06,975 INFO 34656 [egg-schedule]: register schedule /Users/lirunkai/Documents/website/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js

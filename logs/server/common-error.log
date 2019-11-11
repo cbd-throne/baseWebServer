@@ -1,0 +1,40 @@
+2019-11-05 17:17:01,962 ERROR 92844 nodejs.ClusterClientNoResponseError: client no response in 185423ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/lirunkai/Documents/website/server/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 92844
+hostname: lirunkaideMacBook-Pro.local
+
+2019-11-05 18:36:03,840 ERROR 3087 nodejs.ClusterClientNoResponseError: client no response in 477031ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/lirunkai/Documents/website/server/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 3087
+hostname: lirunkaideMacBook-Pro.local
+
+2019-11-06 06:41:34,782 ERROR 4717 nodejs.ClusterClientNoResponseError: client no response in 43268472ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/lirunkai/Documents/website/server/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 4717
+hostname: lirunkaideMacBook-Pro.local
+
+2019-11-06 09:28:19,618 ERROR 4717 nodejs.ClusterClientNoResponseError: client no response in 9964776ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/lirunkai/Documents/website/server/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 4717
+hostname: lirunkaideMacBook-Pro.local
+
