@@ -1,0 +1,105 @@
+2019-11-05 17:17:01,962 ERROR 92844 nodejs.ClusterClientNoResponseError: client no response in 185423ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/lirunkai/Documents/website/server/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 92844
+hostname: lirunkaideMacBook-Pro.local
+
+2019-11-05 18:36:03,840 ERROR 3087 nodejs.ClusterClientNoResponseError: client no response in 477031ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/lirunkai/Documents/website/server/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 3087
+hostname: lirunkaideMacBook-Pro.local
+
+2019-11-06 06:41:34,782 ERROR 4717 nodejs.ClusterClientNoResponseError: client no response in 43268472ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/lirunkai/Documents/website/server/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 4717
+hostname: lirunkaideMacBook-Pro.local
+
+2019-11-06 09:28:19,618 ERROR 4717 nodejs.ClusterClientNoResponseError: client no response in 9964776ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/lirunkai/Documents/website/server/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 4717
+hostname: lirunkaideMacBook-Pro.local
+
+2019-11-11 16:12:55,001 ERROR 18824 [-/127.0.0.1/-/5ms OPTIONS /api/user/create] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (/Users/lirunkai/Documents/website/server/node_modules/egg/lib/application.js:266:15)
+    at Object.get cookies [as cookies] (/Users/lirunkai/Documents/website/server/node_modules/egg/app/extend/context.js:22:66)
+    at Object.get [egg-security#CSRF_SECRET] (/Users/lirunkai/Documents/website/server/node_modules/egg-security/app/extend/context.js:87:33)
+    at Object.ensureCsrfSecret (/Users/lirunkai/Documents/website/server/node_modules/egg-security/app/extend/context.js:98:13)
+    at csrf (/Users/lirunkai/Documents/website/server/node_modules/egg-security/lib/middlewares/csrf.js:15:11)
+    at dispatch (/Users/lirunkai/Documents/website/server/node_modules/koa-compose/index.js:42:32)
+    at /Users/lirunkai/Documents/website/server/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/lirunkai/Documents/website/server/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/lirunkai/Documents/website/server/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/lirunkai/Documents/website/server/node_modules/koa-compose/index.js:42:32)
+    at overrideMethod (/Users/lirunkai/Documents/website/server/node_modules/koa-override/index.js:13:70)
+    at dispatch (/Users/lirunkai/Documents/website/server/node_modules/koa-compose/index.js:42:32)
+    at bodyParser (/Users/lirunkai/Documents/website/server/node_modules/koa-bodyparser/index.js:86:11)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 18824
+hostname: lirunkaideMacBook-Pro.local
+
+2019-11-11 16:30:25,923 ERROR 21353 [-/127.0.0.1/-/5ms OPTIONS /api/user/create] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (/Users/lirunkai/Documents/website/server/node_modules/egg/lib/application.js:266:15)
+    at Object.get cookies [as cookies] (/Users/lirunkai/Documents/website/server/node_modules/egg/app/extend/context.js:22:66)
+    at Object.get [egg-security#CSRF_SECRET] (/Users/lirunkai/Documents/website/server/node_modules/egg-security/app/extend/context.js:87:33)
+    at Object.ensureCsrfSecret (/Users/lirunkai/Documents/website/server/node_modules/egg-security/app/extend/context.js:98:13)
+    at csrf (/Users/lirunkai/Documents/website/server/node_modules/egg-security/lib/middlewares/csrf.js:15:11)
+    at dispatch (/Users/lirunkai/Documents/website/server/node_modules/koa-compose/index.js:42:32)
+    at /Users/lirunkai/Documents/website/server/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/lirunkai/Documents/website/server/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/lirunkai/Documents/website/server/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/lirunkai/Documents/website/server/node_modules/koa-compose/index.js:42:32)
+    at overrideMethod (/Users/lirunkai/Documents/website/server/node_modules/koa-override/index.js:13:70)
+    at dispatch (/Users/lirunkai/Documents/website/server/node_modules/koa-compose/index.js:42:32)
+    at bodyParser (/Users/lirunkai/Documents/website/server/node_modules/koa-bodyparser/index.js:86:11)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 21353
+hostname: lirunkaideMacBook-Pro.local
+
+2019-11-11 23:18:49,734 ERROR 55695 [-/127.0.0.1/-/13ms POST /api/user/create] nodejs.TypeError: Cannot read property 'findOne' of undefined
+    at UserController.create (/Users/lirunkai/Documents/website/server/app/controller/user.js:10:37)
+    at Object.callFn (/Users/lirunkai/Documents/website/server/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/lirunkai/Documents/website/server/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/lirunkai/Documents/website/server/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/lirunkai/Documents/website/server/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/lirunkai/Documents/website/server/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/lirunkai/Documents/website/server/node_modules/@eggjs/router/node_modules/koa-compose/index.js:45:18)
+    at /Users/lirunkai/Documents/website/server/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/lirunkai/Documents/website/server/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at /Users/lirunkai/Documents/website/server/node_modules/@eggjs/router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/lirunkai/Documents/website/server/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/Users/lirunkai/Documents/website/server/node_modules/koa-compose/index.js:42:32)
+    at /Users/lirunkai/Documents/website/server/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/Users/lirunkai/Documents/website/server/node_modules/koa-compose/index.js:42:32)
+    at multipart (/Users/lirunkai/Documents/website/server/node_modules/egg-multipart/app/middleware/multipart.js:10:38)
+    at dispatch (/Users/lirunkai/Documents/website/server/node_modules/koa-compose/index.js:42:32)
+    at i18n (/Users/lirunkai/Documents/website/server/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/Users/lirunkai/Documents/website/server/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/Users/lirunkai/Documents/website/server/node_modules/koa-compose/index.js:42:32)
+    at dta (/Users/lirunkai/Documents/website/server/node_modules/egg-security/lib/middlewares/dta.js:12:12)
+    at dispatch (/Users/lirunkai/Documents/website/server/node_modules/koa-compose/index.js:42:32)
+    at xframe (/Users/lirunkai/Documents/website/server/node_modules/egg-security/lib/middlewares/xframe.js:7:11)
+headers: {"Access-Control-Allow-Origin":"http://localhost:8080","vary":"Origin"}
+pid: 55695
+hostname: lirunkaideMacBook-Pro.local
+

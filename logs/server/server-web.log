@@ -1,0 +1,46 @@
+2019-11-12 00:25:41,982 INFO 62868 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-11-12 00:25:42,996 INFO 62875 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-11-12 00:25:48,991 INFO 62913 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-11-12 00:25:50,829 INFO 62923 [egg-sequelize](0ms) Executed (default): SELECT 1+1 AS result
+2019-11-12 00:26:02,224 INFO 62962 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-11-12 00:26:06,192 INFO 62978 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-11-12 00:26:10,523 INFO 62996 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-11-12 00:26:15,145 INFO 63020 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-11-12 00:26:18,637 INFO 63031 [egg-sequelize](0ms) Executed (default): SELECT 1+1 AS result
+2019-11-12 00:26:21,027 INFO 63049 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-11-12 00:26:25,145 INFO 63073 [egg-sequelize](0ms) Executed (default): SELECT 1+1 AS result
+2019-11-12 00:26:34,195 INFO 63104 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-11-12 00:26:37,934 INFO 63125 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-11-12 00:26:56,966 ERROR 63125 [-/127.0.0.1/-/17ms POST /api/user/create] nodejs.TypeError: Cannot read property 'findOne' of undefined
+    at UserController.create (/Users/lirunkai/Documents/website/server/app/controller/user.js:10:37)
+    at Object.callFn (/Users/lirunkai/Documents/website/server/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/lirunkai/Documents/website/server/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/lirunkai/Documents/website/server/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/lirunkai/Documents/website/server/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/lirunkai/Documents/website/server/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/lirunkai/Documents/website/server/node_modules/@eggjs/router/node_modules/koa-compose/index.js:45:18)
+    at /Users/lirunkai/Documents/website/server/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/lirunkai/Documents/website/server/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at /Users/lirunkai/Documents/website/server/node_modules/@eggjs/router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/lirunkai/Documents/website/server/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/Users/lirunkai/Documents/website/server/node_modules/koa-compose/index.js:42:32)
+    at /Users/lirunkai/Documents/website/server/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/Users/lirunkai/Documents/website/server/node_modules/koa-compose/index.js:42:32)
+    at multipart (/Users/lirunkai/Documents/website/server/node_modules/egg-multipart/app/middleware/multipart.js:10:38)
+    at dispatch (/Users/lirunkai/Documents/website/server/node_modules/koa-compose/index.js:42:32)
+    at i18n (/Users/lirunkai/Documents/website/server/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/Users/lirunkai/Documents/website/server/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/Users/lirunkai/Documents/website/server/node_modules/koa-compose/index.js:42:32)
+    at dta (/Users/lirunkai/Documents/website/server/node_modules/egg-security/lib/middlewares/dta.js:12:12)
+    at dispatch (/Users/lirunkai/Documents/website/server/node_modules/koa-compose/index.js:42:32)
+    at xframe (/Users/lirunkai/Documents/website/server/node_modules/egg-security/lib/middlewares/xframe.js:7:11)
+headers: {"Access-Control-Allow-Origin":"http://localhost:8080","vary":"Origin"}
+pid: 63125
+hostname: lirunkaideMacBook-Pro.local
+
+2019-11-12 00:27:16,082 INFO 63196 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-11-12 00:27:28,797 INFO 63220 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-11-12 00:27:30,238 INFO 63240 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-11-12 00:27:32,686 INFO 63240 [egg-sequelize](6ms) Executed (default): SELECT `id`, `email`, `password`, `created_at`, `updated_at`, `created_at` AS `createdAt`, `updated_at` AS `updatedAt` FROM `users` AS `user` WHERE `user`.`email` = '1029837434@qq.com' LIMIT 1;
+2019-11-12 00:27:32,701 INFO 63240 [egg-sequelize](3ms) Executed (default): INSERT INTO `users` (`id`,`email`,`created_at`,`updated_at`) VALUES (DEFAULT,?,?,?);
+2019-11-12 00:27:44,806 INFO 63240 [egg-sequelize](2ms) Executed (default): SELECT `id`, `email`, `password`, `created_at`, `updated_at`, `created_at` AS `createdAt`, `updated_at` AS `updatedAt` FROM `users` AS `user` WHERE `user`.`email` = '1029837434@qq.com' LIMIT 1;

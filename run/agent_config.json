@@ -7,13 +7,15 @@
       "encrypt": true
     },
     "security": {
-      "domainWhiteList": [],
+      "domainWhiteList": [
+        "http://localhost:8080"
+      ],
       "protocolWhiteList": [],
       "defaultMiddleware": "csrf,hsts,methodnoallow,noopen,nosniff,csp,xssProtection,xframe,dta",
       "csrf": {
         "enable": true,
         "type": "ctoken",
-        "ignoreJSON": false,
+        "ignoreJSON": true,
         "useSession": false,
         "cookieName": "csrfToken",
         "sessionName": "csrfToken",
@@ -150,9 +152,18 @@
     },
     "validate": {},
     "websocket": {},
+    "sequelize": {
+      "dialect": "mysql",
+      "database": "throne",
+      "host": "localhost",
+      "port": 3306,
+      "username": "root",
+      "password": "<String len: 14>"
+    },
+    "cors": {},
     "env": "local",
     "name": "server",
-    "keys": "<String len: 0>",
+    "keys": "<String len: 7>",
     "proxy": false,
     "maxIpsCount": 0,
     "maxProxyCount": 0,
@@ -171,9 +182,13 @@
       "license": "ISC",
       "dependencies": {
         "egg": "^2.25.0",
+        "egg-cors": "^2.2.2",
+        "egg-sequelize": "^5.2.0",
         "egg-socket.io": "^4.1.6",
         "egg-validate": "^2.0.2",
-        "egg-websocket": "^0.0.1"
+        "egg-websocket": "^0.0.1",
+        "mysql2": "^2.0.0",
+        "sequelize-cli": "^5.5.1"
       },
       "devDependencies": {
         "egg-bin": "^4.14.0"
@@ -276,7 +291,6 @@
       "responseTimeout": 60000
     },
     "onClientError": null,
-    "key": "EGG_KEY",
     "maxAge": 86400000,
     "coreMiddlewares": "~config~coreMiddleware",
     "appMiddlewares": [],
@@ -450,6 +464,28 @@
       "from": "/Users/lirunkai/Documents/website/server/config/plugin.js",
       "path": "/Users/lirunkai/Documents/website/server/node_modules/egg-websocket",
       "version": "0.0.1"
+    },
+    "sequelize": {
+      "enable": true,
+      "package": "egg-sequelize",
+      "name": "sequelize",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "/Users/lirunkai/Documents/website/server/config/plugin.js",
+      "path": "/Users/lirunkai/Documents/website/server/node_modules/egg-sequelize",
+      "version": "5.2.0"
+    },
+    "cors": {
+      "enable": true,
+      "package": "egg-cors",
+      "name": "cors",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "/Users/lirunkai/Documents/website/server/config/plugin.js",
+      "path": "/Users/lirunkai/Documents/website/server/node_modules/egg-cors",
+      "version": "2.2.2"
     }
   }
 }

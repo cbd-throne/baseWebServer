@@ -19,7 +19,18 @@ module.exports = {
     // websocket
     websocket: {},
 
+    // cors
+    security: {
+        domainWhiteList: ['http://localhost:8080'],
+        csrf: {
+            headerName: 'x-csrf-token',
+            ignoreJSON: true
+        }
+    },
+
+    cors: {},
+
     // 设置session
-    key: 'EGG_KEY',
+    keys: 'EGG_KEY',
     maxAge: 86400000
 }

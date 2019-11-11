@@ -2,12 +2,11 @@
   {
     "name": null,
     "methods": [
-      "HEAD",
-      "GET"
+      "POST"
     ],
     "paramNames": [],
-    "path": "/api/base/list",
-    "regexp": "/^\\/api\\/base\\/list(?:\\/(?=$))?$/",
+    "path": "/api/user/create",
+    "regexp": "/^\\/api\\/user\\/create(?:\\/(?=$))?$/",
     "stack": [
       "wrappedController"
     ]

@@ -1,0 +1,1663 @@
+2019-11-05 16:14:55,760 INFO 92845 [egg:logger] init all loggers with options: {"dir":"/Users/lirunkai/Documents/website/server/logs/server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-11-05 16:14:55,787 INFO 92845 [egg-multipart] stream mode enable
+2019-11-05 16:14:55,845 INFO 92845 [egg-static] starting static serve /public/ -> /Users/lirunkai/Documents/website/server/app/public
+2019-11-05 16:14:55,847 INFO 92845 [egg-security] use csrf middleware
+2019-11-05 16:14:55,848 INFO 92845 [egg-security] use methodnoallow middleware
+2019-11-05 16:14:55,848 INFO 92845 [egg-security] use noopen middleware
+2019-11-05 16:14:55,850 INFO 92845 [egg-security] use nosniff middleware
+2019-11-05 16:14:55,850 INFO 92845 [egg-security] use xssProtection middleware
+2019-11-05 16:14:55,850 INFO 92845 [egg-security] use xframe middleware
+2019-11-05 16:14:55,851 INFO 92845 [egg-security] use dta middleware
+2019-11-05 16:14:55,851 INFO 92845 [egg-security] compose 7 middlewares into one security middleware
+2019-11-05 16:14:55,859 INFO 92845 [egg:core] dump config after load, 5ms
+2019-11-05 16:14:55,871 INFO 92845 [egg-watcher:application] watcher start success
+2019-11-05 16:14:55,875 INFO 92845 [egg:core] dump config after ready, 2ms
+2019-11-05 17:17:01,962 WARN 92845 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-11-05 18:18:02,244 INFO 3090 [egg:logger] init all loggers with options: {"dir":"/Users/lirunkai/Documents/website/server/logs/server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-11-05 18:18:02,270 INFO 3090 [egg-multipart] stream mode enable
+2019-11-05 18:18:02,311 INFO 3090 [egg-static] starting static serve /public/ -> /Users/lirunkai/Documents/website/server/app/public
+2019-11-05 18:18:02,317 INFO 3090 [egg-security] use csrf middleware
+2019-11-05 18:18:02,317 INFO 3090 [egg-security] use methodnoallow middleware
+2019-11-05 18:18:02,318 INFO 3090 [egg-security] use noopen middleware
+2019-11-05 18:18:02,319 INFO 3090 [egg-security] use nosniff middleware
+2019-11-05 18:18:02,319 INFO 3090 [egg-security] use xssProtection middleware
+2019-11-05 18:18:02,320 INFO 3090 [egg-security] use xframe middleware
+2019-11-05 18:18:02,320 INFO 3090 [egg-security] use dta middleware
+2019-11-05 18:18:02,320 INFO 3090 [egg-security] compose 7 middlewares into one security middleware
+2019-11-05 18:18:02,327 INFO 3090 [egg:core] dump config after load, 4ms
+2019-11-05 18:18:02,340 INFO 3090 [egg-watcher:application] watcher start success
+2019-11-05 18:18:02,346 INFO 3090 [egg:core] dump config after ready, 2ms
+2019-11-05 18:36:03,838 WARN 3090 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-11-05 18:36:21,698 INFO 4037 [egg:logger] init all loggers with options: {"dir":"/Users/lirunkai/Documents/website/server/logs/server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-11-05 18:36:21,724 INFO 4037 [egg-multipart] stream mode enable
+2019-11-05 18:36:21,755 INFO 4037 [egg-static] starting static serve /public/ -> /Users/lirunkai/Documents/website/server/app/public
+2019-11-05 18:36:21,758 INFO 4037 [egg-security] use csrf middleware
+2019-11-05 18:36:21,758 INFO 4037 [egg-security] use methodnoallow middleware
+2019-11-05 18:36:21,759 INFO 4037 [egg-security] use noopen middleware
+2019-11-05 18:36:21,761 INFO 4037 [egg-security] use nosniff middleware
+2019-11-05 18:36:21,761 INFO 4037 [egg-security] use xssProtection middleware
+2019-11-05 18:36:21,761 INFO 4037 [egg-security] use xframe middleware
+2019-11-05 18:36:21,761 INFO 4037 [egg-security] use dta middleware
+2019-11-05 18:36:21,761 INFO 4037 [egg-security] compose 7 middlewares into one security middleware
+2019-11-05 18:36:21,771 INFO 4037 [egg:core] dump config after load, 7ms
+2019-11-05 18:36:21,780 INFO 4037 [egg-watcher:application] watcher start success
+2019-11-05 18:36:21,787 INFO 4037 [egg:core] dump config after ready, 2ms
+2019-11-05 18:36:38,773 INFO 4131 [egg:logger] init all loggers with options: {"dir":"/Users/lirunkai/Documents/website/server/logs/server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-11-05 18:36:38,797 INFO 4131 [egg-multipart] stream mode enable
+2019-11-05 18:36:38,825 INFO 4131 [egg-static] starting static serve /public/ -> /Users/lirunkai/Documents/website/server/app/public
+2019-11-05 18:36:38,827 INFO 4131 [egg-security] use csrf middleware
+2019-11-05 18:36:38,827 INFO 4131 [egg-security] use methodnoallow middleware
+2019-11-05 18:36:38,827 INFO 4131 [egg-security] use noopen middleware
+2019-11-05 18:36:38,829 INFO 4131 [egg-security] use nosniff middleware
+2019-11-05 18:36:38,829 INFO 4131 [egg-security] use xssProtection middleware
+2019-11-05 18:36:38,829 INFO 4131 [egg-security] use xframe middleware
+2019-11-05 18:36:38,830 INFO 4131 [egg-security] use dta middleware
+2019-11-05 18:36:38,830 INFO 4131 [egg-security] compose 7 middlewares into one security middleware
+2019-11-05 18:36:38,840 INFO 4131 [egg:core] dump config after load, 7ms
+2019-11-05 18:36:38,848 INFO 4131 [egg-watcher:application] watcher start success
+2019-11-05 18:36:38,855 INFO 4131 [egg:core] dump config after ready, 2ms
+2019-11-05 18:36:49,009 INFO 4159 [egg:logger] init all loggers with options: {"dir":"/Users/lirunkai/Documents/website/server/logs/server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-11-05 18:36:49,032 INFO 4159 [egg-multipart] stream mode enable
+2019-11-05 18:36:49,060 INFO 4159 [egg-static] starting static serve /public/ -> /Users/lirunkai/Documents/website/server/app/public
+2019-11-05 18:36:49,062 INFO 4159 [egg-security] use csrf middleware
+2019-11-05 18:36:49,062 INFO 4159 [egg-security] use methodnoallow middleware
+2019-11-05 18:36:49,062 INFO 4159 [egg-security] use noopen middleware
+2019-11-05 18:36:49,064 INFO 4159 [egg-security] use nosniff middleware
+2019-11-05 18:36:49,065 INFO 4159 [egg-security] use xssProtection middleware
+2019-11-05 18:36:49,065 INFO 4159 [egg-security] use xframe middleware
+2019-11-05 18:36:49,065 INFO 4159 [egg-security] use dta middleware
+2019-11-05 18:36:49,065 INFO 4159 [egg-security] compose 7 middlewares into one security middleware
+2019-11-05 18:36:49,076 INFO 4159 [egg:core] dump config after load, 4ms
+2019-11-05 18:36:49,084 INFO 4159 [egg-watcher:application] watcher start success
+2019-11-05 18:36:49,091 INFO 4159 [egg:core] dump config after ready, 3ms
+2019-11-05 18:37:00,709 INFO 4187 [egg:logger] init all loggers with options: {"dir":"/Users/lirunkai/Documents/website/server/logs/server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-11-05 18:37:00,736 INFO 4187 [egg-multipart] stream mode enable
+2019-11-05 18:37:00,768 INFO 4187 [egg-static] starting static serve /public/ -> /Users/lirunkai/Documents/website/server/app/public
+2019-11-05 18:37:00,771 INFO 4187 [egg-security] use csrf middleware
+2019-11-05 18:37:00,771 INFO 4187 [egg-security] use methodnoallow middleware
+2019-11-05 18:37:00,772 INFO 4187 [egg-security] use noopen middleware
+2019-11-05 18:37:00,772 INFO 4187 [egg-security] use nosniff middleware
+2019-11-05 18:37:00,773 INFO 4187 [egg-security] use xssProtection middleware
+2019-11-05 18:37:00,773 INFO 4187 [egg-security] use xframe middleware
+2019-11-05 18:37:00,774 INFO 4187 [egg-security] use dta middleware
+2019-11-05 18:37:00,774 INFO 4187 [egg-security] compose 7 middlewares into one security middleware
+2019-11-05 18:37:00,786 INFO 4187 [egg:core] dump config after load, 4ms
+2019-11-05 18:37:00,794 INFO 4187 [egg-watcher:application] watcher start success
+2019-11-05 18:37:00,801 INFO 4187 [egg:core] dump config after ready, 2ms
+2019-11-05 18:37:02,530 INFO 4212 [egg:logger] init all loggers with options: {"dir":"/Users/lirunkai/Documents/website/server/logs/server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-11-05 18:37:02,554 INFO 4212 [egg-multipart] stream mode enable
+2019-11-05 18:37:02,582 INFO 4212 [egg-static] starting static serve /public/ -> /Users/lirunkai/Documents/website/server/app/public
+2019-11-05 18:37:02,584 INFO 4212 [egg-security] use csrf middleware
+2019-11-05 18:37:02,584 INFO 4212 [egg-security] use methodnoallow middleware
+2019-11-05 18:37:02,584 INFO 4212 [egg-security] use noopen middleware
+2019-11-05 18:37:02,586 INFO 4212 [egg-security] use nosniff middleware
+2019-11-05 18:37:02,586 INFO 4212 [egg-security] use xssProtection middleware
+2019-11-05 18:37:02,587 INFO 4212 [egg-security] use xframe middleware
+2019-11-05 18:37:02,587 INFO 4212 [egg-security] use dta middleware
+2019-11-05 18:37:02,587 INFO 4212 [egg-security] compose 7 middlewares into one security middleware
+2019-11-05 18:37:02,597 INFO 4212 [egg:core] dump config after load, 4ms
+2019-11-05 18:37:02,605 INFO 4212 [egg-watcher:application] watcher start success
+2019-11-05 18:37:02,612 INFO 4212 [egg:core] dump config after ready, 2ms
+2019-11-05 18:37:04,457 INFO 4235 [egg:logger] init all loggers with options: {"dir":"/Users/lirunkai/Documents/website/server/logs/server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-11-05 18:37:04,481 INFO 4235 [egg-multipart] stream mode enable
+2019-11-05 18:37:04,508 INFO 4235 [egg-static] starting static serve /public/ -> /Users/lirunkai/Documents/website/server/app/public
+2019-11-05 18:37:04,510 INFO 4235 [egg-security] use csrf middleware
+2019-11-05 18:37:04,511 INFO 4235 [egg-security] use methodnoallow middleware
+2019-11-05 18:37:04,511 INFO 4235 [egg-security] use noopen middleware
+2019-11-05 18:37:04,513 INFO 4235 [egg-security] use nosniff middleware
+2019-11-05 18:37:04,513 INFO 4235 [egg-security] use xssProtection middleware
+2019-11-05 18:37:04,513 INFO 4235 [egg-security] use xframe middleware
+2019-11-05 18:37:04,513 INFO 4235 [egg-security] use dta middleware
+2019-11-05 18:37:04,513 INFO 4235 [egg-security] compose 7 middlewares into one security middleware
+2019-11-05 18:37:04,524 INFO 4235 [egg:core] dump config after load, 4ms
+2019-11-05 18:37:04,533 INFO 4235 [egg-watcher:application] watcher start success
+2019-11-05 18:37:04,539 INFO 4235 [egg:core] dump config after ready, 2ms
+2019-11-05 18:37:08,473 INFO 4268 [egg:logger] init all loggers with options: {"dir":"/Users/lirunkai/Documents/website/server/logs/server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-11-05 18:37:08,496 INFO 4268 [egg-multipart] stream mode enable
+2019-11-05 18:37:08,524 INFO 4268 [egg-static] starting static serve /public/ -> /Users/lirunkai/Documents/website/server/app/public
+2019-11-05 18:37:08,526 INFO 4268 [egg-security] use csrf middleware
+2019-11-05 18:37:08,526 INFO 4268 [egg-security] use methodnoallow middleware
+2019-11-05 18:37:08,526 INFO 4268 [egg-security] use noopen middleware
+2019-11-05 18:37:08,528 INFO 4268 [egg-security] use nosniff middleware
+2019-11-05 18:37:08,529 INFO 4268 [egg-security] use xssProtection middleware
+2019-11-05 18:37:08,529 INFO 4268 [egg-security] use xframe middleware
+2019-11-05 18:37:08,529 INFO 4268 [egg-security] use dta middleware
+2019-11-05 18:37:08,529 INFO 4268 [egg-security] compose 7 middlewares into one security middleware
+2019-11-05 18:37:08,536 INFO 4268 [egg:core] dump config after load, 4ms
+2019-11-05 18:37:08,550 INFO 4268 [egg-watcher:application] watcher start success
+2019-11-05 18:37:08,556 INFO 4268 [egg:core] dump config after ready, 2ms
+2019-11-05 18:37:11,676 INFO 4296 [egg:logger] init all loggers with options: {"dir":"/Users/lirunkai/Documents/website/server/logs/server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-11-05 18:37:11,702 INFO 4296 [egg-multipart] stream mode enable
+2019-11-05 18:37:11,737 INFO 4296 [egg-static] starting static serve /public/ -> /Users/lirunkai/Documents/website/server/app/public
+2019-11-05 18:37:11,739 INFO 4296 [egg-security] use csrf middleware
+2019-11-05 18:37:11,739 INFO 4296 [egg-security] use methodnoallow middleware
+2019-11-05 18:37:11,739 INFO 4296 [egg-security] use noopen middleware
+2019-11-05 18:37:11,740 INFO 4296 [egg-security] use nosniff middleware
+2019-11-05 18:37:11,740 INFO 4296 [egg-security] use xssProtection middleware
+2019-11-05 18:37:11,741 INFO 4296 [egg-security] use xframe middleware
+2019-11-05 18:37:11,741 INFO 4296 [egg-security] use dta middleware
+2019-11-05 18:37:11,742 INFO 4296 [egg-security] compose 7 middlewares into one security middleware
+2019-11-05 18:37:11,758 INFO 4296 [egg:core] dump config after load, 10ms
+2019-11-05 18:37:11,772 INFO 4296 [egg-watcher:application] watcher start success
+2019-11-05 18:37:11,781 INFO 4296 [egg:core] dump config after ready, 3ms
+2019-11-05 18:37:41,101 INFO 4341 [egg:logger] init all loggers with options: {"dir":"/Users/lirunkai/Documents/website/server/logs/server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-11-05 18:37:41,123 INFO 4341 [egg-multipart] stream mode enable
+2019-11-05 18:37:41,150 INFO 4341 [egg-static] starting static serve /public/ -> /Users/lirunkai/Documents/website/server/app/public
+2019-11-05 18:37:41,152 INFO 4341 [egg-security] use csrf middleware
+2019-11-05 18:37:41,152 INFO 4341 [egg-security] use methodnoallow middleware
+2019-11-05 18:37:41,153 INFO 4341 [egg-security] use noopen middleware
+2019-11-05 18:37:41,154 INFO 4341 [egg-security] use nosniff middleware
+2019-11-05 18:37:41,155 INFO 4341 [egg-security] use xssProtection middleware
+2019-11-05 18:37:41,155 INFO 4341 [egg-security] use xframe middleware
+2019-11-05 18:37:41,155 INFO 4341 [egg-security] use dta middleware
+2019-11-05 18:37:41,155 INFO 4341 [egg-security] compose 7 middlewares into one security middleware
+2019-11-05 18:37:41,166 INFO 4341 [egg:core] dump config after load, 3ms
+2019-11-05 18:37:41,174 INFO 4341 [egg-watcher:application] watcher start success
+2019-11-05 18:37:41,181 INFO 4341 [egg:core] dump config after ready, 3ms
+2019-11-05 18:37:45,456 INFO 4383 [egg:logger] init all loggers with options: {"dir":"/Users/lirunkai/Documents/website/server/logs/server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-11-05 18:37:45,481 INFO 4383 [egg-multipart] stream mode enable
+2019-11-05 18:37:45,509 INFO 4383 [egg-static] starting static serve /public/ -> /Users/lirunkai/Documents/website/server/app/public
+2019-11-05 18:37:45,512 INFO 4383 [egg-security] use csrf middleware
+2019-11-05 18:37:45,512 INFO 4383 [egg-security] use methodnoallow middleware
+2019-11-05 18:37:45,513 INFO 4383 [egg-security] use noopen middleware
+2019-11-05 18:37:45,516 INFO 4383 [egg-security] use nosniff middleware
+2019-11-05 18:37:45,516 INFO 4383 [egg-security] use xssProtection middleware
+2019-11-05 18:37:45,517 INFO 4383 [egg-security] use xframe middleware
+2019-11-05 18:37:45,517 INFO 4383 [egg-security] use dta middleware
+2019-11-05 18:37:45,517 INFO 4383 [egg-security] compose 7 middlewares into one security middleware
+2019-11-05 18:37:45,529 INFO 4383 [egg:core] dump config after load, 4ms
+2019-11-05 18:37:45,537 INFO 4383 [egg-watcher:application] watcher start success
+2019-11-05 18:37:45,544 INFO 4383 [egg:core] dump config after ready, 2ms
+2019-11-05 18:37:59,374 INFO 4457 [egg:logger] init all loggers with options: {"dir":"/Users/lirunkai/Documents/website/server/logs/server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-11-05 18:37:59,398 INFO 4457 [egg-multipart] stream mode enable
+2019-11-05 18:37:59,429 INFO 4457 [egg-static] starting static serve /public/ -> /Users/lirunkai/Documents/website/server/app/public
+2019-11-05 18:37:59,431 INFO 4457 [egg-security] use csrf middleware
+2019-11-05 18:37:59,431 INFO 4457 [egg-security] use methodnoallow middleware
+2019-11-05 18:37:59,432 INFO 4457 [egg-security] use noopen middleware
+2019-11-05 18:37:59,432 INFO 4457 [egg-security] use nosniff middleware
+2019-11-05 18:37:59,432 INFO 4457 [egg-security] use xssProtection middleware
+2019-11-05 18:37:59,433 INFO 4457 [egg-security] use xframe middleware
+2019-11-05 18:37:59,433 INFO 4457 [egg-security] use dta middleware
+2019-11-05 18:37:59,433 INFO 4457 [egg-security] compose 7 middlewares into one security middleware
+2019-11-05 18:37:59,444 INFO 4457 [egg:core] dump config after load, 5ms
+2019-11-05 18:37:59,453 INFO 4457 [egg-watcher:application] watcher start success
+2019-11-05 18:37:59,461 INFO 4457 [egg:core] dump config after ready, 3ms
+2019-11-05 18:38:03,601 INFO 4501 [egg:logger] init all loggers with options: {"dir":"/Users/lirunkai/Documents/website/server/logs/server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-11-05 18:38:03,624 INFO 4501 [egg-multipart] stream mode enable
+2019-11-05 18:38:03,652 INFO 4501 [egg-static] starting static serve /public/ -> /Users/lirunkai/Documents/website/server/app/public
+2019-11-05 18:38:03,654 INFO 4501 [egg-security] use csrf middleware
+2019-11-05 18:38:03,655 INFO 4501 [egg-security] use methodnoallow middleware
+2019-11-05 18:38:03,655 INFO 4501 [egg-security] use noopen middleware
+2019-11-05 18:38:03,657 INFO 4501 [egg-security] use nosniff middleware
+2019-11-05 18:38:03,657 INFO 4501 [egg-security] use xssProtection middleware
+2019-11-05 18:38:03,657 INFO 4501 [egg-security] use xframe middleware
+2019-11-05 18:38:03,657 INFO 4501 [egg-security] use dta middleware
+2019-11-05 18:38:03,657 INFO 4501 [egg-security] compose 7 middlewares into one security middleware
+2019-11-05 18:38:03,668 INFO 4501 [egg:core] dump config after load, 4ms
+2019-11-05 18:38:03,677 INFO 4501 [egg-watcher:application] watcher start success
+2019-11-05 18:38:03,684 INFO 4501 [egg:core] dump config after ready, 3ms
+2019-11-05 18:38:04,726 INFO 4522 [egg:logger] init all loggers with options: {"dir":"/Users/lirunkai/Documents/website/server/logs/server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-11-05 18:38:04,751 INFO 4522 [egg-multipart] stream mode enable
+2019-11-05 18:38:04,779 INFO 4522 [egg-static] starting static serve /public/ -> /Users/lirunkai/Documents/website/server/app/public
+2019-11-05 18:38:04,781 INFO 4522 [egg-security] use csrf middleware
+2019-11-05 18:38:04,782 INFO 4522 [egg-security] use methodnoallow middleware
+2019-11-05 18:38:04,782 INFO 4522 [egg-security] use noopen middleware
+2019-11-05 18:38:04,783 INFO 4522 [egg-security] use nosniff middleware
+2019-11-05 18:38:04,783 INFO 4522 [egg-security] use xssProtection middleware
+2019-11-05 18:38:04,783 INFO 4522 [egg-security] use xframe middleware
+2019-11-05 18:38:04,783 INFO 4522 [egg-security] use dta middleware
+2019-11-05 18:38:04,783 INFO 4522 [egg-security] compose 7 middlewares into one security middleware
+2019-11-05 18:38:04,793 INFO 4522 [egg:core] dump config after load, 3ms
+2019-11-05 18:38:04,801 INFO 4522 [egg-watcher:application] watcher start success
+2019-11-05 18:38:04,808 INFO 4522 [egg:core] dump config after ready, 2ms
+2019-11-05 18:38:06,347 INFO 4548 [egg:logger] init all loggers with options: {"dir":"/Users/lirunkai/Documents/website/server/logs/server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-11-05 18:38:06,371 INFO 4548 [egg-multipart] stream mode enable
+2019-11-05 18:38:06,403 INFO 4548 [egg-static] starting static serve /public/ -> /Users/lirunkai/Documents/website/server/app/public
+2019-11-05 18:38:06,405 INFO 4548 [egg-security] use csrf middleware
+2019-11-05 18:38:06,406 INFO 4548 [egg-security] use methodnoallow middleware
+2019-11-05 18:38:06,406 INFO 4548 [egg-security] use noopen middleware
+2019-11-05 18:38:06,408 INFO 4548 [egg-security] use nosniff middleware
+2019-11-05 18:38:06,408 INFO 4548 [egg-security] use xssProtection middleware
+2019-11-05 18:38:06,408 INFO 4548 [egg-security] use xframe middleware
+2019-11-05 18:38:06,408 INFO 4548 [egg-security] use dta middleware
+2019-11-05 18:38:06,408 INFO 4548 [egg-security] compose 7 middlewares into one security middleware
+2019-11-05 18:38:06,414 INFO 4548 [egg:core] dump config after load, 3ms
+2019-11-05 18:38:06,425 INFO 4548 [egg-watcher:application] watcher start success
+2019-11-05 18:38:06,432 INFO 4548 [egg:core] dump config after ready, 3ms
+2019-11-05 18:38:18,809 INFO 4685 [egg:logger] init all loggers with options: {"dir":"/Users/lirunkai/Documents/website/server/logs/server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-11-05 18:38:18,835 INFO 4685 [egg-multipart] stream mode enable
+2019-11-05 18:38:18,866 INFO 4685 [egg-static] starting static serve /public/ -> /Users/lirunkai/Documents/website/server/app/public
+2019-11-05 18:38:18,868 INFO 4685 [egg-security] use csrf middleware
+2019-11-05 18:38:18,868 INFO 4685 [egg-security] use methodnoallow middleware
+2019-11-05 18:38:18,869 INFO 4685 [egg-security] use noopen middleware
+2019-11-05 18:38:18,871 INFO 4685 [egg-security] use nosniff middleware
+2019-11-05 18:38:18,871 INFO 4685 [egg-security] use xssProtection middleware
+2019-11-05 18:38:18,871 INFO 4685 [egg-security] use xframe middleware
+2019-11-05 18:38:18,872 INFO 4685 [egg-security] use dta middleware
+2019-11-05 18:38:18,872 INFO 4685 [egg-security] compose 7 middlewares into one security middleware
+2019-11-05 18:38:18,882 INFO 4685 [egg:core] dump config after load, 7ms
+2019-11-05 18:38:18,891 INFO 4685 [egg-watcher:application] watcher start success
+2019-11-05 18:38:18,898 INFO 4685 [egg:core] dump config after ready, 2ms
+2019-11-05 18:38:25,555 INFO 4718 [egg:logger] init all loggers with options: {"dir":"/Users/lirunkai/Documents/website/server/logs/server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-11-05 18:38:25,579 INFO 4718 [egg-multipart] stream mode enable
+2019-11-05 18:38:25,607 INFO 4718 [egg-static] starting static serve /public/ -> /Users/lirunkai/Documents/website/server/app/public
+2019-11-05 18:38:25,609 INFO 4718 [egg-security] use csrf middleware
+2019-11-05 18:38:25,610 INFO 4718 [egg-security] use methodnoallow middleware
+2019-11-05 18:38:25,610 INFO 4718 [egg-security] use noopen middleware
+2019-11-05 18:38:25,612 INFO 4718 [egg-security] use nosniff middleware
+2019-11-05 18:38:25,612 INFO 4718 [egg-security] use xssProtection middleware
+2019-11-05 18:38:25,612 INFO 4718 [egg-security] use xframe middleware
+2019-11-05 18:38:25,612 INFO 4718 [egg-security] use dta middleware
+2019-11-05 18:38:25,612 INFO 4718 [egg-security] compose 7 middlewares into one security middleware
+2019-11-05 18:38:25,622 INFO 4718 [egg:core] dump config after load, 3ms
+2019-11-05 18:38:25,634 INFO 4718 [egg-watcher:application] watcher start success
+2019-11-05 18:38:25,641 INFO 4718 [egg:core] dump config after ready, 3ms
+2019-11-05 18:39:02,796 INFO 4793 [egg:logger] init all loggers with options: {"dir":"/Users/lirunkai/Documents/website/server/logs/server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-11-05 18:39:02,820 INFO 4793 [egg-multipart] stream mode enable
+2019-11-05 18:39:02,848 INFO 4793 [egg-static] starting static serve /public/ -> /Users/lirunkai/Documents/website/server/app/public
+2019-11-05 18:39:02,850 INFO 4793 [egg-security] use csrf middleware
+2019-11-05 18:39:02,850 INFO 4793 [egg-security] use methodnoallow middleware
+2019-11-05 18:39:02,851 INFO 4793 [egg-security] use noopen middleware
+2019-11-05 18:39:02,852 INFO 4793 [egg-security] use nosniff middleware
+2019-11-05 18:39:02,853 INFO 4793 [egg-security] use xssProtection middleware
+2019-11-05 18:39:02,853 INFO 4793 [egg-security] use xframe middleware
+2019-11-05 18:39:02,853 INFO 4793 [egg-security] use dta middleware
+2019-11-05 18:39:02,853 INFO 4793 [egg-security] compose 7 middlewares into one security middleware
+2019-11-05 18:39:02,864 INFO 4793 [egg:core] dump config after load, 4ms
+2019-11-05 18:39:02,873 INFO 4793 [egg-watcher:application] watcher start success
+2019-11-05 18:39:02,879 INFO 4793 [egg:core] dump config after ready, 2ms
+2019-11-05 18:39:05,401 INFO 4812 [egg:logger] init all loggers with options: {"dir":"/Users/lirunkai/Documents/website/server/logs/server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-11-05 18:39:05,425 INFO 4812 [egg-multipart] stream mode enable
+2019-11-05 18:39:05,455 INFO 4812 [egg-static] starting static serve /public/ -> /Users/lirunkai/Documents/website/server/app/public
+2019-11-05 18:39:05,458 INFO 4812 [egg-security] use csrf middleware
+2019-11-05 18:39:05,459 INFO 4812 [egg-security] use methodnoallow middleware
+2019-11-05 18:39:05,459 INFO 4812 [egg-security] use noopen middleware
+2019-11-05 18:39:05,461 INFO 4812 [egg-security] use nosniff middleware
+2019-11-05 18:39:05,461 INFO 4812 [egg-security] use xssProtection middleware
+2019-11-05 18:39:05,462 INFO 4812 [egg-security] use xframe middleware
+2019-11-05 18:39:05,462 INFO 4812 [egg-security] use dta middleware
+2019-11-05 18:39:05,462 INFO 4812 [egg-security] compose 7 middlewares into one security middleware
+2019-11-05 18:39:05,472 INFO 4812 [egg:core] dump config after load, 4ms
+2019-11-05 18:39:05,481 INFO 4812 [egg-watcher:application] watcher start success
+2019-11-05 18:39:05,489 INFO 4812 [egg:core] dump config after ready, 3ms
+2019-11-05 18:39:09,278 INFO 4841 [egg:logger] init all loggers with options: {"dir":"/Users/lirunkai/Documents/website/server/logs/server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-11-05 18:39:09,302 INFO 4841 [egg-multipart] stream mode enable
+2019-11-05 18:39:09,329 INFO 4841 [egg-static] starting static serve /public/ -> /Users/lirunkai/Documents/website/server/app/public
+2019-11-05 18:39:09,331 INFO 4841 [egg-security] use csrf middleware
+2019-11-05 18:39:09,332 INFO 4841 [egg-security] use methodnoallow middleware
+2019-11-05 18:39:09,332 INFO 4841 [egg-security] use noopen middleware
+2019-11-05 18:39:09,334 INFO 4841 [egg-security] use nosniff middleware
+2019-11-05 18:39:09,334 INFO 4841 [egg-security] use xssProtection middleware
+2019-11-05 18:39:09,334 INFO 4841 [egg-security] use xframe middleware
+2019-11-05 18:39:09,335 INFO 4841 [egg-security] use dta middleware
+2019-11-05 18:39:09,335 INFO 4841 [egg-security] compose 7 middlewares into one security middleware
+2019-11-05 18:39:09,346 INFO 4841 [egg:core] dump config after load, 7ms
+2019-11-05 18:39:09,354 INFO 4841 [egg-watcher:application] watcher start success
+2019-11-05 18:39:09,361 INFO 4841 [egg:core] dump config after ready, 3ms
+2019-11-05 18:39:16,046 INFO 4904 [egg:logger] init all loggers with options: {"dir":"/Users/lirunkai/Documents/website/server/logs/server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-11-05 18:39:16,069 INFO 4904 [egg-multipart] stream mode enable
+2019-11-05 18:39:16,101 INFO 4904 [egg-static] starting static serve /public/ -> /Users/lirunkai/Documents/website/server/app/public
+2019-11-05 18:39:16,103 INFO 4904 [egg-security] use csrf middleware
+2019-11-05 18:39:16,104 INFO 4904 [egg-security] use methodnoallow middleware
+2019-11-05 18:39:16,104 INFO 4904 [egg-security] use noopen middleware
+2019-11-05 18:39:16,106 INFO 4904 [egg-security] use nosniff middleware
+2019-11-05 18:39:16,106 INFO 4904 [egg-security] use xssProtection middleware
+2019-11-05 18:39:16,107 INFO 4904 [egg-security] use xframe middleware
+2019-11-05 18:39:16,107 INFO 4904 [egg-security] use dta middleware
+2019-11-05 18:39:16,107 INFO 4904 [egg-security] compose 7 middlewares into one security middleware
+2019-11-05 18:39:16,117 INFO 4904 [egg:core] dump config after load, 4ms
+2019-11-05 18:39:16,125 INFO 4904 [egg-watcher:application] watcher start success
+2019-11-05 18:39:16,132 INFO 4904 [egg:core] dump config after ready, 2ms
+2019-11-05 18:39:21,025 INFO 4932 [egg:logger] init all loggers with options: {"dir":"/Users/lirunkai/Documents/website/server/logs/server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-11-05 18:39:21,052 INFO 4932 [egg-multipart] stream mode enable
+2019-11-05 18:39:21,080 INFO 4932 [egg-static] starting static serve /public/ -> /Users/lirunkai/Documents/website/server/app/public
+2019-11-05 18:39:21,083 INFO 4932 [egg-security] use csrf middleware
+2019-11-05 18:39:21,083 INFO 4932 [egg-security] use methodnoallow middleware
+2019-11-05 18:39:21,084 INFO 4932 [egg-security] use noopen middleware
+2019-11-05 18:39:21,085 INFO 4932 [egg-security] use nosniff middleware
+2019-11-05 18:39:21,085 INFO 4932 [egg-security] use xssProtection middleware
+2019-11-05 18:39:21,086 INFO 4932 [egg-security] use xframe middleware
+2019-11-05 18:39:21,086 INFO 4932 [egg-security] use dta middleware
+2019-11-05 18:39:21,086 INFO 4932 [egg-security] compose 7 middlewares into one security middleware
+2019-11-05 18:39:21,096 INFO 4932 [egg:core] dump config after load, 4ms
+2019-11-05 18:39:21,107 INFO 4932 [egg-watcher:application] watcher start success
+2019-11-05 18:39:21,113 INFO 4932 [egg:core] dump config after ready, 2ms
+2019-11-05 18:39:26,173 INFO 4999 [egg:logger] init all loggers with options: {"dir":"/Users/lirunkai/Documents/website/server/logs/server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-11-05 18:39:26,198 INFO 4999 [egg-multipart] stream mode enable
+2019-11-05 18:39:26,226 INFO 4999 [egg-static] starting static serve /public/ -> /Users/lirunkai/Documents/website/server/app/public
+2019-11-05 18:39:26,228 INFO 4999 [egg-security] use csrf middleware
+2019-11-05 18:39:26,228 INFO 4999 [egg-security] use methodnoallow middleware
+2019-11-05 18:39:26,229 INFO 4999 [egg-security] use noopen middleware
+2019-11-05 18:39:26,230 INFO 4999 [egg-security] use nosniff middleware
+2019-11-05 18:39:26,231 INFO 4999 [egg-security] use xssProtection middleware
+2019-11-05 18:39:26,231 INFO 4999 [egg-security] use xframe middleware
+2019-11-05 18:39:26,231 INFO 4999 [egg-security] use dta middleware
+2019-11-05 18:39:26,231 INFO 4999 [egg-security] compose 7 middlewares into one security middleware
+2019-11-05 18:39:26,239 INFO 4999 [egg:core] dump config after load, 5ms
+2019-11-05 18:39:26,251 INFO 4999 [egg-watcher:application] watcher start success
+2019-11-05 18:39:26,258 INFO 4999 [egg:core] dump config after ready, 3ms
+2019-11-06 06:41:34,786 WARN 4999 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-11-06 09:28:19,622 WARN 4999 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-11-06 14:21:44,958 INFO 29970 [egg:logger] init all loggers with options: {"dir":"/Users/lirunkai/Documents/website/server/logs/server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-11-06 14:21:44,984 INFO 29970 [egg-multipart] file mode enable
+2019-11-06 14:21:44,984 INFO 29970 [egg-multipart] will save temporary files to "/var/folders/ft/dwy4mw895mj7f2c6dl17qry00000gn/T/egg-multipart-tmp/server", cleanup job cron: "0 30 4 * * *"
+2019-11-06 14:21:45,043 INFO 29970 [egg-static] starting static serve /public/ -> /Users/lirunkai/Documents/website/server/app/public
+2019-11-06 14:21:45,045 INFO 29970 [egg-security] use csrf middleware
+2019-11-06 14:21:45,045 INFO 29970 [egg-security] use methodnoallow middleware
+2019-11-06 14:21:45,046 INFO 29970 [egg-security] use noopen middleware
+2019-11-06 14:21:45,046 INFO 29970 [egg-security] use nosniff middleware
+2019-11-06 14:21:45,046 INFO 29970 [egg-security] use xssProtection middleware
+2019-11-06 14:21:45,047 INFO 29970 [egg-security] use xframe middleware
+2019-11-06 14:21:45,047 INFO 29970 [egg-security] use dta middleware
+2019-11-06 14:21:45,047 INFO 29970 [egg-security] compose 7 middlewares into one security middleware
+2019-11-06 14:21:45,056 INFO 29970 [egg:core] dump config after load, 5ms
+2019-11-06 14:21:45,069 INFO 29970 [egg-watcher:application] watcher start success
+2019-11-06 14:21:45,086 INFO 29970 [egg:core] dump config after ready, 3ms
+2019-11-06 14:32:53,542 INFO 32409 [egg:logger] init all loggers with options: {"dir":"/Users/lirunkai/Documents/website/server/logs/server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-11-06 14:32:53,570 INFO 32409 [egg-multipart] file mode enable
+2019-11-06 14:32:53,570 INFO 32409 [egg-multipart] will save temporary files to "/var/folders/ft/dwy4mw895mj7f2c6dl17qry00000gn/T/egg-multipart-tmp/server", cleanup job cron: "0 30 4 * * *"
+2019-11-06 14:32:53,632 INFO 32409 [egg-static] starting static serve /public/ -> /Users/lirunkai/Documents/website/server/app/public
+2019-11-06 14:32:53,634 INFO 32409 [egg-security] use csrf middleware
+2019-11-06 14:32:53,635 INFO 32409 [egg-security] use methodnoallow middleware
+2019-11-06 14:32:53,635 INFO 32409 [egg-security] use noopen middleware
+2019-11-06 14:32:53,636 INFO 32409 [egg-security] use nosniff middleware
+2019-11-06 14:32:53,636 INFO 32409 [egg-security] use xssProtection middleware
+2019-11-06 14:32:53,636 INFO 32409 [egg-security] use xframe middleware
+2019-11-06 14:32:53,636 INFO 32409 [egg-security] use dta middleware
+2019-11-06 14:32:53,636 INFO 32409 [egg-security] compose 7 middlewares into one security middleware
+2019-11-06 14:32:53,643 INFO 32409 [egg:core] dump config after load, 4ms
+2019-11-06 14:32:53,653 INFO 32409 [egg-watcher:application] watcher start success
+2019-11-06 14:32:53,670 INFO 32409 [egg:core] dump config after ready, 3ms
+2019-11-06 14:34:15,253 INFO 32673 [egg:logger] init all loggers with options: {"dir":"/Users/lirunkai/Documents/website/server/logs/server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-11-06 14:34:15,278 INFO 32673 [egg-multipart] file mode enable
+2019-11-06 14:34:15,278 INFO 32673 [egg-multipart] will save temporary files to "/var/folders/ft/dwy4mw895mj7f2c6dl17qry00000gn/T/egg-multipart-tmp/server", cleanup job cron: "0 30 4 * * *"
+2019-11-06 14:34:15,344 INFO 32673 [egg-static] starting static serve /public/ -> /Users/lirunkai/Documents/website/server/app/public
+2019-11-06 14:34:15,346 INFO 32673 [egg-security] use csrf middleware
+2019-11-06 14:34:15,347 INFO 32673 [egg-security] use methodnoallow middleware
+2019-11-06 14:34:15,347 INFO 32673 [egg-security] use noopen middleware
+2019-11-06 14:34:15,348 INFO 32673 [egg-security] use nosniff middleware
+2019-11-06 14:34:15,348 INFO 32673 [egg-security] use xssProtection middleware
+2019-11-06 14:34:15,348 INFO 32673 [egg-security] use xframe middleware
+2019-11-06 14:34:15,349 INFO 32673 [egg-security] use dta middleware
+2019-11-06 14:34:15,349 INFO 32673 [egg-security] compose 7 middlewares into one security middleware
+2019-11-06 14:34:15,356 INFO 32673 [egg:core] dump config after load, 4ms
+2019-11-06 14:34:15,366 INFO 32673 [egg-watcher:application] watcher start success
+2019-11-06 14:34:15,381 INFO 32673 [egg:core] dump config after ready, 3ms
+2019-11-06 14:34:23,170 INFO 32745 [egg:logger] init all loggers with options: {"dir":"/Users/lirunkai/Documents/website/server/logs/server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-11-06 14:34:23,197 INFO 32745 [egg-multipart] file mode enable
+2019-11-06 14:34:23,197 INFO 32745 [egg-multipart] will save temporary files to "/var/folders/ft/dwy4mw895mj7f2c6dl17qry00000gn/T/egg-multipart-tmp/server", cleanup job cron: "0 30 4 * * *"
+2019-11-06 14:34:23,233 INFO 32745 [egg-static] starting static serve /public/ -> /Users/lirunkai/Documents/website/server/app/public
+2019-11-06 14:34:23,235 INFO 32745 [egg-security] use csrf middleware
+2019-11-06 14:34:23,236 INFO 32745 [egg-security] use methodnoallow middleware
+2019-11-06 14:34:23,236 INFO 32745 [egg-security] use noopen middleware
+2019-11-06 14:34:23,237 INFO 32745 [egg-security] use nosniff middleware
+2019-11-06 14:34:23,237 INFO 32745 [egg-security] use xssProtection middleware
+2019-11-06 14:34:23,237 INFO 32745 [egg-security] use xframe middleware
+2019-11-06 14:34:23,237 INFO 32745 [egg-security] use dta middleware
+2019-11-06 14:34:23,238 INFO 32745 [egg-security] compose 7 middlewares into one security middleware
+2019-11-06 14:34:23,244 INFO 32745 [egg:core] dump config after load, 4ms
+2019-11-06 14:34:23,254 INFO 32745 [egg-watcher:application] watcher start success
+2019-11-06 14:34:23,269 INFO 32745 [egg:core] dump config after ready, 3ms
+2019-11-06 14:34:38,754 INFO 32854 [egg:logger] init all loggers with options: {"dir":"/Users/lirunkai/Documents/website/server/logs/server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-11-06 14:34:38,782 INFO 32854 [egg-multipart] file mode enable
+2019-11-06 14:34:38,782 INFO 32854 [egg-multipart] will save temporary files to "/var/folders/ft/dwy4mw895mj7f2c6dl17qry00000gn/T/egg-multipart-tmp/server", cleanup job cron: "0 30 4 * * *"
+2019-11-06 14:34:38,817 INFO 32854 [egg-static] starting static serve /public/ -> /Users/lirunkai/Documents/website/server/app/public
+2019-11-06 14:34:38,819 INFO 32854 [egg-security] use csrf middleware
+2019-11-06 14:34:38,819 INFO 32854 [egg-security] use methodnoallow middleware
+2019-11-06 14:34:38,820 INFO 32854 [egg-security] use noopen middleware
+2019-11-06 14:34:38,820 INFO 32854 [egg-security] use nosniff middleware
+2019-11-06 14:34:38,820 INFO 32854 [egg-security] use xssProtection middleware
+2019-11-06 14:34:38,821 INFO 32854 [egg-security] use xframe middleware
+2019-11-06 14:34:38,821 INFO 32854 [egg-security] use dta middleware
+2019-11-06 14:34:38,821 INFO 32854 [egg-security] compose 7 middlewares into one security middleware
+2019-11-06 14:34:38,828 INFO 32854 [egg:core] dump config after load, 4ms
+2019-11-06 14:34:38,839 INFO 32854 [egg-watcher:application] watcher start success
+2019-11-06 14:34:38,853 INFO 32854 [egg:core] dump config after ready, 3ms
+2019-11-06 14:41:26,832 INFO 33631 [egg:logger] init all loggers with options: {"dir":"/Users/lirunkai/Documents/website/server/logs/server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-11-06 14:41:26,862 INFO 33631 [egg-multipart] file mode enable
+2019-11-06 14:41:26,862 INFO 33631 [egg-multipart] will save temporary files to "/var/folders/ft/dwy4mw895mj7f2c6dl17qry00000gn/T/egg-multipart-tmp/server", cleanup job cron: "0 30 4 * * *"
+2019-11-06 14:41:26,919 INFO 33631 [egg-static] starting static serve /public/ -> /Users/lirunkai/Documents/website/server/app/public
+2019-11-06 14:41:26,922 INFO 33631 [egg-security] use csrf middleware
+2019-11-06 14:41:26,923 INFO 33631 [egg-security] use methodnoallow middleware
+2019-11-06 14:41:26,923 INFO 33631 [egg-security] use noopen middleware
+2019-11-06 14:41:26,923 INFO 33631 [egg-security] use nosniff middleware
+2019-11-06 14:41:26,924 INFO 33631 [egg-security] use xssProtection middleware
+2019-11-06 14:41:26,924 INFO 33631 [egg-security] use xframe middleware
+2019-11-06 14:41:26,924 INFO 33631 [egg-security] use dta middleware
+2019-11-06 14:41:26,924 INFO 33631 [egg-security] compose 7 middlewares into one security middleware
+2019-11-06 14:41:26,932 INFO 33631 [egg:core] dump config after load, 4ms
+2019-11-06 14:41:26,945 INFO 33631 [egg-watcher:application] watcher start success
+2019-11-06 14:41:26,963 INFO 33631 [egg:core] dump config after ready, 3ms
+2019-11-06 14:48:46,369 INFO 34460 [egg:logger] init all loggers with options: {"dir":"/Users/lirunkai/Documents/website/server/logs/server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-11-06 14:48:46,398 INFO 34460 [egg-multipart] file mode enable
+2019-11-06 14:48:46,398 INFO 34460 [egg-multipart] will save temporary files to "/var/folders/ft/dwy4mw895mj7f2c6dl17qry00000gn/T/egg-multipart-tmp/server", cleanup job cron: "0 30 4 * * *"
+2019-11-06 14:48:46,451 INFO 34460 [egg-static] starting static serve /public/ -> /Users/lirunkai/Documents/website/server/app/public
+2019-11-06 14:48:46,453 INFO 34460 [egg-security] use csrf middleware
+2019-11-06 14:48:46,454 INFO 34460 [egg-security] use methodnoallow middleware
+2019-11-06 14:48:46,454 INFO 34460 [egg-security] use noopen middleware
+2019-11-06 14:48:46,455 INFO 34460 [egg-security] use nosniff middleware
+2019-11-06 14:48:46,455 INFO 34460 [egg-security] use xssProtection middleware
+2019-11-06 14:48:46,456 INFO 34460 [egg-security] use xframe middleware
+2019-11-06 14:48:46,456 INFO 34460 [egg-security] use dta middleware
+2019-11-06 14:48:46,456 INFO 34460 [egg-security] compose 7 middlewares into one security middleware
+2019-11-06 14:48:46,464 INFO 34460 [egg:core] dump config after load, 4ms
+2019-11-06 14:48:46,475 INFO 34460 [egg-watcher:application] watcher start success
+2019-11-06 14:48:46,493 INFO 34460 [egg:core] dump config after ready, 2ms
+2019-11-06 14:48:51,956 INFO 34537 [egg:logger] init all loggers with options: {"dir":"/Users/lirunkai/Documents/website/server/logs/server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-11-06 14:48:51,985 INFO 34537 [egg-multipart] file mode enable
+2019-11-06 14:48:51,985 INFO 34537 [egg-multipart] will save temporary files to "/var/folders/ft/dwy4mw895mj7f2c6dl17qry00000gn/T/egg-multipart-tmp/server", cleanup job cron: "0 30 4 * * *"
+2019-11-06 14:48:52,022 INFO 34537 [egg-static] starting static serve /public/ -> /Users/lirunkai/Documents/website/server/app/public
+2019-11-06 14:48:52,024 INFO 34537 [egg-security] use csrf middleware
+2019-11-06 14:48:52,024 INFO 34537 [egg-security] use methodnoallow middleware
+2019-11-06 14:48:52,025 INFO 34537 [egg-security] use noopen middleware
+2019-11-06 14:48:52,025 INFO 34537 [egg-security] use nosniff middleware
+2019-11-06 14:48:52,025 INFO 34537 [egg-security] use xssProtection middleware
+2019-11-06 14:48:52,025 INFO 34537 [egg-security] use xframe middleware
+2019-11-06 14:48:52,026 INFO 34537 [egg-security] use dta middleware
+2019-11-06 14:48:52,026 INFO 34537 [egg-security] compose 7 middlewares into one security middleware
+2019-11-06 14:48:52,032 INFO 34537 [egg:core] dump config after load, 4ms
+2019-11-06 14:48:52,043 INFO 34537 [egg-watcher:application] watcher start success
+2019-11-06 14:48:52,057 INFO 34537 [egg:core] dump config after ready, 3ms
+2019-11-06 14:48:54,823 INFO 34558 [egg:logger] init all loggers with options: {"dir":"/Users/lirunkai/Documents/website/server/logs/server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-11-06 14:48:54,851 INFO 34558 [egg-multipart] file mode enable
+2019-11-06 14:48:54,851 INFO 34558 [egg-multipart] will save temporary files to "/var/folders/ft/dwy4mw895mj7f2c6dl17qry00000gn/T/egg-multipart-tmp/server", cleanup job cron: "0 30 4 * * *"
+2019-11-06 14:48:54,886 INFO 34558 [egg-static] starting static serve /public/ -> /Users/lirunkai/Documents/website/server/app/public
+2019-11-06 14:48:54,888 INFO 34558 [egg-security] use csrf middleware
+2019-11-06 14:48:54,888 INFO 34558 [egg-security] use methodnoallow middleware
+2019-11-06 14:48:54,888 INFO 34558 [egg-security] use noopen middleware
+2019-11-06 14:48:54,889 INFO 34558 [egg-security] use nosniff middleware
+2019-11-06 14:48:54,889 INFO 34558 [egg-security] use xssProtection middleware
+2019-11-06 14:48:54,889 INFO 34558 [egg-security] use xframe middleware
+2019-11-06 14:48:54,889 INFO 34558 [egg-security] use dta middleware
+2019-11-06 14:48:54,889 INFO 34558 [egg-security] compose 7 middlewares into one security middleware
+2019-11-06 14:48:54,896 INFO 34558 [egg:core] dump config after load, 4ms
+2019-11-06 14:48:54,905 INFO 34558 [egg-watcher:application] watcher start success
+2019-11-06 14:48:54,920 INFO 34558 [egg:core] dump config after ready, 3ms
+2019-11-06 14:49:06,946 INFO 34656 [egg:logger] init all loggers with options: {"dir":"/Users/lirunkai/Documents/website/server/logs/server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-11-06 14:49:06,976 INFO 34656 [egg-multipart] file mode enable
+2019-11-06 14:49:06,976 INFO 34656 [egg-multipart] will save temporary files to "/var/folders/ft/dwy4mw895mj7f2c6dl17qry00000gn/T/egg-multipart-tmp/server", cleanup job cron: "0 30 4 * * *"
+2019-11-06 14:49:07,014 INFO 34656 [egg-static] starting static serve /public/ -> /Users/lirunkai/Documents/website/server/app/public
+2019-11-06 14:49:07,016 INFO 34656 [egg-security] use csrf middleware
+2019-11-06 14:49:07,017 INFO 34656 [egg-security] use methodnoallow middleware
+2019-11-06 14:49:07,017 INFO 34656 [egg-security] use noopen middleware
+2019-11-06 14:49:07,017 INFO 34656 [egg-security] use nosniff middleware
+2019-11-06 14:49:07,017 INFO 34656 [egg-security] use xssProtection middleware
+2019-11-06 14:49:07,018 INFO 34656 [egg-security] use xframe middleware
+2019-11-06 14:49:07,018 INFO 34656 [egg-security] use dta middleware
+2019-11-06 14:49:07,018 INFO 34656 [egg-security] compose 7 middlewares into one security middleware
+2019-11-06 14:49:07,025 INFO 34656 [egg:core] dump config after load, 5ms
+2019-11-06 14:49:07,035 INFO 34656 [egg-watcher:application] watcher start success
+2019-11-06 14:49:07,050 INFO 34656 [egg:core] dump config after ready, 4ms
+2019-11-11 15:52:44,105 INFO 17720 [egg:logger] init all loggers with options: {"dir":"/Users/lirunkai/Documents/website/server/logs/server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-11-11 15:52:44,130 INFO 17720 [egg-multipart] file mode enable
+2019-11-11 15:52:44,130 INFO 17720 [egg-multipart] will save temporary files to "/var/folders/ft/dwy4mw895mj7f2c6dl17qry00000gn/T/egg-multipart-tmp/server", cleanup job cron: "0 30 4 * * *"
+2019-11-11 15:52:44,361 INFO 17720 [egg-static] starting static serve /public/ -> /Users/lirunkai/Documents/website/server/app/public
+2019-11-11 15:52:44,363 INFO 17720 [egg-security] use csrf middleware
+2019-11-11 15:52:44,364 INFO 17720 [egg-security] use methodnoallow middleware
+2019-11-11 15:52:44,364 INFO 17720 [egg-security] use noopen middleware
+2019-11-11 15:52:44,365 INFO 17720 [egg-security] use nosniff middleware
+2019-11-11 15:52:44,365 INFO 17720 [egg-security] use xssProtection middleware
+2019-11-11 15:52:44,366 INFO 17720 [egg-security] use xframe middleware
+2019-11-11 15:52:44,366 INFO 17720 [egg-security] use dta middleware
+2019-11-11 15:52:44,366 INFO 17720 [egg-security] compose 7 middlewares into one security middleware
+2019-11-11 15:52:44,378 INFO 17720 [egg:core] dump config after load, 6ms
+2019-11-11 15:52:44,415 INFO 17720 [egg-watcher:application] watcher start success
+2019-11-11 15:52:44,437 INFO 17720 [egg:core] dump config after ready, 4ms
+2019-11-11 16:03:41,112 INFO 18824 [egg:logger] init all loggers with options: {"dir":"/Users/lirunkai/Documents/website/server/logs/server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-11-11 16:03:41,136 INFO 18824 [egg-multipart] file mode enable
+2019-11-11 16:03:41,136 INFO 18824 [egg-multipart] will save temporary files to "/var/folders/ft/dwy4mw895mj7f2c6dl17qry00000gn/T/egg-multipart-tmp/server", cleanup job cron: "0 30 4 * * *"
+2019-11-11 16:03:41,365 INFO 18824 [egg-static] starting static serve /public/ -> /Users/lirunkai/Documents/website/server/app/public
+2019-11-11 16:03:41,368 INFO 18824 [egg-security] use csrf middleware
+2019-11-11 16:03:41,368 INFO 18824 [egg-security] use methodnoallow middleware
+2019-11-11 16:03:41,369 INFO 18824 [egg-security] use noopen middleware
+2019-11-11 16:03:41,369 INFO 18824 [egg-security] use nosniff middleware
+2019-11-11 16:03:41,370 INFO 18824 [egg-security] use xssProtection middleware
+2019-11-11 16:03:41,370 INFO 18824 [egg-security] use xframe middleware
+2019-11-11 16:03:41,371 INFO 18824 [egg-security] use dta middleware
+2019-11-11 16:03:41,371 INFO 18824 [egg-security] compose 7 middlewares into one security middleware
+2019-11-11 16:03:41,379 INFO 18824 [egg:core] dump config after load, 4ms
+2019-11-11 16:03:41,414 INFO 18824 [egg-watcher:application] watcher start success
+2019-11-11 16:03:41,439 INFO 18824 [egg:core] dump config after ready, 4ms
+2019-11-11 16:29:52,761 INFO 21216 [egg:logger] init all loggers with options: {"dir":"/Users/lirunkai/Documents/website/server/logs/server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-11-11 16:29:52,790 INFO 21216 [egg-multipart] file mode enable
+2019-11-11 16:29:52,790 INFO 21216 [egg-multipart] will save temporary files to "/var/folders/ft/dwy4mw895mj7f2c6dl17qry00000gn/T/egg-multipart-tmp/server", cleanup job cron: "0 30 4 * * *"
+2019-11-11 16:29:53,144 INFO 21216 [egg-static] starting static serve /public/ -> /Users/lirunkai/Documents/website/server/app/public
+2019-11-11 16:29:53,146 INFO 21216 [egg-security] use csrf middleware
+2019-11-11 16:29:53,147 INFO 21216 [egg-security] use methodnoallow middleware
+2019-11-11 16:29:53,147 INFO 21216 [egg-security] use noopen middleware
+2019-11-11 16:29:53,148 INFO 21216 [egg-security] use nosniff middleware
+2019-11-11 16:29:53,148 INFO 21216 [egg-security] use xssProtection middleware
+2019-11-11 16:29:53,149 INFO 21216 [egg-security] use xframe middleware
+2019-11-11 16:29:53,149 INFO 21216 [egg-security] use dta middleware
+2019-11-11 16:29:53,149 INFO 21216 [egg-security] compose 7 middlewares into one security middleware
+2019-11-11 16:29:53,160 INFO 21216 [egg:core] dump config after load, 7ms
+2019-11-11 16:29:53,188 INFO 21216 [egg-watcher:application] watcher start success
+2019-11-11 16:29:53,243 INFO 21216 [egg:core] dump config after ready, 4ms
+2019-11-11 16:29:55,407 INFO 21235 [egg:logger] init all loggers with options: {"dir":"/Users/lirunkai/Documents/website/server/logs/server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-11-11 16:29:55,431 INFO 21235 [egg-multipart] file mode enable
+2019-11-11 16:29:55,431 INFO 21235 [egg-multipart] will save temporary files to "/var/folders/ft/dwy4mw895mj7f2c6dl17qry00000gn/T/egg-multipart-tmp/server", cleanup job cron: "0 30 4 * * *"
+2019-11-11 16:29:55,646 INFO 21235 [egg-static] starting static serve /public/ -> /Users/lirunkai/Documents/website/server/app/public
+2019-11-11 16:29:55,648 INFO 21235 [egg-security] use csrf middleware
+2019-11-11 16:29:55,648 INFO 21235 [egg-security] use methodnoallow middleware
+2019-11-11 16:29:55,649 INFO 21235 [egg-security] use noopen middleware
+2019-11-11 16:29:55,649 INFO 21235 [egg-security] use nosniff middleware
+2019-11-11 16:29:55,649 INFO 21235 [egg-security] use xssProtection middleware
+2019-11-11 16:29:55,649 INFO 21235 [egg-security] use xframe middleware
+2019-11-11 16:29:55,650 INFO 21235 [egg-security] use dta middleware
+2019-11-11 16:29:55,650 INFO 21235 [egg-security] compose 7 middlewares into one security middleware
+2019-11-11 16:29:55,657 INFO 21235 [egg:core] dump config after load, 5ms
+2019-11-11 16:29:55,676 INFO 21235 [egg-watcher:application] watcher start success
+2019-11-11 16:29:55,711 INFO 21235 [egg:core] dump config after ready, 6ms
+2019-11-11 16:29:59,513 INFO 21260 [egg:logger] init all loggers with options: {"dir":"/Users/lirunkai/Documents/website/server/logs/server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-11-11 16:29:59,538 INFO 21260 [egg-multipart] file mode enable
+2019-11-11 16:29:59,538 INFO 21260 [egg-multipart] will save temporary files to "/var/folders/ft/dwy4mw895mj7f2c6dl17qry00000gn/T/egg-multipart-tmp/server", cleanup job cron: "0 30 4 * * *"
+2019-11-11 16:29:59,736 INFO 21260 [egg-static] starting static serve /public/ -> /Users/lirunkai/Documents/website/server/app/public
+2019-11-11 16:29:59,738 INFO 21260 [egg-security] use csrf middleware
+2019-11-11 16:29:59,738 INFO 21260 [egg-security] use methodnoallow middleware
+2019-11-11 16:29:59,739 INFO 21260 [egg-security] use noopen middleware
+2019-11-11 16:29:59,739 INFO 21260 [egg-security] use nosniff middleware
+2019-11-11 16:29:59,739 INFO 21260 [egg-security] use xssProtection middleware
+2019-11-11 16:29:59,739 INFO 21260 [egg-security] use xframe middleware
+2019-11-11 16:29:59,740 INFO 21260 [egg-security] use dta middleware
+2019-11-11 16:29:59,740 INFO 21260 [egg-security] compose 7 middlewares into one security middleware
+2019-11-11 16:29:59,746 INFO 21260 [egg:core] dump config after load, 4ms
+2019-11-11 16:29:59,773 INFO 21260 [egg-watcher:application] watcher start success
+2019-11-11 16:29:59,804 INFO 21260 [egg:core] dump config after ready, 4ms
+2019-11-11 16:30:03,658 INFO 21274 [egg:logger] init all loggers with options: {"dir":"/Users/lirunkai/Documents/website/server/logs/server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-11-11 16:30:03,683 INFO 21274 [egg-multipart] file mode enable
+2019-11-11 16:30:03,683 INFO 21274 [egg-multipart] will save temporary files to "/var/folders/ft/dwy4mw895mj7f2c6dl17qry00000gn/T/egg-multipart-tmp/server", cleanup job cron: "0 30 4 * * *"
+2019-11-11 16:30:03,896 INFO 21274 [egg-static] starting static serve /public/ -> /Users/lirunkai/Documents/website/server/app/public
+2019-11-11 16:30:03,898 INFO 21274 [egg-security] use csrf middleware
+2019-11-11 16:30:03,899 INFO 21274 [egg-security] use methodnoallow middleware
+2019-11-11 16:30:03,899 INFO 21274 [egg-security] use noopen middleware
+2019-11-11 16:30:03,899 INFO 21274 [egg-security] use nosniff middleware
+2019-11-11 16:30:03,899 INFO 21274 [egg-security] use xssProtection middleware
+2019-11-11 16:30:03,900 INFO 21274 [egg-security] use xframe middleware
+2019-11-11 16:30:03,900 INFO 21274 [egg-security] use dta middleware
+2019-11-11 16:30:03,900 INFO 21274 [egg-security] compose 7 middlewares into one security middleware
+2019-11-11 16:30:03,908 INFO 21274 [egg:core] dump config after load, 5ms
+2019-11-11 16:30:03,931 INFO 21274 [egg-watcher:application] watcher start success
+2019-11-11 16:30:03,964 INFO 21274 [egg:core] dump config after ready, 4ms
+2019-11-11 16:30:05,605 INFO 21296 [egg:logger] init all loggers with options: {"dir":"/Users/lirunkai/Documents/website/server/logs/server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-11-11 16:30:05,635 INFO 21296 [egg-multipart] file mode enable
+2019-11-11 16:30:05,635 INFO 21296 [egg-multipart] will save temporary files to "/var/folders/ft/dwy4mw895mj7f2c6dl17qry00000gn/T/egg-multipart-tmp/server", cleanup job cron: "0 30 4 * * *"
+2019-11-11 16:30:05,850 INFO 21296 [egg-static] starting static serve /public/ -> /Users/lirunkai/Documents/website/server/app/public
+2019-11-11 16:30:05,852 INFO 21296 [egg-security] use csrf middleware
+2019-11-11 16:30:05,852 INFO 21296 [egg-security] use methodnoallow middleware
+2019-11-11 16:30:05,852 INFO 21296 [egg-security] use noopen middleware
+2019-11-11 16:30:05,853 INFO 21296 [egg-security] use nosniff middleware
+2019-11-11 16:30:05,853 INFO 21296 [egg-security] use xssProtection middleware
+2019-11-11 16:30:05,853 INFO 21296 [egg-security] use xframe middleware
+2019-11-11 16:30:05,853 INFO 21296 [egg-security] use dta middleware
+2019-11-11 16:30:05,853 INFO 21296 [egg-security] compose 7 middlewares into one security middleware
+2019-11-11 16:30:05,861 INFO 21296 [egg:core] dump config after load, 4ms
+2019-11-11 16:30:05,885 INFO 21296 [egg-watcher:application] watcher start success
+2019-11-11 16:30:05,921 INFO 21296 [egg:core] dump config after ready, 4ms
+2019-11-11 16:30:08,381 INFO 21307 [egg:logger] init all loggers with options: {"dir":"/Users/lirunkai/Documents/website/server/logs/server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-11-11 16:30:08,406 INFO 21307 [egg-multipart] file mode enable
+2019-11-11 16:30:08,407 INFO 21307 [egg-multipart] will save temporary files to "/var/folders/ft/dwy4mw895mj7f2c6dl17qry00000gn/T/egg-multipart-tmp/server", cleanup job cron: "0 30 4 * * *"
+2019-11-11 16:30:08,614 INFO 21307 [egg-static] starting static serve /public/ -> /Users/lirunkai/Documents/website/server/app/public
+2019-11-11 16:30:08,616 INFO 21307 [egg-security] use csrf middleware
+2019-11-11 16:30:08,616 INFO 21307 [egg-security] use methodnoallow middleware
+2019-11-11 16:30:08,616 INFO 21307 [egg-security] use noopen middleware
+2019-11-11 16:30:08,617 INFO 21307 [egg-security] use nosniff middleware
+2019-11-11 16:30:08,617 INFO 21307 [egg-security] use xssProtection middleware
+2019-11-11 16:30:08,617 INFO 21307 [egg-security] use xframe middleware
+2019-11-11 16:30:08,617 INFO 21307 [egg-security] use dta middleware
+2019-11-11 16:30:08,617 INFO 21307 [egg-security] compose 7 middlewares into one security middleware
+2019-11-11 16:30:08,626 INFO 21307 [egg:core] dump config after load, 5ms
+2019-11-11 16:30:08,650 INFO 21307 [egg-watcher:application] watcher start success
+2019-11-11 16:30:08,684 INFO 21307 [egg:core] dump config after ready, 3ms
+2019-11-11 16:30:20,085 INFO 21353 [egg:logger] init all loggers with options: {"dir":"/Users/lirunkai/Documents/website/server/logs/server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-11-11 16:30:20,109 INFO 21353 [egg-multipart] file mode enable
+2019-11-11 16:30:20,109 INFO 21353 [egg-multipart] will save temporary files to "/var/folders/ft/dwy4mw895mj7f2c6dl17qry00000gn/T/egg-multipart-tmp/server", cleanup job cron: "0 30 4 * * *"
+2019-11-11 16:30:20,317 INFO 21353 [egg-static] starting static serve /public/ -> /Users/lirunkai/Documents/website/server/app/public
+2019-11-11 16:30:20,320 INFO 21353 [egg-security] use csrf middleware
+2019-11-11 16:30:20,320 INFO 21353 [egg-security] use methodnoallow middleware
+2019-11-11 16:30:20,321 INFO 21353 [egg-security] use noopen middleware
+2019-11-11 16:30:20,321 INFO 21353 [egg-security] use nosniff middleware
+2019-11-11 16:30:20,321 INFO 21353 [egg-security] use xssProtection middleware
+2019-11-11 16:30:20,322 INFO 21353 [egg-security] use xframe middleware
+2019-11-11 16:30:20,322 INFO 21353 [egg-security] use dta middleware
+2019-11-11 16:30:20,322 INFO 21353 [egg-security] compose 7 middlewares into one security middleware
+2019-11-11 16:30:20,329 INFO 21353 [egg:core] dump config after load, 4ms
+2019-11-11 16:30:20,363 INFO 21353 [egg-watcher:application] watcher start success
+2019-11-11 16:30:20,389 INFO 21353 [egg:core] dump config after ready, 4ms
+2019-11-11 16:32:41,185 INFO 21597 [egg:logger] init all loggers with options: {"dir":"/Users/lirunkai/Documents/website/server/logs/server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-11-11 16:32:41,210 INFO 21597 [egg-multipart] file mode enable
+2019-11-11 16:32:41,210 INFO 21597 [egg-multipart] will save temporary files to "/var/folders/ft/dwy4mw895mj7f2c6dl17qry00000gn/T/egg-multipart-tmp/server", cleanup job cron: "0 30 4 * * *"
+2019-11-11 16:32:41,447 INFO 21597 [egg-static] starting static serve /public/ -> /Users/lirunkai/Documents/website/server/app/public
+2019-11-11 16:32:41,450 INFO 21597 [egg-security] use csrf middleware
+2019-11-11 16:32:41,450 INFO 21597 [egg-security] use methodnoallow middleware
+2019-11-11 16:32:41,451 INFO 21597 [egg-security] use noopen middleware
+2019-11-11 16:32:41,451 INFO 21597 [egg-security] use nosniff middleware
+2019-11-11 16:32:41,452 INFO 21597 [egg-security] use xssProtection middleware
+2019-11-11 16:32:41,452 INFO 21597 [egg-security] use xframe middleware
+2019-11-11 16:32:41,453 INFO 21597 [egg-security] use dta middleware
+2019-11-11 16:32:41,453 INFO 21597 [egg-security] compose 7 middlewares into one security middleware
+2019-11-11 16:32:41,464 INFO 21597 [egg:core] dump config after load, 5ms
+2019-11-11 16:32:41,499 INFO 21597 [egg-watcher:application] watcher start success
+2019-11-11 16:32:41,523 INFO 21597 [egg:core] dump config after ready, 4ms
+2019-11-11 16:34:32,171 INFO 21748 [egg:logger] init all loggers with options: {"dir":"/Users/lirunkai/Documents/website/server/logs/server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-11-11 16:34:32,198 INFO 21748 [egg-multipart] file mode enable
+2019-11-11 16:34:32,198 INFO 21748 [egg-multipart] will save temporary files to "/var/folders/ft/dwy4mw895mj7f2c6dl17qry00000gn/T/egg-multipart-tmp/server", cleanup job cron: "0 30 4 * * *"
+2019-11-11 16:34:32,541 INFO 21748 [egg-static] starting static serve /public/ -> /Users/lirunkai/Documents/website/server/app/public
+2019-11-11 16:34:32,543 INFO 21748 [egg-security] use csrf middleware
+2019-11-11 16:34:32,544 INFO 21748 [egg-security] use methodnoallow middleware
+2019-11-11 16:34:32,544 INFO 21748 [egg-security] use noopen middleware
+2019-11-11 16:34:32,545 INFO 21748 [egg-security] use nosniff middleware
+2019-11-11 16:34:32,546 INFO 21748 [egg-security] use xssProtection middleware
+2019-11-11 16:34:32,546 INFO 21748 [egg-security] use xframe middleware
+2019-11-11 16:34:32,546 INFO 21748 [egg-security] use dta middleware
+2019-11-11 16:34:32,547 INFO 21748 [egg-security] compose 7 middlewares into one security middleware
+2019-11-11 16:34:32,556 INFO 21748 [egg:core] dump config after load, 4ms
+2019-11-11 16:34:32,580 INFO 21748 [egg-watcher:application] watcher start success
+2019-11-11 16:34:32,619 INFO 21748 [egg:core] dump config after ready, 4ms
+2019-11-11 16:34:51,558 INFO 21798 [egg:logger] init all loggers with options: {"dir":"/Users/lirunkai/Documents/website/server/logs/server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-11-11 16:34:51,600 INFO 21798 [egg-multipart] file mode enable
+2019-11-11 16:34:51,600 INFO 21798 [egg-multipart] will save temporary files to "/var/folders/ft/dwy4mw895mj7f2c6dl17qry00000gn/T/egg-multipart-tmp/server", cleanup job cron: "0 30 4 * * *"
+2019-11-11 16:34:51,901 INFO 21798 [egg-static] starting static serve /public/ -> /Users/lirunkai/Documents/website/server/app/public
+2019-11-11 16:34:51,904 INFO 21798 [egg-security] use csrf middleware
+2019-11-11 16:34:51,905 INFO 21798 [egg-security] use methodnoallow middleware
+2019-11-11 16:34:51,905 INFO 21798 [egg-security] use noopen middleware
+2019-11-11 16:34:51,906 INFO 21798 [egg-security] use nosniff middleware
+2019-11-11 16:34:51,906 INFO 21798 [egg-security] use xssProtection middleware
+2019-11-11 16:34:51,907 INFO 21798 [egg-security] use xframe middleware
+2019-11-11 16:34:51,907 INFO 21798 [egg-security] use dta middleware
+2019-11-11 16:34:51,907 INFO 21798 [egg-security] compose 7 middlewares into one security middleware
+2019-11-11 16:34:51,916 INFO 21798 [egg:core] dump config after load, 5ms
+2019-11-11 16:34:51,939 INFO 21798 [egg-watcher:application] watcher start success
+2019-11-11 16:34:51,982 INFO 21798 [egg:core] dump config after ready, 4ms
+2019-11-11 16:35:03,911 INFO 21821 [egg:logger] init all loggers with options: {"dir":"/Users/lirunkai/Documents/website/server/logs/server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-11-11 16:35:03,935 INFO 21821 [egg-multipart] file mode enable
+2019-11-11 16:35:03,935 INFO 21821 [egg-multipart] will save temporary files to "/var/folders/ft/dwy4mw895mj7f2c6dl17qry00000gn/T/egg-multipart-tmp/server", cleanup job cron: "0 30 4 * * *"
+2019-11-11 16:35:04,137 INFO 21821 [egg-static] starting static serve /public/ -> /Users/lirunkai/Documents/website/server/app/public
+2019-11-11 16:35:04,139 INFO 21821 [egg-security] use csrf middleware
+2019-11-11 16:35:04,139 INFO 21821 [egg-security] use methodnoallow middleware
+2019-11-11 16:35:04,140 INFO 21821 [egg-security] use noopen middleware
+2019-11-11 16:35:04,140 INFO 21821 [egg-security] use nosniff middleware
+2019-11-11 16:35:04,140 INFO 21821 [egg-security] use xssProtection middleware
+2019-11-11 16:35:04,141 INFO 21821 [egg-security] use xframe middleware
+2019-11-11 16:35:04,141 INFO 21821 [egg-security] use dta middleware
+2019-11-11 16:35:04,141 INFO 21821 [egg-security] compose 7 middlewares into one security middleware
+2019-11-11 16:35:04,148 INFO 21821 [egg:core] dump config after load, 4ms
+2019-11-11 16:35:04,183 INFO 21821 [egg-watcher:application] watcher start success
+2019-11-11 16:35:04,205 INFO 21821 [egg:core] dump config after ready, 4ms
+2019-11-11 16:36:55,784 INFO 21991 [egg:logger] init all loggers with options: {"dir":"/Users/lirunkai/Documents/website/server/logs/server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-11-11 16:36:55,812 INFO 21991 [egg-multipart] file mode enable
+2019-11-11 16:36:55,812 INFO 21991 [egg-multipart] will save temporary files to "/var/folders/ft/dwy4mw895mj7f2c6dl17qry00000gn/T/egg-multipart-tmp/server", cleanup job cron: "0 30 4 * * *"
+2019-11-11 16:36:56,148 INFO 21991 [egg-static] starting static serve /public/ -> /Users/lirunkai/Documents/website/server/app/public
+2019-11-11 16:36:56,150 INFO 21991 [egg-security] use csrf middleware
+2019-11-11 16:36:56,151 INFO 21991 [egg-security] use methodnoallow middleware
+2019-11-11 16:36:56,151 INFO 21991 [egg-security] use noopen middleware
+2019-11-11 16:36:56,152 INFO 21991 [egg-security] use nosniff middleware
+2019-11-11 16:36:56,152 INFO 21991 [egg-security] use xssProtection middleware
+2019-11-11 16:36:56,153 INFO 21991 [egg-security] use xframe middleware
+2019-11-11 16:36:56,153 INFO 21991 [egg-security] use dta middleware
+2019-11-11 16:36:56,153 INFO 21991 [egg-security] compose 7 middlewares into one security middleware
+2019-11-11 16:36:56,161 INFO 21991 [egg:core] dump config after load, 4ms
+2019-11-11 16:36:56,186 INFO 21991 [egg-watcher:application] watcher start success
+2019-11-11 16:36:56,228 INFO 21991 [egg:core] dump config after ready, 4ms
+2019-11-11 16:36:56,793 INFO 21999 [egg:logger] init all loggers with options: {"dir":"/Users/lirunkai/Documents/website/server/logs/server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-11-11 16:36:56,817 INFO 21999 [egg-multipart] file mode enable
+2019-11-11 16:36:56,817 INFO 21999 [egg-multipart] will save temporary files to "/var/folders/ft/dwy4mw895mj7f2c6dl17qry00000gn/T/egg-multipart-tmp/server", cleanup job cron: "0 30 4 * * *"
+2019-11-11 16:36:57,026 INFO 21999 [egg-static] starting static serve /public/ -> /Users/lirunkai/Documents/website/server/app/public
+2019-11-11 16:36:57,028 INFO 21999 [egg-security] use csrf middleware
+2019-11-11 16:36:57,029 INFO 21999 [egg-security] use methodnoallow middleware
+2019-11-11 16:36:57,029 INFO 21999 [egg-security] use noopen middleware
+2019-11-11 16:36:57,029 INFO 21999 [egg-security] use nosniff middleware
+2019-11-11 16:36:57,030 INFO 21999 [egg-security] use xssProtection middleware
+2019-11-11 16:36:57,030 INFO 21999 [egg-security] use xframe middleware
+2019-11-11 16:36:57,030 INFO 21999 [egg-security] use dta middleware
+2019-11-11 16:36:57,030 INFO 21999 [egg-security] compose 7 middlewares into one security middleware
+2019-11-11 16:36:57,038 INFO 21999 [egg:core] dump config after load, 5ms
+2019-11-11 16:36:57,063 INFO 21999 [egg-watcher:application] watcher start success
+2019-11-11 16:36:57,101 INFO 21999 [egg:core] dump config after ready, 6ms
+2019-11-11 16:36:59,074 INFO 22016 [egg:logger] init all loggers with options: {"dir":"/Users/lirunkai/Documents/website/server/logs/server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-11-11 16:36:59,100 INFO 22016 [egg-multipart] file mode enable
+2019-11-11 16:36:59,100 INFO 22016 [egg-multipart] will save temporary files to "/var/folders/ft/dwy4mw895mj7f2c6dl17qry00000gn/T/egg-multipart-tmp/server", cleanup job cron: "0 30 4 * * *"
+2019-11-11 16:36:59,298 INFO 22016 [egg-static] starting static serve /public/ -> /Users/lirunkai/Documents/website/server/app/public
+2019-11-11 16:36:59,300 INFO 22016 [egg-security] use csrf middleware
+2019-11-11 16:36:59,301 INFO 22016 [egg-security] use methodnoallow middleware
+2019-11-11 16:36:59,301 INFO 22016 [egg-security] use noopen middleware
+2019-11-11 16:36:59,301 INFO 22016 [egg-security] use nosniff middleware
+2019-11-11 16:36:59,302 INFO 22016 [egg-security] use xssProtection middleware
+2019-11-11 16:36:59,302 INFO 22016 [egg-security] use xframe middleware
+2019-11-11 16:36:59,302 INFO 22016 [egg-security] use dta middleware
+2019-11-11 16:36:59,302 INFO 22016 [egg-security] compose 7 middlewares into one security middleware
+2019-11-11 16:36:59,309 INFO 22016 [egg:core] dump config after load, 4ms
+2019-11-11 16:36:59,335 INFO 22016 [egg-watcher:application] watcher start success
+2019-11-11 16:36:59,369 INFO 22016 [egg:core] dump config after ready, 3ms
+2019-11-11 16:37:01,034 INFO 22029 [egg:logger] init all loggers with options: {"dir":"/Users/lirunkai/Documents/website/server/logs/server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-11-11 16:37:01,061 INFO 22029 [egg-multipart] file mode enable
+2019-11-11 16:37:01,061 INFO 22029 [egg-multipart] will save temporary files to "/var/folders/ft/dwy4mw895mj7f2c6dl17qry00000gn/T/egg-multipart-tmp/server", cleanup job cron: "0 30 4 * * *"
+2019-11-11 16:37:01,276 INFO 22029 [egg-static] starting static serve /public/ -> /Users/lirunkai/Documents/website/server/app/public
+2019-11-11 16:37:01,278 INFO 22029 [egg-security] use csrf middleware
+2019-11-11 16:37:01,279 INFO 22029 [egg-security] use methodnoallow middleware
+2019-11-11 16:37:01,279 INFO 22029 [egg-security] use noopen middleware
+2019-11-11 16:37:01,279 INFO 22029 [egg-security] use nosniff middleware
+2019-11-11 16:37:01,279 INFO 22029 [egg-security] use xssProtection middleware
+2019-11-11 16:37:01,280 INFO 22029 [egg-security] use xframe middleware
+2019-11-11 16:37:01,280 INFO 22029 [egg-security] use dta middleware
+2019-11-11 16:37:01,280 INFO 22029 [egg-security] compose 7 middlewares into one security middleware
+2019-11-11 16:37:01,288 INFO 22029 [egg:core] dump config after load, 4ms
+2019-11-11 16:37:01,315 INFO 22029 [egg-watcher:application] watcher start success
+2019-11-11 16:37:01,353 INFO 22029 [egg:core] dump config after ready, 4ms
+2019-11-11 16:37:19,101 INFO 22074 [egg:logger] init all loggers with options: {"dir":"/Users/lirunkai/Documents/website/server/logs/server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-11-11 16:37:19,124 INFO 22074 [egg-multipart] file mode enable
+2019-11-11 16:37:19,124 INFO 22074 [egg-multipart] will save temporary files to "/var/folders/ft/dwy4mw895mj7f2c6dl17qry00000gn/T/egg-multipart-tmp/server", cleanup job cron: "0 30 4 * * *"
+2019-11-11 16:37:19,325 INFO 22074 [egg-static] starting static serve /public/ -> /Users/lirunkai/Documents/website/server/app/public
+2019-11-11 16:37:19,327 INFO 22074 [egg-security] use csrf middleware
+2019-11-11 16:37:19,328 INFO 22074 [egg-security] use methodnoallow middleware
+2019-11-11 16:37:19,328 INFO 22074 [egg-security] use noopen middleware
+2019-11-11 16:37:19,328 INFO 22074 [egg-security] use nosniff middleware
+2019-11-11 16:37:19,329 INFO 22074 [egg-security] use xssProtection middleware
+2019-11-11 16:37:19,329 INFO 22074 [egg-security] use xframe middleware
+2019-11-11 16:37:19,329 INFO 22074 [egg-security] use dta middleware
+2019-11-11 16:37:19,329 INFO 22074 [egg-security] compose 7 middlewares into one security middleware
+2019-11-11 16:37:19,336 INFO 22074 [egg:core] dump config after load, 4ms
+2019-11-11 16:37:19,358 INFO 22074 [egg-watcher:application] watcher start success
+2019-11-11 16:37:19,395 INFO 22074 [egg:core] dump config after ready, 4ms
+2019-11-11 16:37:25,150 INFO 22097 [egg:logger] init all loggers with options: {"dir":"/Users/lirunkai/Documents/website/server/logs/server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-11-11 16:37:25,177 INFO 22097 [egg-multipart] file mode enable
+2019-11-11 16:37:25,177 INFO 22097 [egg-multipart] will save temporary files to "/var/folders/ft/dwy4mw895mj7f2c6dl17qry00000gn/T/egg-multipart-tmp/server", cleanup job cron: "0 30 4 * * *"
+2019-11-11 16:37:25,394 INFO 22097 [egg-static] starting static serve /public/ -> /Users/lirunkai/Documents/website/server/app/public
+2019-11-11 16:37:25,396 INFO 22097 [egg-security] use csrf middleware
+2019-11-11 16:37:25,397 INFO 22097 [egg-security] use methodnoallow middleware
+2019-11-11 16:37:25,397 INFO 22097 [egg-security] use noopen middleware
+2019-11-11 16:37:25,397 INFO 22097 [egg-security] use nosniff middleware
+2019-11-11 16:37:25,398 INFO 22097 [egg-security] use xssProtection middleware
+2019-11-11 16:37:25,398 INFO 22097 [egg-security] use xframe middleware
+2019-11-11 16:37:25,398 INFO 22097 [egg-security] use dta middleware
+2019-11-11 16:37:25,398 INFO 22097 [egg-security] compose 7 middlewares into one security middleware
+2019-11-11 16:37:25,406 INFO 22097 [egg:core] dump config after load, 5ms
+2019-11-11 16:37:25,430 INFO 22097 [egg-watcher:application] watcher start success
+2019-11-11 16:37:25,466 INFO 22097 [egg:core] dump config after ready, 4ms
+2019-11-11 16:37:41,641 INFO 22175 [egg:logger] init all loggers with options: {"dir":"/Users/lirunkai/Documents/website/server/logs/server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-11-11 16:37:41,664 INFO 22175 [egg-multipart] file mode enable
+2019-11-11 16:37:41,664 INFO 22175 [egg-multipart] will save temporary files to "/var/folders/ft/dwy4mw895mj7f2c6dl17qry00000gn/T/egg-multipart-tmp/server", cleanup job cron: "0 30 4 * * *"
+2019-11-11 16:37:41,865 INFO 22175 [egg-static] starting static serve /public/ -> /Users/lirunkai/Documents/website/server/app/public
+2019-11-11 16:37:41,867 INFO 22175 [egg-security] use csrf middleware
+2019-11-11 16:37:41,868 INFO 22175 [egg-security] use methodnoallow middleware
+2019-11-11 16:37:41,868 INFO 22175 [egg-security] use noopen middleware
+2019-11-11 16:37:41,868 INFO 22175 [egg-security] use nosniff middleware
+2019-11-11 16:37:41,868 INFO 22175 [egg-security] use xssProtection middleware
+2019-11-11 16:37:41,869 INFO 22175 [egg-security] use xframe middleware
+2019-11-11 16:37:41,869 INFO 22175 [egg-security] use dta middleware
+2019-11-11 16:37:41,869 INFO 22175 [egg-security] compose 7 middlewares into one security middleware
+2019-11-11 16:37:41,876 INFO 22175 [egg:core] dump config after load, 4ms
+2019-11-11 16:37:41,911 INFO 22175 [egg-watcher:application] watcher start success
+2019-11-11 16:37:41,934 INFO 22175 [egg:core] dump config after ready, 4ms
+2019-11-11 16:39:24,481 INFO 22329 [egg:logger] init all loggers with options: {"dir":"/Users/lirunkai/Documents/website/server/logs/server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-11-11 16:39:24,505 INFO 22329 [egg-multipart] file mode enable
+2019-11-11 16:39:24,505 INFO 22329 [egg-multipart] will save temporary files to "/var/folders/ft/dwy4mw895mj7f2c6dl17qry00000gn/T/egg-multipart-tmp/server", cleanup job cron: "0 30 4 * * *"
+2019-11-11 16:39:24,710 INFO 22329 [egg-static] starting static serve /public/ -> /Users/lirunkai/Documents/website/server/app/public
+2019-11-11 16:39:24,713 INFO 22329 [egg-security] use csrf middleware
+2019-11-11 16:39:24,713 INFO 22329 [egg-security] use methodnoallow middleware
+2019-11-11 16:39:24,714 INFO 22329 [egg-security] use noopen middleware
+2019-11-11 16:39:24,714 INFO 22329 [egg-security] use nosniff middleware
+2019-11-11 16:39:24,714 INFO 22329 [egg-security] use xssProtection middleware
+2019-11-11 16:39:24,715 INFO 22329 [egg-security] use xframe middleware
+2019-11-11 16:39:24,715 INFO 22329 [egg-security] use dta middleware
+2019-11-11 16:39:24,715 INFO 22329 [egg-security] compose 7 middlewares into one security middleware
+2019-11-11 16:39:24,722 INFO 22329 [egg:core] dump config after load, 4ms
+2019-11-11 16:39:24,744 INFO 22329 [egg-watcher:application] watcher start success
+2019-11-11 16:39:24,780 INFO 22329 [egg:core] dump config after ready, 4ms
+2019-11-11 16:39:29,779 INFO 22351 [egg:logger] init all loggers with options: {"dir":"/Users/lirunkai/Documents/website/server/logs/server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-11-11 16:39:29,806 INFO 22351 [egg-multipart] file mode enable
+2019-11-11 16:39:29,806 INFO 22351 [egg-multipart] will save temporary files to "/var/folders/ft/dwy4mw895mj7f2c6dl17qry00000gn/T/egg-multipart-tmp/server", cleanup job cron: "0 30 4 * * *"
+2019-11-11 16:39:30,016 INFO 22351 [egg-static] starting static serve /public/ -> /Users/lirunkai/Documents/website/server/app/public
+2019-11-11 16:39:30,018 INFO 22351 [egg-security] use csrf middleware
+2019-11-11 16:39:30,018 INFO 22351 [egg-security] use methodnoallow middleware
+2019-11-11 16:39:30,019 INFO 22351 [egg-security] use noopen middleware
+2019-11-11 16:39:30,019 INFO 22351 [egg-security] use nosniff middleware
+2019-11-11 16:39:30,019 INFO 22351 [egg-security] use xssProtection middleware
+2019-11-11 16:39:30,019 INFO 22351 [egg-security] use xframe middleware
+2019-11-11 16:39:30,020 INFO 22351 [egg-security] use dta middleware
+2019-11-11 16:39:30,020 INFO 22351 [egg-security] compose 7 middlewares into one security middleware
+2019-11-11 16:39:30,028 INFO 22351 [egg:core] dump config after load, 4ms
+2019-11-11 16:39:30,052 INFO 22351 [egg-watcher:application] watcher start success
+2019-11-11 16:39:30,092 INFO 22351 [egg:core] dump config after ready, 4ms
+2019-11-11 16:39:33,581 INFO 22369 [egg:logger] init all loggers with options: {"dir":"/Users/lirunkai/Documents/website/server/logs/server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-11-11 16:39:33,607 INFO 22369 [egg-multipart] file mode enable
+2019-11-11 16:39:33,607 INFO 22369 [egg-multipart] will save temporary files to "/var/folders/ft/dwy4mw895mj7f2c6dl17qry00000gn/T/egg-multipart-tmp/server", cleanup job cron: "0 30 4 * * *"
+2019-11-11 16:39:33,822 INFO 22369 [egg-static] starting static serve /public/ -> /Users/lirunkai/Documents/website/server/app/public
+2019-11-11 16:39:33,824 INFO 22369 [egg-security] use csrf middleware
+2019-11-11 16:39:33,825 INFO 22369 [egg-security] use methodnoallow middleware
+2019-11-11 16:39:33,825 INFO 22369 [egg-security] use noopen middleware
+2019-11-11 16:39:33,825 INFO 22369 [egg-security] use nosniff middleware
+2019-11-11 16:39:33,826 INFO 22369 [egg-security] use xssProtection middleware
+2019-11-11 16:39:33,826 INFO 22369 [egg-security] use xframe middleware
+2019-11-11 16:39:33,826 INFO 22369 [egg-security] use dta middleware
+2019-11-11 16:39:33,826 INFO 22369 [egg-security] compose 7 middlewares into one security middleware
+2019-11-11 16:39:33,834 INFO 22369 [egg:core] dump config after load, 5ms
+2019-11-11 16:39:33,858 INFO 22369 [egg-watcher:application] watcher start success
+2019-11-11 16:39:33,893 INFO 22369 [egg:core] dump config after ready, 4ms
+2019-11-11 16:40:31,648 INFO 22566 [egg:logger] init all loggers with options: {"dir":"/Users/lirunkai/Documents/website/server/logs/server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-11-11 16:40:31,673 INFO 22566 [egg-multipart] file mode enable
+2019-11-11 16:40:31,673 INFO 22566 [egg-multipart] will save temporary files to "/var/folders/ft/dwy4mw895mj7f2c6dl17qry00000gn/T/egg-multipart-tmp/server", cleanup job cron: "0 30 4 * * *"
+2019-11-11 16:40:31,875 INFO 22566 [egg-static] starting static serve /public/ -> /Users/lirunkai/Documents/website/server/app/public
+2019-11-11 16:40:31,877 INFO 22566 [egg-security] use csrf middleware
+2019-11-11 16:40:31,877 INFO 22566 [egg-security] use methodnoallow middleware
+2019-11-11 16:40:31,877 INFO 22566 [egg-security] use noopen middleware
+2019-11-11 16:40:31,878 INFO 22566 [egg-security] use nosniff middleware
+2019-11-11 16:40:31,878 INFO 22566 [egg-security] use xssProtection middleware
+2019-11-11 16:40:31,878 INFO 22566 [egg-security] use xframe middleware
+2019-11-11 16:40:31,878 INFO 22566 [egg-security] use dta middleware
+2019-11-11 16:40:31,878 INFO 22566 [egg-security] compose 7 middlewares into one security middleware
+2019-11-11 16:40:31,886 INFO 22566 [egg:core] dump config after load, 5ms
+2019-11-11 16:40:31,920 INFO 22566 [egg-watcher:application] watcher start success
+2019-11-11 16:40:31,943 INFO 22566 [egg:core] dump config after ready, 4ms
+2019-11-11 16:44:54,523 INFO 23163 [egg:logger] init all loggers with options: {"dir":"/Users/lirunkai/Documents/website/server/logs/server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-11-11 16:44:54,551 INFO 23163 [egg-multipart] file mode enable
+2019-11-11 16:44:54,551 INFO 23163 [egg-multipart] will save temporary files to "/var/folders/ft/dwy4mw895mj7f2c6dl17qry00000gn/T/egg-multipart-tmp/server", cleanup job cron: "0 30 4 * * *"
+2019-11-11 16:44:54,783 INFO 23163 [egg-static] starting static serve /public/ -> /Users/lirunkai/Documents/website/server/app/public
+2019-11-11 16:44:54,786 INFO 23163 [egg-security] use csrf middleware
+2019-11-11 16:44:54,787 INFO 23163 [egg-security] use methodnoallow middleware
+2019-11-11 16:44:54,787 INFO 23163 [egg-security] use noopen middleware
+2019-11-11 16:44:54,787 INFO 23163 [egg-security] use nosniff middleware
+2019-11-11 16:44:54,788 INFO 23163 [egg-security] use xssProtection middleware
+2019-11-11 16:44:54,788 INFO 23163 [egg-security] use xframe middleware
+2019-11-11 16:44:54,789 INFO 23163 [egg-security] use dta middleware
+2019-11-11 16:44:54,789 INFO 23163 [egg-security] compose 7 middlewares into one security middleware
+2019-11-11 16:44:54,797 INFO 23163 [egg:core] dump config after load, 5ms
+2019-11-11 16:44:54,838 INFO 23163 [egg-watcher:application] watcher start success
+2019-11-11 16:44:54,863 INFO 23163 [egg:core] dump config after ready, 4ms
+2019-11-11 17:00:42,732 INFO 24561 [egg:logger] init all loggers with options: {"dir":"/Users/lirunkai/Documents/website/server/logs/server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-11-11 17:00:42,760 INFO 24561 [egg-multipart] file mode enable
+2019-11-11 17:00:42,760 INFO 24561 [egg-multipart] will save temporary files to "/var/folders/ft/dwy4mw895mj7f2c6dl17qry00000gn/T/egg-multipart-tmp/server", cleanup job cron: "0 30 4 * * *"
+2019-11-11 17:00:43,093 INFO 24561 [egg-static] starting static serve /public/ -> /Users/lirunkai/Documents/website/server/app/public
+2019-11-11 17:00:43,097 INFO 24561 [egg-security] use csrf middleware
+2019-11-11 17:00:43,098 INFO 24561 [egg-security] use methodnoallow middleware
+2019-11-11 17:00:43,099 INFO 24561 [egg-security] use noopen middleware
+2019-11-11 17:00:43,099 INFO 24561 [egg-security] use nosniff middleware
+2019-11-11 17:00:43,100 INFO 24561 [egg-security] use xssProtection middleware
+2019-11-11 17:00:43,101 INFO 24561 [egg-security] use xframe middleware
+2019-11-11 17:00:43,101 INFO 24561 [egg-security] use dta middleware
+2019-11-11 17:00:43,101 INFO 24561 [egg-security] compose 7 middlewares into one security middleware
+2019-11-11 17:00:43,112 INFO 24561 [egg:core] dump config after load, 5ms
+2019-11-11 17:00:43,135 INFO 24561 [egg-watcher:application] watcher start success
+2019-11-11 17:00:43,192 INFO 24561 [egg:core] dump config after ready, 5ms
+2019-11-11 17:00:53,012 INFO 24608 [egg:logger] init all loggers with options: {"dir":"/Users/lirunkai/Documents/website/server/logs/server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-11-11 17:00:53,036 INFO 24608 [egg-multipart] file mode enable
+2019-11-11 17:00:53,036 INFO 24608 [egg-multipart] will save temporary files to "/var/folders/ft/dwy4mw895mj7f2c6dl17qry00000gn/T/egg-multipart-tmp/server", cleanup job cron: "0 30 4 * * *"
+2019-11-11 17:00:53,255 INFO 24608 [egg-static] starting static serve /public/ -> /Users/lirunkai/Documents/website/server/app/public
+2019-11-11 17:00:53,257 INFO 24608 [egg-security] use csrf middleware
+2019-11-11 17:00:53,258 INFO 24608 [egg-security] use methodnoallow middleware
+2019-11-11 17:00:53,258 INFO 24608 [egg-security] use noopen middleware
+2019-11-11 17:00:53,258 INFO 24608 [egg-security] use nosniff middleware
+2019-11-11 17:00:53,259 INFO 24608 [egg-security] use xssProtection middleware
+2019-11-11 17:00:53,259 INFO 24608 [egg-security] use xframe middleware
+2019-11-11 17:00:53,259 INFO 24608 [egg-security] use dta middleware
+2019-11-11 17:00:53,259 INFO 24608 [egg-security] compose 7 middlewares into one security middleware
+2019-11-11 17:00:53,268 INFO 24608 [egg:core] dump config after load, 4ms
+2019-11-11 17:00:53,295 INFO 24608 [egg-watcher:application] watcher start success
+2019-11-11 17:00:53,328 INFO 24608 [egg:core] dump config after ready, 4ms
+2019-11-11 17:00:57,802 INFO 24631 [egg:logger] init all loggers with options: {"dir":"/Users/lirunkai/Documents/website/server/logs/server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-11-11 17:00:57,826 INFO 24631 [egg-multipart] file mode enable
+2019-11-11 17:00:57,826 INFO 24631 [egg-multipart] will save temporary files to "/var/folders/ft/dwy4mw895mj7f2c6dl17qry00000gn/T/egg-multipart-tmp/server", cleanup job cron: "0 30 4 * * *"
+2019-11-11 17:00:58,032 INFO 24631 [egg-static] starting static serve /public/ -> /Users/lirunkai/Documents/website/server/app/public
+2019-11-11 17:00:58,034 INFO 24631 [egg-security] use csrf middleware
+2019-11-11 17:00:58,035 INFO 24631 [egg-security] use methodnoallow middleware
+2019-11-11 17:00:58,035 INFO 24631 [egg-security] use noopen middleware
+2019-11-11 17:00:58,035 INFO 24631 [egg-security] use nosniff middleware
+2019-11-11 17:00:58,036 INFO 24631 [egg-security] use xssProtection middleware
+2019-11-11 17:00:58,036 INFO 24631 [egg-security] use xframe middleware
+2019-11-11 17:00:58,036 INFO 24631 [egg-security] use dta middleware
+2019-11-11 17:00:58,036 INFO 24631 [egg-security] compose 7 middlewares into one security middleware
+2019-11-11 17:00:58,043 INFO 24631 [egg:core] dump config after load, 4ms
+2019-11-11 17:00:58,069 INFO 24631 [egg-watcher:application] watcher start success
+2019-11-11 17:00:58,100 INFO 24631 [egg:core] dump config after ready, 4ms
+2019-11-11 17:01:02,709 INFO 24656 [egg:logger] init all loggers with options: {"dir":"/Users/lirunkai/Documents/website/server/logs/server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-11-11 17:01:02,734 INFO 24656 [egg-multipart] file mode enable
+2019-11-11 17:01:02,734 INFO 24656 [egg-multipart] will save temporary files to "/var/folders/ft/dwy4mw895mj7f2c6dl17qry00000gn/T/egg-multipart-tmp/server", cleanup job cron: "0 30 4 * * *"
+2019-11-11 17:01:02,940 INFO 24656 [egg-static] starting static serve /public/ -> /Users/lirunkai/Documents/website/server/app/public
+2019-11-11 17:01:02,942 INFO 24656 [egg-security] use csrf middleware
+2019-11-11 17:01:02,942 INFO 24656 [egg-security] use methodnoallow middleware
+2019-11-11 17:01:02,943 INFO 24656 [egg-security] use noopen middleware
+2019-11-11 17:01:02,943 INFO 24656 [egg-security] use nosniff middleware
+2019-11-11 17:01:02,943 INFO 24656 [egg-security] use xssProtection middleware
+2019-11-11 17:01:02,943 INFO 24656 [egg-security] use xframe middleware
+2019-11-11 17:01:02,944 INFO 24656 [egg-security] use dta middleware
+2019-11-11 17:01:02,944 INFO 24656 [egg-security] compose 7 middlewares into one security middleware
+2019-11-11 17:01:02,951 INFO 24656 [egg:core] dump config after load, 4ms
+2019-11-11 17:01:02,973 INFO 24656 [egg-watcher:application] watcher start success
+2019-11-11 17:01:03,008 INFO 24656 [egg:core] dump config after ready, 3ms
+2019-11-11 17:01:05,441 INFO 24673 [egg:logger] init all loggers with options: {"dir":"/Users/lirunkai/Documents/website/server/logs/server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-11-11 17:01:05,465 INFO 24673 [egg-multipart] file mode enable
+2019-11-11 17:01:05,465 INFO 24673 [egg-multipart] will save temporary files to "/var/folders/ft/dwy4mw895mj7f2c6dl17qry00000gn/T/egg-multipart-tmp/server", cleanup job cron: "0 30 4 * * *"
+2019-11-11 17:01:05,673 INFO 24673 [egg-static] starting static serve /public/ -> /Users/lirunkai/Documents/website/server/app/public
+2019-11-11 17:01:05,675 INFO 24673 [egg-security] use csrf middleware
+2019-11-11 17:01:05,676 INFO 24673 [egg-security] use methodnoallow middleware
+2019-11-11 17:01:05,676 INFO 24673 [egg-security] use noopen middleware
+2019-11-11 17:01:05,676 INFO 24673 [egg-security] use nosniff middleware
+2019-11-11 17:01:05,677 INFO 24673 [egg-security] use xssProtection middleware
+2019-11-11 17:01:05,677 INFO 24673 [egg-security] use xframe middleware
+2019-11-11 17:01:05,677 INFO 24673 [egg-security] use dta middleware
+2019-11-11 17:01:05,677 INFO 24673 [egg-security] compose 7 middlewares into one security middleware
+2019-11-11 17:01:05,685 INFO 24673 [egg:core] dump config after load, 5ms
+2019-11-11 17:01:05,708 INFO 24673 [egg-watcher:application] watcher start success
+2019-11-11 17:01:05,744 INFO 24673 [egg:core] dump config after ready, 4ms
+2019-11-11 17:01:13,586 INFO 24702 [egg:logger] init all loggers with options: {"dir":"/Users/lirunkai/Documents/website/server/logs/server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-11-11 17:01:13,612 INFO 24702 [egg-multipart] file mode enable
+2019-11-11 17:01:13,612 INFO 24702 [egg-multipart] will save temporary files to "/var/folders/ft/dwy4mw895mj7f2c6dl17qry00000gn/T/egg-multipart-tmp/server", cleanup job cron: "0 30 4 * * *"
+2019-11-11 17:01:13,828 INFO 24702 [egg-static] starting static serve /public/ -> /Users/lirunkai/Documents/website/server/app/public
+2019-11-11 17:01:13,830 INFO 24702 [egg-security] use csrf middleware
+2019-11-11 17:01:13,830 INFO 24702 [egg-security] use methodnoallow middleware
+2019-11-11 17:01:13,831 INFO 24702 [egg-security] use noopen middleware
+2019-11-11 17:01:13,831 INFO 24702 [egg-security] use nosniff middleware
+2019-11-11 17:01:13,831 INFO 24702 [egg-security] use xssProtection middleware
+2019-11-11 17:01:13,831 INFO 24702 [egg-security] use xframe middleware
+2019-11-11 17:01:13,832 INFO 24702 [egg-security] use dta middleware
+2019-11-11 17:01:13,832 INFO 24702 [egg-security] compose 7 middlewares into one security middleware
+2019-11-11 17:01:13,839 INFO 24702 [egg:core] dump config after load, 4ms
+2019-11-11 17:01:13,877 INFO 24702 [egg-watcher:application] watcher start success
+2019-11-11 17:01:13,901 INFO 24702 [egg:core] dump config after ready, 4ms
+2019-11-11 17:09:44,258 INFO 25513 [egg:logger] init all loggers with options: {"dir":"/Users/lirunkai/Documents/website/server/logs/server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-11-11 17:09:44,285 INFO 25513 [egg-multipart] file mode enable
+2019-11-11 17:09:44,285 INFO 25513 [egg-multipart] will save temporary files to "/var/folders/ft/dwy4mw895mj7f2c6dl17qry00000gn/T/egg-multipart-tmp/server", cleanup job cron: "0 30 4 * * *"
+2019-11-11 17:09:44,497 INFO 25513 [egg-static] starting static serve /public/ -> /Users/lirunkai/Documents/website/server/app/public
+2019-11-11 17:09:44,499 INFO 25513 [egg-security] use csrf middleware
+2019-11-11 17:09:44,500 INFO 25513 [egg-security] use methodnoallow middleware
+2019-11-11 17:09:44,500 INFO 25513 [egg-security] use noopen middleware
+2019-11-11 17:09:44,500 INFO 25513 [egg-security] use nosniff middleware
+2019-11-11 17:09:44,501 INFO 25513 [egg-security] use xssProtection middleware
+2019-11-11 17:09:44,501 INFO 25513 [egg-security] use xframe middleware
+2019-11-11 17:09:44,501 INFO 25513 [egg-security] use dta middleware
+2019-11-11 17:09:44,501 INFO 25513 [egg-security] compose 7 middlewares into one security middleware
+2019-11-11 17:09:44,510 INFO 25513 [egg:core] dump config after load, 5ms
+2019-11-11 17:09:44,535 INFO 25513 [egg-watcher:application] watcher start success
+2019-11-11 17:09:44,586 INFO 25513 [egg:core] dump config after ready, 7ms
+2019-11-11 17:09:45,093 INFO 25521 [egg:logger] init all loggers with options: {"dir":"/Users/lirunkai/Documents/website/server/logs/server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-11-11 17:09:45,120 INFO 25521 [egg-multipart] file mode enable
+2019-11-11 17:09:45,120 INFO 25521 [egg-multipart] will save temporary files to "/var/folders/ft/dwy4mw895mj7f2c6dl17qry00000gn/T/egg-multipart-tmp/server", cleanup job cron: "0 30 4 * * *"
+2019-11-11 17:09:45,333 INFO 25521 [egg-static] starting static serve /public/ -> /Users/lirunkai/Documents/website/server/app/public
+2019-11-11 17:09:45,335 INFO 25521 [egg-security] use csrf middleware
+2019-11-11 17:09:45,336 INFO 25521 [egg-security] use methodnoallow middleware
+2019-11-11 17:09:45,336 INFO 25521 [egg-security] use noopen middleware
+2019-11-11 17:09:45,336 INFO 25521 [egg-security] use nosniff middleware
+2019-11-11 17:09:45,337 INFO 25521 [egg-security] use xssProtection middleware
+2019-11-11 17:09:45,337 INFO 25521 [egg-security] use xframe middleware
+2019-11-11 17:09:45,338 INFO 25521 [egg-security] use dta middleware
+2019-11-11 17:09:45,338 INFO 25521 [egg-security] compose 7 middlewares into one security middleware
+2019-11-11 17:09:45,346 INFO 25521 [egg:core] dump config after load, 5ms
+2019-11-11 17:09:45,373 INFO 25521 [egg-watcher:application] watcher start success
+2019-11-11 17:09:45,407 INFO 25521 [egg:core] dump config after ready, 4ms
+2019-11-11 17:09:53,059 INFO 25547 [egg:logger] init all loggers with options: {"dir":"/Users/lirunkai/Documents/website/server/logs/server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-11-11 17:09:53,086 INFO 25547 [egg-multipart] file mode enable
+2019-11-11 17:09:53,086 INFO 25547 [egg-multipart] will save temporary files to "/var/folders/ft/dwy4mw895mj7f2c6dl17qry00000gn/T/egg-multipart-tmp/server", cleanup job cron: "0 30 4 * * *"
+2019-11-11 17:09:53,287 INFO 25547 [egg-static] starting static serve /public/ -> /Users/lirunkai/Documents/website/server/app/public
+2019-11-11 17:09:53,289 INFO 25547 [egg-security] use csrf middleware
+2019-11-11 17:09:53,289 INFO 25547 [egg-security] use methodnoallow middleware
+2019-11-11 17:09:53,289 INFO 25547 [egg-security] use noopen middleware
+2019-11-11 17:09:53,290 INFO 25547 [egg-security] use nosniff middleware
+2019-11-11 17:09:53,290 INFO 25547 [egg-security] use xssProtection middleware
+2019-11-11 17:09:53,290 INFO 25547 [egg-security] use xframe middleware
+2019-11-11 17:09:53,290 INFO 25547 [egg-security] use dta middleware
+2019-11-11 17:09:53,290 INFO 25547 [egg-security] compose 7 middlewares into one security middleware
+2019-11-11 17:09:53,299 INFO 25547 [egg:core] dump config after load, 4ms
+2019-11-11 17:09:53,335 INFO 25547 [egg-watcher:application] watcher start success
+2019-11-11 17:09:53,358 INFO 25547 [egg:core] dump config after ready, 4ms
+2019-11-11 22:21:51,219 INFO 50581 [egg:logger] init all loggers with options: {"dir":"/Users/lirunkai/Documents/website/server/logs/server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-11-11 22:21:51,243 INFO 50581 [egg-multipart] file mode enable
+2019-11-11 22:21:51,243 INFO 50581 [egg-multipart] will save temporary files to "/var/folders/ft/dwy4mw895mj7f2c6dl17qry00000gn/T/egg-multipart-tmp/server", cleanup job cron: "0 30 4 * * *"
+2019-11-11 22:21:51,479 INFO 50581 [egg-static] starting static serve /public/ -> /Users/lirunkai/Documents/website/server/app/public
+2019-11-11 22:21:51,482 INFO 50581 [egg-security] use csrf middleware
+2019-11-11 22:21:51,482 INFO 50581 [egg-security] use methodnoallow middleware
+2019-11-11 22:21:51,483 INFO 50581 [egg-security] use noopen middleware
+2019-11-11 22:21:51,484 INFO 50581 [egg-security] use nosniff middleware
+2019-11-11 22:21:51,484 INFO 50581 [egg-security] use xssProtection middleware
+2019-11-11 22:21:51,485 INFO 50581 [egg-security] use xframe middleware
+2019-11-11 22:21:51,486 INFO 50581 [egg-security] use dta middleware
+2019-11-11 22:21:51,486 INFO 50581 [egg-security] compose 7 middlewares into one security middleware
+2019-11-11 22:21:51,495 INFO 50581 [egg:core] dump config after load, 5ms
+2019-11-11 22:21:51,532 INFO 50581 [egg-watcher:application] watcher start success
+2019-11-11 22:21:51,558 INFO 50581 [egg:core] dump config after ready, 5ms
+2019-11-11 22:58:31,495 INFO 53182 [egg:logger] init all loggers with options: {"dir":"/Users/lirunkai/Documents/website/server/logs/server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-11-11 22:58:31,528 INFO 53182 [egg-multipart] file mode enable
+2019-11-11 22:58:31,528 INFO 53182 [egg-multipart] will save temporary files to "/var/folders/ft/dwy4mw895mj7f2c6dl17qry00000gn/T/egg-multipart-tmp/server", cleanup job cron: "0 30 4 * * *"
+2019-11-11 22:58:31,876 INFO 53182 [egg-static] starting static serve /public/ -> /Users/lirunkai/Documents/website/server/app/public
+2019-11-11 22:58:31,878 INFO 53182 [egg-security] use csrf middleware
+2019-11-11 22:58:31,879 INFO 53182 [egg-security] use methodnoallow middleware
+2019-11-11 22:58:31,879 INFO 53182 [egg-security] use noopen middleware
+2019-11-11 22:58:31,880 INFO 53182 [egg-security] use nosniff middleware
+2019-11-11 22:58:31,880 INFO 53182 [egg-security] use xssProtection middleware
+2019-11-11 22:58:31,881 INFO 53182 [egg-security] use xframe middleware
+2019-11-11 22:58:31,881 INFO 53182 [egg-security] use dta middleware
+2019-11-11 22:58:31,881 INFO 53182 [egg-security] compose 7 middlewares into one security middleware
+2019-11-11 22:58:31,892 INFO 53182 [egg:core] dump config after load, 5ms
+2019-11-11 22:58:31,915 INFO 53182 [egg-watcher:application] watcher start success
+2019-11-11 22:58:31,957 INFO 53182 [egg:core] dump config after ready, 5ms
+2019-11-11 22:58:37,121 INFO 53208 [egg:logger] init all loggers with options: {"dir":"/Users/lirunkai/Documents/website/server/logs/server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-11-11 22:58:37,147 INFO 53208 [egg-multipart] file mode enable
+2019-11-11 22:58:37,147 INFO 53208 [egg-multipart] will save temporary files to "/var/folders/ft/dwy4mw895mj7f2c6dl17qry00000gn/T/egg-multipart-tmp/server", cleanup job cron: "0 30 4 * * *"
+2019-11-11 22:58:37,360 INFO 53208 [egg-static] starting static serve /public/ -> /Users/lirunkai/Documents/website/server/app/public
+2019-11-11 22:58:37,362 INFO 53208 [egg-security] use csrf middleware
+2019-11-11 22:58:37,362 INFO 53208 [egg-security] use methodnoallow middleware
+2019-11-11 22:58:37,362 INFO 53208 [egg-security] use noopen middleware
+2019-11-11 22:58:37,363 INFO 53208 [egg-security] use nosniff middleware
+2019-11-11 22:58:37,363 INFO 53208 [egg-security] use xssProtection middleware
+2019-11-11 22:58:37,363 INFO 53208 [egg-security] use xframe middleware
+2019-11-11 22:58:37,363 INFO 53208 [egg-security] use dta middleware
+2019-11-11 22:58:37,363 INFO 53208 [egg-security] compose 7 middlewares into one security middleware
+2019-11-11 22:58:37,370 INFO 53208 [egg:core] dump config after load, 4ms
+2019-11-11 22:58:37,395 INFO 53208 [egg-watcher:application] watcher start success
+2019-11-11 22:58:37,430 INFO 53208 [egg:core] dump config after ready, 4ms
+2019-11-11 22:59:21,737 INFO 53348 [egg:logger] init all loggers with options: {"dir":"/Users/lirunkai/Documents/website/server/logs/server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-11-11 22:59:21,768 INFO 53348 [egg-multipart] file mode enable
+2019-11-11 22:59:21,768 INFO 53348 [egg-multipart] will save temporary files to "/var/folders/ft/dwy4mw895mj7f2c6dl17qry00000gn/T/egg-multipart-tmp/server", cleanup job cron: "0 30 4 * * *"
+2019-11-11 22:59:22,015 INFO 53348 [egg-static] starting static serve /public/ -> /Users/lirunkai/Documents/website/server/app/public
+2019-11-11 22:59:22,018 INFO 53348 [egg-security] use csrf middleware
+2019-11-11 22:59:22,019 INFO 53348 [egg-security] use methodnoallow middleware
+2019-11-11 22:59:22,019 INFO 53348 [egg-security] use noopen middleware
+2019-11-11 22:59:22,019 INFO 53348 [egg-security] use nosniff middleware
+2019-11-11 22:59:22,020 INFO 53348 [egg-security] use xssProtection middleware
+2019-11-11 22:59:22,020 INFO 53348 [egg-security] use xframe middleware
+2019-11-11 22:59:22,020 INFO 53348 [egg-security] use dta middleware
+2019-11-11 22:59:22,020 INFO 53348 [egg-security] compose 7 middlewares into one security middleware
+2019-11-11 22:59:22,029 INFO 53348 [egg:core] dump config after load, 5ms
+2019-11-11 22:59:22,055 INFO 53348 [egg-watcher:application] watcher start success
+2019-11-11 22:59:22,100 INFO 53348 [egg:core] dump config after ready, 5ms
+2019-11-11 22:59:26,960 INFO 53392 [egg:logger] init all loggers with options: {"dir":"/Users/lirunkai/Documents/website/server/logs/server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-11-11 22:59:26,983 INFO 53392 [egg-multipart] file mode enable
+2019-11-11 22:59:26,983 INFO 53392 [egg-multipart] will save temporary files to "/var/folders/ft/dwy4mw895mj7f2c6dl17qry00000gn/T/egg-multipart-tmp/server", cleanup job cron: "0 30 4 * * *"
+2019-11-11 22:59:27,182 INFO 53392 [egg-static] starting static serve /public/ -> /Users/lirunkai/Documents/website/server/app/public
+2019-11-11 22:59:27,184 INFO 53392 [egg-security] use csrf middleware
+2019-11-11 22:59:27,184 INFO 53392 [egg-security] use methodnoallow middleware
+2019-11-11 22:59:27,185 INFO 53392 [egg-security] use noopen middleware
+2019-11-11 22:59:27,185 INFO 53392 [egg-security] use nosniff middleware
+2019-11-11 22:59:27,185 INFO 53392 [egg-security] use xssProtection middleware
+2019-11-11 22:59:27,185 INFO 53392 [egg-security] use xframe middleware
+2019-11-11 22:59:27,186 INFO 53392 [egg-security] use dta middleware
+2019-11-11 22:59:27,186 INFO 53392 [egg-security] compose 7 middlewares into one security middleware
+2019-11-11 22:59:27,192 INFO 53392 [egg:core] dump config after load, 4ms
+2019-11-11 22:59:27,225 INFO 53392 [egg-watcher:application] watcher start success
+2019-11-11 22:59:27,248 INFO 53392 [egg:core] dump config after ready, 4ms
+2019-11-11 22:59:55,844 INFO 53462 [egg:logger] init all loggers with options: {"dir":"/Users/lirunkai/Documents/website/server/logs/server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-11-11 22:59:55,869 INFO 53462 [egg-multipart] file mode enable
+2019-11-11 22:59:55,869 INFO 53462 [egg-multipart] will save temporary files to "/var/folders/ft/dwy4mw895mj7f2c6dl17qry00000gn/T/egg-multipart-tmp/server", cleanup job cron: "0 30 4 * * *"
+2019-11-11 22:59:56,084 INFO 53462 [egg-static] starting static serve /public/ -> /Users/lirunkai/Documents/website/server/app/public
+2019-11-11 22:59:56,086 INFO 53462 [egg-security] use csrf middleware
+2019-11-11 22:59:56,086 INFO 53462 [egg-security] use methodnoallow middleware
+2019-11-11 22:59:56,087 INFO 53462 [egg-security] use noopen middleware
+2019-11-11 22:59:56,087 INFO 53462 [egg-security] use nosniff middleware
+2019-11-11 22:59:56,087 INFO 53462 [egg-security] use xssProtection middleware
+2019-11-11 22:59:56,087 INFO 53462 [egg-security] use xframe middleware
+2019-11-11 22:59:56,088 INFO 53462 [egg-security] use dta middleware
+2019-11-11 22:59:56,088 INFO 53462 [egg-security] compose 7 middlewares into one security middleware
+2019-11-11 22:59:56,095 INFO 53462 [egg:core] dump config after load, 5ms
+2019-11-11 22:59:56,118 INFO 53462 [egg-watcher:application] watcher start success
+2019-11-11 22:59:56,152 INFO 53462 [egg:core] dump config after ready, 3ms
+2019-11-11 22:59:56,663 INFO 53471 [egg:logger] init all loggers with options: {"dir":"/Users/lirunkai/Documents/website/server/logs/server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-11-11 22:59:56,688 INFO 53471 [egg-multipart] file mode enable
+2019-11-11 22:59:56,688 INFO 53471 [egg-multipart] will save temporary files to "/var/folders/ft/dwy4mw895mj7f2c6dl17qry00000gn/T/egg-multipart-tmp/server", cleanup job cron: "0 30 4 * * *"
+2019-11-11 22:59:56,918 INFO 53471 [egg-static] starting static serve /public/ -> /Users/lirunkai/Documents/website/server/app/public
+2019-11-11 22:59:56,920 INFO 53471 [egg-security] use csrf middleware
+2019-11-11 22:59:56,920 INFO 53471 [egg-security] use methodnoallow middleware
+2019-11-11 22:59:56,920 INFO 53471 [egg-security] use noopen middleware
+2019-11-11 22:59:56,921 INFO 53471 [egg-security] use nosniff middleware
+2019-11-11 22:59:56,921 INFO 53471 [egg-security] use xssProtection middleware
+2019-11-11 22:59:56,921 INFO 53471 [egg-security] use xframe middleware
+2019-11-11 22:59:56,921 INFO 53471 [egg-security] use dta middleware
+2019-11-11 22:59:56,921 INFO 53471 [egg-security] compose 7 middlewares into one security middleware
+2019-11-11 22:59:56,928 INFO 53471 [egg:core] dump config after load, 4ms
+2019-11-11 22:59:56,953 INFO 53471 [egg-watcher:application] watcher start success
+2019-11-11 22:59:56,987 INFO 53471 [egg:core] dump config after ready, 4ms
+2019-11-11 23:00:01,710 INFO 53493 [egg:logger] init all loggers with options: {"dir":"/Users/lirunkai/Documents/website/server/logs/server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-11-11 23:00:01,738 INFO 53493 [egg-multipart] file mode enable
+2019-11-11 23:00:01,738 INFO 53493 [egg-multipart] will save temporary files to "/var/folders/ft/dwy4mw895mj7f2c6dl17qry00000gn/T/egg-multipart-tmp/server", cleanup job cron: "0 30 4 * * *"
+2019-11-11 23:00:01,937 INFO 53493 [egg-static] starting static serve /public/ -> /Users/lirunkai/Documents/website/server/app/public
+2019-11-11 23:00:01,939 INFO 53493 [egg-security] use csrf middleware
+2019-11-11 23:00:01,939 INFO 53493 [egg-security] use methodnoallow middleware
+2019-11-11 23:00:01,940 INFO 53493 [egg-security] use noopen middleware
+2019-11-11 23:00:01,940 INFO 53493 [egg-security] use nosniff middleware
+2019-11-11 23:00:01,940 INFO 53493 [egg-security] use xssProtection middleware
+2019-11-11 23:00:01,940 INFO 53493 [egg-security] use xframe middleware
+2019-11-11 23:00:01,941 INFO 53493 [egg-security] use dta middleware
+2019-11-11 23:00:01,941 INFO 53493 [egg-security] compose 7 middlewares into one security middleware
+2019-11-11 23:00:01,948 INFO 53493 [egg:core] dump config after load, 4ms
+2019-11-11 23:00:01,983 INFO 53493 [egg-watcher:application] watcher start success
+2019-11-11 23:00:02,008 INFO 53493 [egg:core] dump config after ready, 4ms
+2019-11-11 23:00:37,759 INFO 53579 [egg:logger] init all loggers with options: {"dir":"/Users/lirunkai/Documents/website/server/logs/server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-11-11 23:00:37,785 INFO 53579 [egg-multipart] file mode enable
+2019-11-11 23:00:37,785 INFO 53579 [egg-multipart] will save temporary files to "/var/folders/ft/dwy4mw895mj7f2c6dl17qry00000gn/T/egg-multipart-tmp/server", cleanup job cron: "0 30 4 * * *"
+2019-11-11 23:00:38,037 INFO 53579 [egg-static] starting static serve /public/ -> /Users/lirunkai/Documents/website/server/app/public
+2019-11-11 23:00:38,039 INFO 53579 [egg-security] use csrf middleware
+2019-11-11 23:00:38,039 INFO 53579 [egg-security] use methodnoallow middleware
+2019-11-11 23:00:38,039 INFO 53579 [egg-security] use noopen middleware
+2019-11-11 23:00:38,040 INFO 53579 [egg-security] use nosniff middleware
+2019-11-11 23:00:38,040 INFO 53579 [egg-security] use xssProtection middleware
+2019-11-11 23:00:38,040 INFO 53579 [egg-security] use xframe middleware
+2019-11-11 23:00:38,040 INFO 53579 [egg-security] use dta middleware
+2019-11-11 23:00:38,040 INFO 53579 [egg-security] compose 7 middlewares into one security middleware
+2019-11-11 23:00:38,048 INFO 53579 [egg:core] dump config after load, 4ms
+2019-11-11 23:00:38,073 INFO 53579 [egg-watcher:application] watcher start success
+2019-11-11 23:00:38,111 INFO 53579 [egg:core] dump config after ready, 4ms
+2019-11-11 23:00:47,788 INFO 53613 [egg:logger] init all loggers with options: {"dir":"/Users/lirunkai/Documents/website/server/logs/server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-11-11 23:00:47,812 INFO 53613 [egg-multipart] file mode enable
+2019-11-11 23:00:47,812 INFO 53613 [egg-multipart] will save temporary files to "/var/folders/ft/dwy4mw895mj7f2c6dl17qry00000gn/T/egg-multipart-tmp/server", cleanup job cron: "0 30 4 * * *"
+2019-11-11 23:00:48,016 INFO 53613 [egg-static] starting static serve /public/ -> /Users/lirunkai/Documents/website/server/app/public
+2019-11-11 23:00:48,018 INFO 53613 [egg-security] use csrf middleware
+2019-11-11 23:00:48,019 INFO 53613 [egg-security] use methodnoallow middleware
+2019-11-11 23:00:48,019 INFO 53613 [egg-security] use noopen middleware
+2019-11-11 23:00:48,019 INFO 53613 [egg-security] use nosniff middleware
+2019-11-11 23:00:48,020 INFO 53613 [egg-security] use xssProtection middleware
+2019-11-11 23:00:48,020 INFO 53613 [egg-security] use xframe middleware
+2019-11-11 23:00:48,020 INFO 53613 [egg-security] use dta middleware
+2019-11-11 23:00:48,020 INFO 53613 [egg-security] compose 7 middlewares into one security middleware
+2019-11-11 23:00:48,027 INFO 53613 [egg:core] dump config after load, 4ms
+2019-11-11 23:00:48,060 INFO 53613 [egg-watcher:application] watcher start success
+2019-11-11 23:00:48,083 INFO 53613 [egg:core] dump config after ready, 4ms
+2019-11-11 23:02:39,310 INFO 53834 [egg:logger] init all loggers with options: {"dir":"/Users/lirunkai/Documents/website/server/logs/server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-11-11 23:02:39,334 INFO 53834 [egg-multipart] file mode enable
+2019-11-11 23:02:39,334 INFO 53834 [egg-multipart] will save temporary files to "/var/folders/ft/dwy4mw895mj7f2c6dl17qry00000gn/T/egg-multipart-tmp/server", cleanup job cron: "0 30 4 * * *"
+2019-11-11 23:02:39,537 INFO 53834 [egg-static] starting static serve /public/ -> /Users/lirunkai/Documents/website/server/app/public
+2019-11-11 23:02:39,539 INFO 53834 [egg-security] use csrf middleware
+2019-11-11 23:02:39,540 INFO 53834 [egg-security] use methodnoallow middleware
+2019-11-11 23:02:39,540 INFO 53834 [egg-security] use noopen middleware
+2019-11-11 23:02:39,541 INFO 53834 [egg-security] use nosniff middleware
+2019-11-11 23:02:39,541 INFO 53834 [egg-security] use xssProtection middleware
+2019-11-11 23:02:39,541 INFO 53834 [egg-security] use xframe middleware
+2019-11-11 23:02:39,541 INFO 53834 [egg-security] use dta middleware
+2019-11-11 23:02:39,541 INFO 53834 [egg-security] compose 7 middlewares into one security middleware
+2019-11-11 23:02:39,549 INFO 53834 [egg:core] dump config after load, 5ms
+2019-11-11 23:02:39,573 INFO 53834 [egg-watcher:application] watcher start success
+2019-11-11 23:02:39,608 INFO 53834 [egg:core] dump config after ready, 3ms
+2019-11-11 23:02:46,422 INFO 53870 [egg:logger] init all loggers with options: {"dir":"/Users/lirunkai/Documents/website/server/logs/server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-11-11 23:02:46,449 INFO 53870 [egg-multipart] file mode enable
+2019-11-11 23:02:46,449 INFO 53870 [egg-multipart] will save temporary files to "/var/folders/ft/dwy4mw895mj7f2c6dl17qry00000gn/T/egg-multipart-tmp/server", cleanup job cron: "0 30 4 * * *"
+2019-11-11 23:02:46,692 INFO 53870 [egg-static] starting static serve /public/ -> /Users/lirunkai/Documents/website/server/app/public
+2019-11-11 23:02:46,695 INFO 53870 [egg-security] use csrf middleware
+2019-11-11 23:02:46,695 INFO 53870 [egg-security] use methodnoallow middleware
+2019-11-11 23:02:46,695 INFO 53870 [egg-security] use noopen middleware
+2019-11-11 23:02:46,696 INFO 53870 [egg-security] use nosniff middleware
+2019-11-11 23:02:46,696 INFO 53870 [egg-security] use xssProtection middleware
+2019-11-11 23:02:46,696 INFO 53870 [egg-security] use xframe middleware
+2019-11-11 23:02:46,696 INFO 53870 [egg-security] use dta middleware
+2019-11-11 23:02:46,696 INFO 53870 [egg-security] compose 7 middlewares into one security middleware
+2019-11-11 23:02:46,704 INFO 53870 [egg:core] dump config after load, 5ms
+2019-11-11 23:02:46,730 INFO 53870 [egg-watcher:application] watcher start success
+2019-11-11 23:02:46,769 INFO 53870 [egg:core] dump config after ready, 5ms
+2019-11-11 23:02:50,564 INFO 53896 [egg:logger] init all loggers with options: {"dir":"/Users/lirunkai/Documents/website/server/logs/server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-11-11 23:02:50,588 INFO 53896 [egg-multipart] file mode enable
+2019-11-11 23:02:50,588 INFO 53896 [egg-multipart] will save temporary files to "/var/folders/ft/dwy4mw895mj7f2c6dl17qry00000gn/T/egg-multipart-tmp/server", cleanup job cron: "0 30 4 * * *"
+2019-11-11 23:02:50,799 INFO 53896 [egg-static] starting static serve /public/ -> /Users/lirunkai/Documents/website/server/app/public
+2019-11-11 23:02:50,802 INFO 53896 [egg-security] use csrf middleware
+2019-11-11 23:02:50,802 INFO 53896 [egg-security] use methodnoallow middleware
+2019-11-11 23:02:50,802 INFO 53896 [egg-security] use noopen middleware
+2019-11-11 23:02:50,803 INFO 53896 [egg-security] use nosniff middleware
+2019-11-11 23:02:50,803 INFO 53896 [egg-security] use xssProtection middleware
+2019-11-11 23:02:50,803 INFO 53896 [egg-security] use xframe middleware
+2019-11-11 23:02:50,803 INFO 53896 [egg-security] use dta middleware
+2019-11-11 23:02:50,803 INFO 53896 [egg-security] compose 7 middlewares into one security middleware
+2019-11-11 23:02:50,811 INFO 53896 [egg:core] dump config after load, 5ms
+2019-11-11 23:02:50,845 INFO 53896 [egg-watcher:application] watcher start success
+2019-11-11 23:02:50,868 INFO 53896 [egg:core] dump config after ready, 4ms
+2019-11-11 23:03:31,313 INFO 54023 [egg:logger] init all loggers with options: {"dir":"/Users/lirunkai/Documents/website/server/logs/server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-11-11 23:03:31,340 INFO 54023 [egg-multipart] file mode enable
+2019-11-11 23:03:31,340 INFO 54023 [egg-multipart] will save temporary files to "/var/folders/ft/dwy4mw895mj7f2c6dl17qry00000gn/T/egg-multipart-tmp/server", cleanup job cron: "0 30 4 * * *"
+2019-11-11 23:03:31,562 INFO 54023 [egg-static] starting static serve /public/ -> /Users/lirunkai/Documents/website/server/app/public
+2019-11-11 23:03:31,564 INFO 54023 [egg-security] use csrf middleware
+2019-11-11 23:03:31,564 INFO 54023 [egg-security] use methodnoallow middleware
+2019-11-11 23:03:31,564 INFO 54023 [egg-security] use noopen middleware
+2019-11-11 23:03:31,565 INFO 54023 [egg-security] use nosniff middleware
+2019-11-11 23:03:31,565 INFO 54023 [egg-security] use xssProtection middleware
+2019-11-11 23:03:31,565 INFO 54023 [egg-security] use xframe middleware
+2019-11-11 23:03:31,566 INFO 54023 [egg-security] use dta middleware
+2019-11-11 23:03:31,566 INFO 54023 [egg-security] compose 7 middlewares into one security middleware
+2019-11-11 23:03:31,574 INFO 54023 [egg:core] dump config after load, 5ms
+2019-11-11 23:03:31,598 INFO 54023 [egg-watcher:application] watcher start success
+2019-11-11 23:03:31,634 INFO 54023 [egg:core] dump config after ready, 4ms
+2019-11-11 23:03:35,528 INFO 54046 [egg:logger] init all loggers with options: {"dir":"/Users/lirunkai/Documents/website/server/logs/server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-11-11 23:03:35,555 INFO 54046 [egg-multipart] file mode enable
+2019-11-11 23:03:35,555 INFO 54046 [egg-multipart] will save temporary files to "/var/folders/ft/dwy4mw895mj7f2c6dl17qry00000gn/T/egg-multipart-tmp/server", cleanup job cron: "0 30 4 * * *"
+2019-11-11 23:03:35,780 INFO 54046 [egg-static] starting static serve /public/ -> /Users/lirunkai/Documents/website/server/app/public
+2019-11-11 23:03:35,783 INFO 54046 [egg-security] use csrf middleware
+2019-11-11 23:03:35,783 INFO 54046 [egg-security] use methodnoallow middleware
+2019-11-11 23:03:35,784 INFO 54046 [egg-security] use noopen middleware
+2019-11-11 23:03:35,784 INFO 54046 [egg-security] use nosniff middleware
+2019-11-11 23:03:35,784 INFO 54046 [egg-security] use xssProtection middleware
+2019-11-11 23:03:35,785 INFO 54046 [egg-security] use xframe middleware
+2019-11-11 23:03:35,785 INFO 54046 [egg-security] use dta middleware
+2019-11-11 23:03:35,785 INFO 54046 [egg-security] compose 7 middlewares into one security middleware
+2019-11-11 23:03:35,792 INFO 54046 [egg:core] dump config after load, 4ms
+2019-11-11 23:03:35,815 INFO 54046 [egg-watcher:application] watcher start success
+2019-11-11 23:03:35,851 INFO 54046 [egg:core] dump config after ready, 5ms
+2019-11-11 23:03:46,589 INFO 54085 [egg:logger] init all loggers with options: {"dir":"/Users/lirunkai/Documents/website/server/logs/server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-11-11 23:03:46,620 INFO 54085 [egg-multipart] file mode enable
+2019-11-11 23:03:46,620 INFO 54085 [egg-multipart] will save temporary files to "/var/folders/ft/dwy4mw895mj7f2c6dl17qry00000gn/T/egg-multipart-tmp/server", cleanup job cron: "0 30 4 * * *"
+2019-11-11 23:03:46,868 INFO 54085 [egg-static] starting static serve /public/ -> /Users/lirunkai/Documents/website/server/app/public
+2019-11-11 23:03:46,871 INFO 54085 [egg-security] use csrf middleware
+2019-11-11 23:03:46,871 INFO 54085 [egg-security] use methodnoallow middleware
+2019-11-11 23:03:46,871 INFO 54085 [egg-security] use noopen middleware
+2019-11-11 23:03:46,872 INFO 54085 [egg-security] use nosniff middleware
+2019-11-11 23:03:46,872 INFO 54085 [egg-security] use xssProtection middleware
+2019-11-11 23:03:46,872 INFO 54085 [egg-security] use xframe middleware
+2019-11-11 23:03:46,872 INFO 54085 [egg-security] use dta middleware
+2019-11-11 23:03:46,872 INFO 54085 [egg-security] compose 7 middlewares into one security middleware
+2019-11-11 23:03:46,880 INFO 54085 [egg:core] dump config after load, 4ms
+2019-11-11 23:03:46,906 INFO 54085 [egg-watcher:application] watcher start success
+2019-11-11 23:03:46,952 INFO 54085 [egg:core] dump config after ready, 5ms
+2019-11-11 23:03:52,607 INFO 54116 [egg:logger] init all loggers with options: {"dir":"/Users/lirunkai/Documents/website/server/logs/server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-11-11 23:03:52,632 INFO 54116 [egg-multipart] file mode enable
+2019-11-11 23:03:52,632 INFO 54116 [egg-multipart] will save temporary files to "/var/folders/ft/dwy4mw895mj7f2c6dl17qry00000gn/T/egg-multipart-tmp/server", cleanup job cron: "0 30 4 * * *"
+2019-11-11 23:03:52,836 INFO 54116 [egg-static] starting static serve /public/ -> /Users/lirunkai/Documents/website/server/app/public
+2019-11-11 23:03:52,838 INFO 54116 [egg-security] use csrf middleware
+2019-11-11 23:03:52,838 INFO 54116 [egg-security] use methodnoallow middleware
+2019-11-11 23:03:52,838 INFO 54116 [egg-security] use noopen middleware
+2019-11-11 23:03:52,839 INFO 54116 [egg-security] use nosniff middleware
+2019-11-11 23:03:52,839 INFO 54116 [egg-security] use xssProtection middleware
+2019-11-11 23:03:52,839 INFO 54116 [egg-security] use xframe middleware
+2019-11-11 23:03:52,839 INFO 54116 [egg-security] use dta middleware
+2019-11-11 23:03:52,839 INFO 54116 [egg-security] compose 7 middlewares into one security middleware
+2019-11-11 23:03:52,847 INFO 54116 [egg:core] dump config after load, 4ms
+2019-11-11 23:03:52,871 INFO 54116 [egg-watcher:application] watcher start success
+2019-11-11 23:03:52,904 INFO 54116 [egg:core] dump config after ready, 3ms
+2019-11-11 23:04:05,452 INFO 54178 [egg:logger] init all loggers with options: {"dir":"/Users/lirunkai/Documents/website/server/logs/server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-11-11 23:04:05,477 INFO 54178 [egg-multipart] file mode enable
+2019-11-11 23:04:05,477 INFO 54178 [egg-multipart] will save temporary files to "/var/folders/ft/dwy4mw895mj7f2c6dl17qry00000gn/T/egg-multipart-tmp/server", cleanup job cron: "0 30 4 * * *"
+2019-11-11 23:04:05,688 INFO 54178 [egg-static] starting static serve /public/ -> /Users/lirunkai/Documents/website/server/app/public
+2019-11-11 23:04:05,690 INFO 54178 [egg-security] use csrf middleware
+2019-11-11 23:04:05,691 INFO 54178 [egg-security] use methodnoallow middleware
+2019-11-11 23:04:05,691 INFO 54178 [egg-security] use noopen middleware
+2019-11-11 23:04:05,691 INFO 54178 [egg-security] use nosniff middleware
+2019-11-11 23:04:05,692 INFO 54178 [egg-security] use xssProtection middleware
+2019-11-11 23:04:05,692 INFO 54178 [egg-security] use xframe middleware
+2019-11-11 23:04:05,692 INFO 54178 [egg-security] use dta middleware
+2019-11-11 23:04:05,692 INFO 54178 [egg-security] compose 7 middlewares into one security middleware
+2019-11-11 23:04:05,700 INFO 54178 [egg:core] dump config after load, 5ms
+2019-11-11 23:04:05,724 INFO 54178 [egg-watcher:application] watcher start success
+2019-11-11 23:04:05,757 INFO 54178 [egg:core] dump config after ready, 4ms
+2019-11-11 23:04:15,399 INFO 54205 [egg:logger] init all loggers with options: {"dir":"/Users/lirunkai/Documents/website/server/logs/server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-11-11 23:04:15,424 INFO 54205 [egg-multipart] file mode enable
+2019-11-11 23:04:15,424 INFO 54205 [egg-multipart] will save temporary files to "/var/folders/ft/dwy4mw895mj7f2c6dl17qry00000gn/T/egg-multipart-tmp/server", cleanup job cron: "0 30 4 * * *"
+2019-11-11 23:04:15,629 INFO 54205 [egg-static] starting static serve /public/ -> /Users/lirunkai/Documents/website/server/app/public
+2019-11-11 23:04:15,631 INFO 54205 [egg-security] use csrf middleware
+2019-11-11 23:04:15,632 INFO 54205 [egg-security] use methodnoallow middleware
+2019-11-11 23:04:15,632 INFO 54205 [egg-security] use noopen middleware
+2019-11-11 23:04:15,632 INFO 54205 [egg-security] use nosniff middleware
+2019-11-11 23:04:15,632 INFO 54205 [egg-security] use xssProtection middleware
+2019-11-11 23:04:15,633 INFO 54205 [egg-security] use xframe middleware
+2019-11-11 23:04:15,633 INFO 54205 [egg-security] use dta middleware
+2019-11-11 23:04:15,633 INFO 54205 [egg-security] compose 7 middlewares into one security middleware
+2019-11-11 23:04:15,640 INFO 54205 [egg:core] dump config after load, 4ms
+2019-11-11 23:04:15,662 INFO 54205 [egg-watcher:application] watcher start success
+2019-11-11 23:04:15,696 INFO 54205 [egg:core] dump config after ready, 4ms
+2019-11-11 23:11:59,747 INFO 54830 [egg:logger] init all loggers with options: {"dir":"/Users/lirunkai/Documents/website/server/logs/server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-11-11 23:11:59,773 INFO 54830 [egg-multipart] file mode enable
+2019-11-11 23:11:59,773 INFO 54830 [egg-multipart] will save temporary files to "/var/folders/ft/dwy4mw895mj7f2c6dl17qry00000gn/T/egg-multipart-tmp/server", cleanup job cron: "0 30 4 * * *"
+2019-11-11 23:11:59,986 INFO 54830 [egg-static] starting static serve /public/ -> /Users/lirunkai/Documents/website/server/app/public
+2019-11-11 23:11:59,988 INFO 54830 [egg-security] use csrf middleware
+2019-11-11 23:11:59,989 INFO 54830 [egg-security] use methodnoallow middleware
+2019-11-11 23:11:59,989 INFO 54830 [egg-security] use noopen middleware
+2019-11-11 23:11:59,989 INFO 54830 [egg-security] use nosniff middleware
+2019-11-11 23:11:59,990 INFO 54830 [egg-security] use xssProtection middleware
+2019-11-11 23:11:59,990 INFO 54830 [egg-security] use xframe middleware
+2019-11-11 23:11:59,990 INFO 54830 [egg-security] use dta middleware
+2019-11-11 23:11:59,990 INFO 54830 [egg-security] compose 7 middlewares into one security middleware
+2019-11-11 23:11:59,998 INFO 54830 [egg:core] dump config after load, 5ms
+2019-11-11 23:12:00,025 INFO 54830 [egg-watcher:application] watcher start success
+2019-11-11 23:12:00,061 INFO 54830 [egg:core] dump config after ready, 4ms
+2019-11-11 23:12:08,482 INFO 54867 [egg:logger] init all loggers with options: {"dir":"/Users/lirunkai/Documents/website/server/logs/server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-11-11 23:12:08,507 INFO 54867 [egg-multipart] file mode enable
+2019-11-11 23:12:08,507 INFO 54867 [egg-multipart] will save temporary files to "/var/folders/ft/dwy4mw895mj7f2c6dl17qry00000gn/T/egg-multipart-tmp/server", cleanup job cron: "0 30 4 * * *"
+2019-11-11 23:12:08,713 INFO 54867 [egg-static] starting static serve /public/ -> /Users/lirunkai/Documents/website/server/app/public
+2019-11-11 23:12:08,715 INFO 54867 [egg-security] use csrf middleware
+2019-11-11 23:12:08,716 INFO 54867 [egg-security] use methodnoallow middleware
+2019-11-11 23:12:08,716 INFO 54867 [egg-security] use noopen middleware
+2019-11-11 23:12:08,716 INFO 54867 [egg-security] use nosniff middleware
+2019-11-11 23:12:08,716 INFO 54867 [egg-security] use xssProtection middleware
+2019-11-11 23:12:08,717 INFO 54867 [egg-security] use xframe middleware
+2019-11-11 23:12:08,717 INFO 54867 [egg-security] use dta middleware
+2019-11-11 23:12:08,717 INFO 54867 [egg-security] compose 7 middlewares into one security middleware
+2019-11-11 23:12:08,725 INFO 54867 [egg:core] dump config after load, 4ms
+2019-11-11 23:12:08,747 INFO 54867 [egg-watcher:application] watcher start success
+2019-11-11 23:12:08,782 INFO 54867 [egg:core] dump config after ready, 4ms
+2019-11-11 23:12:12,915 INFO 54893 [egg:logger] init all loggers with options: {"dir":"/Users/lirunkai/Documents/website/server/logs/server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-11-11 23:12:12,940 INFO 54893 [egg-multipart] file mode enable
+2019-11-11 23:12:12,940 INFO 54893 [egg-multipart] will save temporary files to "/var/folders/ft/dwy4mw895mj7f2c6dl17qry00000gn/T/egg-multipart-tmp/server", cleanup job cron: "0 30 4 * * *"
+2019-11-11 23:12:13,143 INFO 54893 [egg-static] starting static serve /public/ -> /Users/lirunkai/Documents/website/server/app/public
+2019-11-11 23:12:13,145 INFO 54893 [egg-security] use csrf middleware
+2019-11-11 23:12:13,146 INFO 54893 [egg-security] use methodnoallow middleware
+2019-11-11 23:12:13,146 INFO 54893 [egg-security] use noopen middleware
+2019-11-11 23:12:13,147 INFO 54893 [egg-security] use nosniff middleware
+2019-11-11 23:12:13,147 INFO 54893 [egg-security] use xssProtection middleware
+2019-11-11 23:12:13,147 INFO 54893 [egg-security] use xframe middleware
+2019-11-11 23:12:13,147 INFO 54893 [egg-security] use dta middleware
+2019-11-11 23:12:13,147 INFO 54893 [egg-security] compose 7 middlewares into one security middleware
+2019-11-11 23:12:13,154 INFO 54893 [egg:core] dump config after load, 4ms
+2019-11-11 23:12:13,177 INFO 54893 [egg-watcher:application] watcher start success
+2019-11-11 23:12:13,211 INFO 54893 [egg:core] dump config after ready, 3ms
+2019-11-11 23:12:17,368 INFO 54914 [egg:logger] init all loggers with options: {"dir":"/Users/lirunkai/Documents/website/server/logs/server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-11-11 23:12:17,400 INFO 54914 [egg-multipart] file mode enable
+2019-11-11 23:12:17,400 INFO 54914 [egg-multipart] will save temporary files to "/var/folders/ft/dwy4mw895mj7f2c6dl17qry00000gn/T/egg-multipart-tmp/server", cleanup job cron: "0 30 4 * * *"
+2019-11-11 23:12:17,628 INFO 54914 [egg-static] starting static serve /public/ -> /Users/lirunkai/Documents/website/server/app/public
+2019-11-11 23:12:17,630 INFO 54914 [egg-security] use csrf middleware
+2019-11-11 23:12:17,630 INFO 54914 [egg-security] use methodnoallow middleware
+2019-11-11 23:12:17,631 INFO 54914 [egg-security] use noopen middleware
+2019-11-11 23:12:17,631 INFO 54914 [egg-security] use nosniff middleware
+2019-11-11 23:12:17,631 INFO 54914 [egg-security] use xssProtection middleware
+2019-11-11 23:12:17,631 INFO 54914 [egg-security] use xframe middleware
+2019-11-11 23:12:17,632 INFO 54914 [egg-security] use dta middleware
+2019-11-11 23:12:17,632 INFO 54914 [egg-security] compose 7 middlewares into one security middleware
+2019-11-11 23:12:17,639 INFO 54914 [egg:core] dump config after load, 4ms
+2019-11-11 23:12:17,661 INFO 54914 [egg-watcher:application] watcher start success
+2019-11-11 23:12:17,700 INFO 54914 [egg:core] dump config after ready, 4ms
+2019-11-11 23:12:21,003 INFO 54929 [egg:logger] init all loggers with options: {"dir":"/Users/lirunkai/Documents/website/server/logs/server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-11-11 23:12:21,029 INFO 54929 [egg-multipart] file mode enable
+2019-11-11 23:12:21,029 INFO 54929 [egg-multipart] will save temporary files to "/var/folders/ft/dwy4mw895mj7f2c6dl17qry00000gn/T/egg-multipart-tmp/server", cleanup job cron: "0 30 4 * * *"
+2019-11-11 23:12:21,239 INFO 54929 [egg-static] starting static serve /public/ -> /Users/lirunkai/Documents/website/server/app/public
+2019-11-11 23:12:21,241 INFO 54929 [egg-security] use csrf middleware
+2019-11-11 23:12:21,242 INFO 54929 [egg-security] use methodnoallow middleware
+2019-11-11 23:12:21,242 INFO 54929 [egg-security] use noopen middleware
+2019-11-11 23:12:21,243 INFO 54929 [egg-security] use nosniff middleware
+2019-11-11 23:12:21,243 INFO 54929 [egg-security] use xssProtection middleware
+2019-11-11 23:12:21,243 INFO 54929 [egg-security] use xframe middleware
+2019-11-11 23:12:21,244 INFO 54929 [egg-security] use dta middleware
+2019-11-11 23:12:21,244 INFO 54929 [egg-security] compose 7 middlewares into one security middleware
+2019-11-11 23:12:21,254 INFO 54929 [egg:core] dump config after load, 6ms
+2019-11-11 23:12:21,281 INFO 54929 [egg-watcher:application] watcher start success
+2019-11-11 23:12:21,318 INFO 54929 [egg:core] dump config after ready, 4ms
+2019-11-11 23:12:23,635 INFO 54946 [egg:logger] init all loggers with options: {"dir":"/Users/lirunkai/Documents/website/server/logs/server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-11-11 23:12:23,660 INFO 54946 [egg-multipart] file mode enable
+2019-11-11 23:12:23,660 INFO 54946 [egg-multipart] will save temporary files to "/var/folders/ft/dwy4mw895mj7f2c6dl17qry00000gn/T/egg-multipart-tmp/server", cleanup job cron: "0 30 4 * * *"
+2019-11-11 23:12:23,877 INFO 54946 [egg-static] starting static serve /public/ -> /Users/lirunkai/Documents/website/server/app/public
+2019-11-11 23:12:23,879 INFO 54946 [egg-security] use csrf middleware
+2019-11-11 23:12:23,880 INFO 54946 [egg-security] use methodnoallow middleware
+2019-11-11 23:12:23,880 INFO 54946 [egg-security] use noopen middleware
+2019-11-11 23:12:23,880 INFO 54946 [egg-security] use nosniff middleware
+2019-11-11 23:12:23,881 INFO 54946 [egg-security] use xssProtection middleware
+2019-11-11 23:12:23,881 INFO 54946 [egg-security] use xframe middleware
+2019-11-11 23:12:23,881 INFO 54946 [egg-security] use dta middleware
+2019-11-11 23:12:23,881 INFO 54946 [egg-security] compose 7 middlewares into one security middleware
+2019-11-11 23:12:23,890 INFO 54946 [egg:core] dump config after load, 5ms
+2019-11-11 23:12:23,916 INFO 54946 [egg-watcher:application] watcher start success
+2019-11-11 23:12:23,949 INFO 54946 [egg:core] dump config after ready, 4ms
+2019-11-11 23:12:40,651 INFO 54989 [egg:logger] init all loggers with options: {"dir":"/Users/lirunkai/Documents/website/server/logs/server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-11-11 23:12:40,679 INFO 54989 [egg-multipart] file mode enable
+2019-11-11 23:12:40,679 INFO 54989 [egg-multipart] will save temporary files to "/var/folders/ft/dwy4mw895mj7f2c6dl17qry00000gn/T/egg-multipart-tmp/server", cleanup job cron: "0 30 4 * * *"
+2019-11-11 23:12:40,903 INFO 54989 [egg-static] starting static serve /public/ -> /Users/lirunkai/Documents/website/server/app/public
+2019-11-11 23:12:40,905 INFO 54989 [egg-security] use csrf middleware
+2019-11-11 23:12:40,905 INFO 54989 [egg-security] use methodnoallow middleware
+2019-11-11 23:12:40,905 INFO 54989 [egg-security] use noopen middleware
+2019-11-11 23:12:40,906 INFO 54989 [egg-security] use nosniff middleware
+2019-11-11 23:12:40,906 INFO 54989 [egg-security] use xssProtection middleware
+2019-11-11 23:12:40,906 INFO 54989 [egg-security] use xframe middleware
+2019-11-11 23:12:40,906 INFO 54989 [egg-security] use dta middleware
+2019-11-11 23:12:40,906 INFO 54989 [egg-security] compose 7 middlewares into one security middleware
+2019-11-11 23:12:40,914 INFO 54989 [egg:core] dump config after load, 4ms
+2019-11-11 23:12:40,937 INFO 54989 [egg-watcher:application] watcher start success
+2019-11-11 23:12:40,973 INFO 54989 [egg:core] dump config after ready, 3ms
+2019-11-11 23:12:42,841 INFO 55007 [egg:logger] init all loggers with options: {"dir":"/Users/lirunkai/Documents/website/server/logs/server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-11-11 23:12:42,869 INFO 55007 [egg-multipart] file mode enable
+2019-11-11 23:12:42,869 INFO 55007 [egg-multipart] will save temporary files to "/var/folders/ft/dwy4mw895mj7f2c6dl17qry00000gn/T/egg-multipart-tmp/server", cleanup job cron: "0 30 4 * * *"
+2019-11-11 23:12:43,086 INFO 55007 [egg-static] starting static serve /public/ -> /Users/lirunkai/Documents/website/server/app/public
+2019-11-11 23:12:43,088 INFO 55007 [egg-security] use csrf middleware
+2019-11-11 23:12:43,089 INFO 55007 [egg-security] use methodnoallow middleware
+2019-11-11 23:12:43,089 INFO 55007 [egg-security] use noopen middleware
+2019-11-11 23:12:43,090 INFO 55007 [egg-security] use nosniff middleware
+2019-11-11 23:12:43,090 INFO 55007 [egg-security] use xssProtection middleware
+2019-11-11 23:12:43,090 INFO 55007 [egg-security] use xframe middleware
+2019-11-11 23:12:43,090 INFO 55007 [egg-security] use dta middleware
+2019-11-11 23:12:43,090 INFO 55007 [egg-security] compose 7 middlewares into one security middleware
+2019-11-11 23:12:43,097 INFO 55007 [egg:core] dump config after load, 4ms
+2019-11-11 23:12:43,121 INFO 55007 [egg-watcher:application] watcher start success
+2019-11-11 23:12:43,158 INFO 55007 [egg:core] dump config after ready, 4ms
+2019-11-11 23:12:48,629 INFO 55022 [egg:logger] init all loggers with options: {"dir":"/Users/lirunkai/Documents/website/server/logs/server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-11-11 23:12:48,653 INFO 55022 [egg-multipart] file mode enable
+2019-11-11 23:12:48,653 INFO 55022 [egg-multipart] will save temporary files to "/var/folders/ft/dwy4mw895mj7f2c6dl17qry00000gn/T/egg-multipart-tmp/server", cleanup job cron: "0 30 4 * * *"
+2019-11-11 23:12:48,863 INFO 55022 [egg-static] starting static serve /public/ -> /Users/lirunkai/Documents/website/server/app/public
+2019-11-11 23:12:48,866 INFO 55022 [egg-security] use csrf middleware
+2019-11-11 23:12:48,866 INFO 55022 [egg-security] use methodnoallow middleware
+2019-11-11 23:12:48,866 INFO 55022 [egg-security] use noopen middleware
+2019-11-11 23:12:48,867 INFO 55022 [egg-security] use nosniff middleware
+2019-11-11 23:12:48,867 INFO 55022 [egg-security] use xssProtection middleware
+2019-11-11 23:12:48,868 INFO 55022 [egg-security] use xframe middleware
+2019-11-11 23:12:48,868 INFO 55022 [egg-security] use dta middleware
+2019-11-11 23:12:48,868 INFO 55022 [egg-security] compose 7 middlewares into one security middleware
+2019-11-11 23:12:48,876 INFO 55022 [egg:core] dump config after load, 4ms
+2019-11-11 23:12:48,900 INFO 55022 [egg-watcher:application] watcher start success
+2019-11-11 23:12:48,937 INFO 55022 [egg:core] dump config after ready, 4ms
+2019-11-11 23:13:01,697 INFO 55079 [egg:logger] init all loggers with options: {"dir":"/Users/lirunkai/Documents/website/server/logs/server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-11-11 23:13:01,723 INFO 55079 [egg-multipart] file mode enable
+2019-11-11 23:13:01,723 INFO 55079 [egg-multipart] will save temporary files to "/var/folders/ft/dwy4mw895mj7f2c6dl17qry00000gn/T/egg-multipart-tmp/server", cleanup job cron: "0 30 4 * * *"
+2019-11-11 23:13:01,930 INFO 55079 [egg-static] starting static serve /public/ -> /Users/lirunkai/Documents/website/server/app/public
+2019-11-11 23:13:01,932 INFO 55079 [egg-security] use csrf middleware
+2019-11-11 23:13:01,932 INFO 55079 [egg-security] use methodnoallow middleware
+2019-11-11 23:13:01,933 INFO 55079 [egg-security] use noopen middleware
+2019-11-11 23:13:01,933 INFO 55079 [egg-security] use nosniff middleware
+2019-11-11 23:13:01,933 INFO 55079 [egg-security] use xssProtection middleware
+2019-11-11 23:13:01,934 INFO 55079 [egg-security] use xframe middleware
+2019-11-11 23:13:01,934 INFO 55079 [egg-security] use dta middleware
+2019-11-11 23:13:01,934 INFO 55079 [egg-security] compose 7 middlewares into one security middleware
+2019-11-11 23:13:01,942 INFO 55079 [egg:core] dump config after load, 5ms
+2019-11-11 23:13:01,969 INFO 55079 [egg-watcher:application] watcher start success
+2019-11-11 23:13:01,998 INFO 55079 [egg:core] dump config after ready, 4ms
+2019-11-11 23:13:12,763 INFO 55122 [egg:logger] init all loggers with options: {"dir":"/Users/lirunkai/Documents/website/server/logs/server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-11-11 23:13:12,787 INFO 55122 [egg-multipart] file mode enable
+2019-11-11 23:13:12,787 INFO 55122 [egg-multipart] will save temporary files to "/var/folders/ft/dwy4mw895mj7f2c6dl17qry00000gn/T/egg-multipart-tmp/server", cleanup job cron: "0 30 4 * * *"
+2019-11-11 23:13:12,988 INFO 55122 [egg-static] starting static serve /public/ -> /Users/lirunkai/Documents/website/server/app/public
+2019-11-11 23:13:12,990 INFO 55122 [egg-security] use csrf middleware
+2019-11-11 23:13:12,991 INFO 55122 [egg-security] use methodnoallow middleware
+2019-11-11 23:13:12,991 INFO 55122 [egg-security] use noopen middleware
+2019-11-11 23:13:12,991 INFO 55122 [egg-security] use nosniff middleware
+2019-11-11 23:13:12,991 INFO 55122 [egg-security] use xssProtection middleware
+2019-11-11 23:13:12,992 INFO 55122 [egg-security] use xframe middleware
+2019-11-11 23:13:12,992 INFO 55122 [egg-security] use dta middleware
+2019-11-11 23:13:12,992 INFO 55122 [egg-security] compose 7 middlewares into one security middleware
+2019-11-11 23:13:12,999 INFO 55122 [egg:core] dump config after load, 4ms
+2019-11-11 23:13:13,026 INFO 55122 [egg-watcher:application] watcher start success
+2019-11-11 23:13:13,056 INFO 55122 [egg:core] dump config after ready, 4ms
+2019-11-11 23:13:15,265 INFO 55132 [egg:logger] init all loggers with options: {"dir":"/Users/lirunkai/Documents/website/server/logs/server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-11-11 23:13:15,290 INFO 55132 [egg-multipart] file mode enable
+2019-11-11 23:13:15,290 INFO 55132 [egg-multipart] will save temporary files to "/var/folders/ft/dwy4mw895mj7f2c6dl17qry00000gn/T/egg-multipart-tmp/server", cleanup job cron: "0 30 4 * * *"
+2019-11-11 23:13:15,506 INFO 55132 [egg-static] starting static serve /public/ -> /Users/lirunkai/Documents/website/server/app/public
+2019-11-11 23:13:15,508 INFO 55132 [egg-security] use csrf middleware
+2019-11-11 23:13:15,509 INFO 55132 [egg-security] use methodnoallow middleware
+2019-11-11 23:13:15,509 INFO 55132 [egg-security] use noopen middleware
+2019-11-11 23:13:15,509 INFO 55132 [egg-security] use nosniff middleware
+2019-11-11 23:13:15,510 INFO 55132 [egg-security] use xssProtection middleware
+2019-11-11 23:13:15,510 INFO 55132 [egg-security] use xframe middleware
+2019-11-11 23:13:15,510 INFO 55132 [egg-security] use dta middleware
+2019-11-11 23:13:15,510 INFO 55132 [egg-security] compose 7 middlewares into one security middleware
+2019-11-11 23:13:15,518 INFO 55132 [egg:core] dump config after load, 5ms
+2019-11-11 23:13:15,542 INFO 55132 [egg-watcher:application] watcher start success
+2019-11-11 23:13:15,577 INFO 55132 [egg:core] dump config after ready, 4ms
+2019-11-11 23:13:16,825 INFO 55156 [egg:logger] init all loggers with options: {"dir":"/Users/lirunkai/Documents/website/server/logs/server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-11-11 23:13:16,851 INFO 55156 [egg-multipart] file mode enable
+2019-11-11 23:13:16,851 INFO 55156 [egg-multipart] will save temporary files to "/var/folders/ft/dwy4mw895mj7f2c6dl17qry00000gn/T/egg-multipart-tmp/server", cleanup job cron: "0 30 4 * * *"
+2019-11-11 23:13:17,067 INFO 55156 [egg-static] starting static serve /public/ -> /Users/lirunkai/Documents/website/server/app/public
+2019-11-11 23:13:17,069 INFO 55156 [egg-security] use csrf middleware
+2019-11-11 23:13:17,069 INFO 55156 [egg-security] use methodnoallow middleware
+2019-11-11 23:13:17,070 INFO 55156 [egg-security] use noopen middleware
+2019-11-11 23:13:17,070 INFO 55156 [egg-security] use nosniff middleware
+2019-11-11 23:13:17,071 INFO 55156 [egg-security] use xssProtection middleware
+2019-11-11 23:13:17,071 INFO 55156 [egg-security] use xframe middleware
+2019-11-11 23:13:17,072 INFO 55156 [egg-security] use dta middleware
+2019-11-11 23:13:17,072 INFO 55156 [egg-security] compose 7 middlewares into one security middleware
+2019-11-11 23:13:17,079 INFO 55156 [egg:core] dump config after load, 4ms
+2019-11-11 23:13:17,103 INFO 55156 [egg-watcher:application] watcher start success
+2019-11-11 23:13:17,141 INFO 55156 [egg:core] dump config after ready, 4ms
+2019-11-11 23:13:21,217 INFO 55186 [egg:logger] init all loggers with options: {"dir":"/Users/lirunkai/Documents/website/server/logs/server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-11-11 23:13:21,242 INFO 55186 [egg-multipart] file mode enable
+2019-11-11 23:13:21,242 INFO 55186 [egg-multipart] will save temporary files to "/var/folders/ft/dwy4mw895mj7f2c6dl17qry00000gn/T/egg-multipart-tmp/server", cleanup job cron: "0 30 4 * * *"
+2019-11-11 23:13:21,452 INFO 55186 [egg-static] starting static serve /public/ -> /Users/lirunkai/Documents/website/server/app/public
+2019-11-11 23:13:21,454 INFO 55186 [egg-security] use csrf middleware
+2019-11-11 23:13:21,455 INFO 55186 [egg-security] use methodnoallow middleware
+2019-11-11 23:13:21,455 INFO 55186 [egg-security] use noopen middleware
+2019-11-11 23:13:21,456 INFO 55186 [egg-security] use nosniff middleware
+2019-11-11 23:13:21,456 INFO 55186 [egg-security] use xssProtection middleware
+2019-11-11 23:13:21,456 INFO 55186 [egg-security] use xframe middleware
+2019-11-11 23:13:21,457 INFO 55186 [egg-security] use dta middleware
+2019-11-11 23:13:21,457 INFO 55186 [egg-security] compose 7 middlewares into one security middleware
+2019-11-11 23:13:21,465 INFO 55186 [egg:core] dump config after load, 5ms
+2019-11-11 23:13:21,491 INFO 55186 [egg-watcher:application] watcher start success
+2019-11-11 23:13:21,523 INFO 55186 [egg:core] dump config after ready, 4ms
+2019-11-11 23:13:25,039 INFO 55206 [egg:logger] init all loggers with options: {"dir":"/Users/lirunkai/Documents/website/server/logs/server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-11-11 23:13:25,064 INFO 55206 [egg-multipart] file mode enable
+2019-11-11 23:13:25,064 INFO 55206 [egg-multipart] will save temporary files to "/var/folders/ft/dwy4mw895mj7f2c6dl17qry00000gn/T/egg-multipart-tmp/server", cleanup job cron: "0 30 4 * * *"
+2019-11-11 23:13:25,275 INFO 55206 [egg-static] starting static serve /public/ -> /Users/lirunkai/Documents/website/server/app/public
+2019-11-11 23:13:25,277 INFO 55206 [egg-security] use csrf middleware
+2019-11-11 23:13:25,278 INFO 55206 [egg-security] use methodnoallow middleware
+2019-11-11 23:13:25,278 INFO 55206 [egg-security] use noopen middleware
+2019-11-11 23:13:25,278 INFO 55206 [egg-security] use nosniff middleware
+2019-11-11 23:13:25,279 INFO 55206 [egg-security] use xssProtection middleware
+2019-11-11 23:13:25,279 INFO 55206 [egg-security] use xframe middleware
+2019-11-11 23:13:25,279 INFO 55206 [egg-security] use dta middleware
+2019-11-11 23:13:25,279 INFO 55206 [egg-security] compose 7 middlewares into one security middleware
+2019-11-11 23:13:25,287 INFO 55206 [egg:core] dump config after load, 4ms
+2019-11-11 23:13:25,310 INFO 55206 [egg-watcher:application] watcher start success
+2019-11-11 23:13:25,345 INFO 55206 [egg:core] dump config after ready, 3ms
+2019-11-11 23:13:31,495 INFO 55249 [egg:logger] init all loggers with options: {"dir":"/Users/lirunkai/Documents/website/server/logs/server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-11-11 23:13:31,521 INFO 55249 [egg-multipart] file mode enable
+2019-11-11 23:13:31,521 INFO 55249 [egg-multipart] will save temporary files to "/var/folders/ft/dwy4mw895mj7f2c6dl17qry00000gn/T/egg-multipart-tmp/server", cleanup job cron: "0 30 4 * * *"
+2019-11-11 23:13:31,721 INFO 55249 [egg-static] starting static serve /public/ -> /Users/lirunkai/Documents/website/server/app/public
+2019-11-11 23:13:31,723 INFO 55249 [egg-security] use csrf middleware
+2019-11-11 23:13:31,723 INFO 55249 [egg-security] use methodnoallow middleware
+2019-11-11 23:13:31,723 INFO 55249 [egg-security] use noopen middleware
+2019-11-11 23:13:31,724 INFO 55249 [egg-security] use nosniff middleware
+2019-11-11 23:13:31,724 INFO 55249 [egg-security] use xssProtection middleware
+2019-11-11 23:13:31,724 INFO 55249 [egg-security] use xframe middleware
+2019-11-11 23:13:31,724 INFO 55249 [egg-security] use dta middleware
+2019-11-11 23:13:31,724 INFO 55249 [egg-security] compose 7 middlewares into one security middleware
+2019-11-11 23:13:31,732 INFO 55249 [egg:core] dump config after load, 4ms
+2019-11-11 23:13:31,758 INFO 55249 [egg-watcher:application] watcher start success
+2019-11-11 23:13:31,791 INFO 55249 [egg:core] dump config after ready, 4ms
+2019-11-11 23:13:37,859 INFO 55280 [egg:logger] init all loggers with options: {"dir":"/Users/lirunkai/Documents/website/server/logs/server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-11-11 23:13:37,884 INFO 55280 [egg-multipart] file mode enable
+2019-11-11 23:13:37,884 INFO 55280 [egg-multipart] will save temporary files to "/var/folders/ft/dwy4mw895mj7f2c6dl17qry00000gn/T/egg-multipart-tmp/server", cleanup job cron: "0 30 4 * * *"
+2019-11-11 23:13:38,087 INFO 55280 [egg-static] starting static serve /public/ -> /Users/lirunkai/Documents/website/server/app/public
+2019-11-11 23:13:38,089 INFO 55280 [egg-security] use csrf middleware
+2019-11-11 23:13:38,089 INFO 55280 [egg-security] use methodnoallow middleware
+2019-11-11 23:13:38,089 INFO 55280 [egg-security] use noopen middleware
+2019-11-11 23:13:38,090 INFO 55280 [egg-security] use nosniff middleware
+2019-11-11 23:13:38,090 INFO 55280 [egg-security] use xssProtection middleware
+2019-11-11 23:13:38,090 INFO 55280 [egg-security] use xframe middleware
+2019-11-11 23:13:38,090 INFO 55280 [egg-security] use dta middleware
+2019-11-11 23:13:38,090 INFO 55280 [egg-security] compose 7 middlewares into one security middleware
+2019-11-11 23:13:38,098 INFO 55280 [egg:core] dump config after load, 4ms
+2019-11-11 23:13:38,121 INFO 55280 [egg-watcher:application] watcher start success
+2019-11-11 23:13:38,155 INFO 55280 [egg:core] dump config after ready, 4ms
+2019-11-11 23:15:03,753 INFO 55555 [egg:logger] init all loggers with options: {"dir":"/Users/lirunkai/Documents/website/server/logs/server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-11-11 23:15:03,780 INFO 55555 [egg-multipart] file mode enable
+2019-11-11 23:15:03,781 INFO 55555 [egg-multipart] will save temporary files to "/var/folders/ft/dwy4mw895mj7f2c6dl17qry00000gn/T/egg-multipart-tmp/server", cleanup job cron: "0 30 4 * * *"
+2019-11-11 23:15:03,996 INFO 55555 [egg-static] starting static serve /public/ -> /Users/lirunkai/Documents/website/server/app/public
+2019-11-11 23:15:03,999 INFO 55555 [egg-security] use csrf middleware
+2019-11-11 23:15:03,999 INFO 55555 [egg-security] use methodnoallow middleware
+2019-11-11 23:15:03,999 INFO 55555 [egg-security] use noopen middleware
+2019-11-11 23:15:04,000 INFO 55555 [egg-security] use nosniff middleware
+2019-11-11 23:15:04,000 INFO 55555 [egg-security] use xssProtection middleware
+2019-11-11 23:15:04,000 INFO 55555 [egg-security] use xframe middleware
+2019-11-11 23:15:04,001 INFO 55555 [egg-security] use dta middleware
+2019-11-11 23:15:04,001 INFO 55555 [egg-security] compose 7 middlewares into one security middleware
+2019-11-11 23:15:04,008 INFO 55555 [egg:core] dump config after load, 4ms
+2019-11-11 23:15:04,033 INFO 55555 [egg-watcher:application] watcher start success
+2019-11-11 23:15:04,074 INFO 55555 [egg:core] dump config after ready, 5ms
+2019-11-11 23:15:10,636 INFO 55580 [egg:logger] init all loggers with options: {"dir":"/Users/lirunkai/Documents/website/server/logs/server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-11-11 23:15:10,660 INFO 55580 [egg-multipart] file mode enable
+2019-11-11 23:15:10,660 INFO 55580 [egg-multipart] will save temporary files to "/var/folders/ft/dwy4mw895mj7f2c6dl17qry00000gn/T/egg-multipart-tmp/server", cleanup job cron: "0 30 4 * * *"
+2019-11-11 23:15:10,870 INFO 55580 [egg-static] starting static serve /public/ -> /Users/lirunkai/Documents/website/server/app/public
+2019-11-11 23:15:10,872 INFO 55580 [egg-security] use csrf middleware
+2019-11-11 23:15:10,873 INFO 55580 [egg-security] use methodnoallow middleware
+2019-11-11 23:15:10,873 INFO 55580 [egg-security] use noopen middleware
+2019-11-11 23:15:10,874 INFO 55580 [egg-security] use nosniff middleware
+2019-11-11 23:15:10,874 INFO 55580 [egg-security] use xssProtection middleware
+2019-11-11 23:15:10,874 INFO 55580 [egg-security] use xframe middleware
+2019-11-11 23:15:10,874 INFO 55580 [egg-security] use dta middleware
+2019-11-11 23:15:10,874 INFO 55580 [egg-security] compose 7 middlewares into one security middleware
+2019-11-11 23:15:10,884 INFO 55580 [egg:core] dump config after load, 6ms
+2019-11-11 23:15:10,914 INFO 55580 [egg-watcher:application] watcher start success
+2019-11-11 23:15:10,951 INFO 55580 [egg:core] dump config after ready, 4ms
+2019-11-11 23:15:15,826 INFO 55599 [egg:logger] init all loggers with options: {"dir":"/Users/lirunkai/Documents/website/server/logs/server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-11-11 23:15:15,850 INFO 55599 [egg-multipart] file mode enable
+2019-11-11 23:15:15,850 INFO 55599 [egg-multipart] will save temporary files to "/var/folders/ft/dwy4mw895mj7f2c6dl17qry00000gn/T/egg-multipart-tmp/server", cleanup job cron: "0 30 4 * * *"
+2019-11-11 23:15:16,060 INFO 55599 [egg-static] starting static serve /public/ -> /Users/lirunkai/Documents/website/server/app/public
+2019-11-11 23:15:16,062 INFO 55599 [egg-security] use csrf middleware
+2019-11-11 23:15:16,063 INFO 55599 [egg-security] use methodnoallow middleware
+2019-11-11 23:15:16,063 INFO 55599 [egg-security] use noopen middleware
+2019-11-11 23:15:16,063 INFO 55599 [egg-security] use nosniff middleware
+2019-11-11 23:15:16,064 INFO 55599 [egg-security] use xssProtection middleware
+2019-11-11 23:15:16,064 INFO 55599 [egg-security] use xframe middleware
+2019-11-11 23:15:16,064 INFO 55599 [egg-security] use dta middleware
+2019-11-11 23:15:16,064 INFO 55599 [egg-security] compose 7 middlewares into one security middleware
+2019-11-11 23:15:16,071 INFO 55599 [egg:core] dump config after load, 4ms
+2019-11-11 23:15:16,096 INFO 55599 [egg-watcher:application] watcher start success
+2019-11-11 23:15:16,133 INFO 55599 [egg:core] dump config after ready, 4ms
+2019-11-11 23:15:21,186 INFO 55623 [egg:logger] init all loggers with options: {"dir":"/Users/lirunkai/Documents/website/server/logs/server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-11-11 23:15:21,210 INFO 55623 [egg-multipart] file mode enable
+2019-11-11 23:15:21,210 INFO 55623 [egg-multipart] will save temporary files to "/var/folders/ft/dwy4mw895mj7f2c6dl17qry00000gn/T/egg-multipart-tmp/server", cleanup job cron: "0 30 4 * * *"
+2019-11-11 23:15:21,421 INFO 55623 [egg-static] starting static serve /public/ -> /Users/lirunkai/Documents/website/server/app/public
+2019-11-11 23:15:21,423 INFO 55623 [egg-security] use csrf middleware
+2019-11-11 23:15:21,423 INFO 55623 [egg-security] use methodnoallow middleware
+2019-11-11 23:15:21,423 INFO 55623 [egg-security] use noopen middleware
+2019-11-11 23:15:21,424 INFO 55623 [egg-security] use nosniff middleware
+2019-11-11 23:15:21,424 INFO 55623 [egg-security] use xssProtection middleware
+2019-11-11 23:15:21,424 INFO 55623 [egg-security] use xframe middleware
+2019-11-11 23:15:21,424 INFO 55623 [egg-security] use dta middleware
+2019-11-11 23:15:21,424 INFO 55623 [egg-security] compose 7 middlewares into one security middleware
+2019-11-11 23:15:21,432 INFO 55623 [egg:core] dump config after load, 5ms
+2019-11-11 23:15:21,454 INFO 55623 [egg-watcher:application] watcher start success
+2019-11-11 23:15:21,489 INFO 55623 [egg:core] dump config after ready, 4ms
+2019-11-11 23:15:26,585 INFO 55644 [egg:logger] init all loggers with options: {"dir":"/Users/lirunkai/Documents/website/server/logs/server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-11-11 23:15:26,609 INFO 55644 [egg-multipart] file mode enable
+2019-11-11 23:15:26,609 INFO 55644 [egg-multipart] will save temporary files to "/var/folders/ft/dwy4mw895mj7f2c6dl17qry00000gn/T/egg-multipart-tmp/server", cleanup job cron: "0 30 4 * * *"
+2019-11-11 23:15:26,825 INFO 55644 [egg-static] starting static serve /public/ -> /Users/lirunkai/Documents/website/server/app/public
+2019-11-11 23:15:26,827 INFO 55644 [egg-security] use csrf middleware
+2019-11-11 23:15:26,828 INFO 55644 [egg-security] use methodnoallow middleware
+2019-11-11 23:15:26,828 INFO 55644 [egg-security] use noopen middleware
+2019-11-11 23:15:26,829 INFO 55644 [egg-security] use nosniff middleware
+2019-11-11 23:15:26,829 INFO 55644 [egg-security] use xssProtection middleware
+2019-11-11 23:15:26,829 INFO 55644 [egg-security] use xframe middleware
+2019-11-11 23:15:26,829 INFO 55644 [egg-security] use dta middleware
+2019-11-11 23:15:26,829 INFO 55644 [egg-security] compose 7 middlewares into one security middleware
+2019-11-11 23:15:26,837 INFO 55644 [egg:core] dump config after load, 4ms
+2019-11-11 23:15:26,861 INFO 55644 [egg-watcher:application] watcher start success
+2019-11-11 23:15:26,898 INFO 55644 [egg:core] dump config after ready, 6ms
+2019-11-11 23:15:37,519 INFO 55667 [egg:logger] init all loggers with options: {"dir":"/Users/lirunkai/Documents/website/server/logs/server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-11-11 23:15:37,544 INFO 55667 [egg-multipart] file mode enable
+2019-11-11 23:15:37,544 INFO 55667 [egg-multipart] will save temporary files to "/var/folders/ft/dwy4mw895mj7f2c6dl17qry00000gn/T/egg-multipart-tmp/server", cleanup job cron: "0 30 4 * * *"
+2019-11-11 23:15:37,758 INFO 55667 [egg-static] starting static serve /public/ -> /Users/lirunkai/Documents/website/server/app/public
+2019-11-11 23:15:37,759 INFO 55667 [egg-security] use csrf middleware
+2019-11-11 23:15:37,760 INFO 55667 [egg-security] use methodnoallow middleware
+2019-11-11 23:15:37,760 INFO 55667 [egg-security] use noopen middleware
+2019-11-11 23:15:37,760 INFO 55667 [egg-security] use nosniff middleware
+2019-11-11 23:15:37,761 INFO 55667 [egg-security] use xssProtection middleware
+2019-11-11 23:15:37,761 INFO 55667 [egg-security] use xframe middleware
+2019-11-11 23:15:37,761 INFO 55667 [egg-security] use dta middleware
+2019-11-11 23:15:37,761 INFO 55667 [egg-security] compose 7 middlewares into one security middleware
+2019-11-11 23:15:37,768 INFO 55667 [egg:core] dump config after load, 4ms
+2019-11-11 23:15:37,794 INFO 55667 [egg-watcher:application] watcher start success
+2019-11-11 23:15:37,828 INFO 55667 [egg:core] dump config after ready, 4ms
+2019-11-11 23:15:40,486 INFO 55685 [egg:logger] init all loggers with options: {"dir":"/Users/lirunkai/Documents/website/server/logs/server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-11-11 23:15:40,510 INFO 55685 [egg-multipart] file mode enable
+2019-11-11 23:15:40,510 INFO 55685 [egg-multipart] will save temporary files to "/var/folders/ft/dwy4mw895mj7f2c6dl17qry00000gn/T/egg-multipart-tmp/server", cleanup job cron: "0 30 4 * * *"
+2019-11-11 23:15:40,723 INFO 55685 [egg-static] starting static serve /public/ -> /Users/lirunkai/Documents/website/server/app/public
+2019-11-11 23:15:40,725 INFO 55685 [egg-security] use csrf middleware
+2019-11-11 23:15:40,726 INFO 55685 [egg-security] use methodnoallow middleware
+2019-11-11 23:15:40,726 INFO 55685 [egg-security] use noopen middleware
+2019-11-11 23:15:40,726 INFO 55685 [egg-security] use nosniff middleware
+2019-11-11 23:15:40,726 INFO 55685 [egg-security] use xssProtection middleware
+2019-11-11 23:15:40,727 INFO 55685 [egg-security] use xframe middleware
+2019-11-11 23:15:40,727 INFO 55685 [egg-security] use dta middleware
+2019-11-11 23:15:40,727 INFO 55685 [egg-security] compose 7 middlewares into one security middleware
+2019-11-11 23:15:40,735 INFO 55685 [egg:core] dump config after load, 5ms
+2019-11-11 23:15:40,759 INFO 55685 [egg-watcher:application] watcher start success
+2019-11-11 23:15:40,795 INFO 55685 [egg:core] dump config after ready, 5ms
+2019-11-11 23:15:41,765 INFO 55695 [egg:logger] init all loggers with options: {"dir":"/Users/lirunkai/Documents/website/server/logs/server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-11-11 23:15:41,792 INFO 55695 [egg-multipart] file mode enable
+2019-11-11 23:15:41,792 INFO 55695 [egg-multipart] will save temporary files to "/var/folders/ft/dwy4mw895mj7f2c6dl17qry00000gn/T/egg-multipart-tmp/server", cleanup job cron: "0 30 4 * * *"
+2019-11-11 23:15:42,049 INFO 55695 [egg-static] starting static serve /public/ -> /Users/lirunkai/Documents/website/server/app/public
+2019-11-11 23:15:42,051 INFO 55695 [egg-security] use csrf middleware
+2019-11-11 23:15:42,052 INFO 55695 [egg-security] use methodnoallow middleware
+2019-11-11 23:15:42,052 INFO 55695 [egg-security] use noopen middleware
+2019-11-11 23:15:42,052 INFO 55695 [egg-security] use nosniff middleware
+2019-11-11 23:15:42,053 INFO 55695 [egg-security] use xssProtection middleware
+2019-11-11 23:15:42,053 INFO 55695 [egg-security] use xframe middleware
+2019-11-11 23:15:42,053 INFO 55695 [egg-security] use dta middleware
+2019-11-11 23:15:42,053 INFO 55695 [egg-security] compose 7 middlewares into one security middleware
+2019-11-11 23:15:42,061 INFO 55695 [egg:core] dump config after load, 5ms
+2019-11-11 23:15:42,086 INFO 55695 [egg-watcher:application] watcher start success
+2019-11-11 23:15:42,121 INFO 55695 [egg:core] dump config after ready, 4ms
+2019-11-12 00:00:00,079 INFO 55695 [egg-logrotator] clean all log before 31 days
+2019-11-12 00:00:01,077 INFO 55695 [egg-logrotator] broadcast log-reload
+2019-11-12 00:00:01,077 INFO 55695 [egg-logrotator] rotate files success by DayRotator, files ["/Users/lirunkai/Documents/website/server/logs/server/common-error.log -> /Users/lirunkai/Documents/website/server/logs/server/common-error.log.2019-11-11","/Users/lirunkai/Documents/website/server/logs/server/server-web.log -> /Users/lirunkai/Documents/website/server/logs/server/server-web.log.2019-11-11","/Users/lirunkai/Documents/website/server/logs/server/egg-web.log -> /Users/lirunkai/Documents/website/server/logs/server/egg-web.log.2019-11-11","/Users/lirunkai/Documents/website/server/logs/server/egg-schedule.log -> /Users/lirunkai/Documents/website/server/logs/server/egg-schedule.log.2019-11-11","/Users/lirunkai/Documents/website/server/logs/server/egg-agent.log -> /Users/lirunkai/Documents/website/server/logs/server/egg-agent.log.2019-11-11"]

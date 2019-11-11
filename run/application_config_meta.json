@@ -29,39 +29,31 @@
       "cron": "/Users/lirunkai/Documents/website/server/node_modules/egg-multipart/config/config.default.js"
     }
   },
-  "io": {
-    "init": "/Users/lirunkai/Documents/website/server/config/config.default.js",
-    "namespace": {
-      "/": {
-        "connectionMiddleware": "/Users/lirunkai/Documents/website/server/config/config.default.js",
-        "packetMiddleware": "/Users/lirunkai/Documents/website/server/config/config.default.js"
-      }
-    }
+  "sequelize": {
+    "dialect": "/Users/lirunkai/Documents/website/server/config/config.default.js",
+    "database": "/Users/lirunkai/Documents/website/server/config/config.default.js",
+    "password": "/Users/lirunkai/Documents/website/server/config/config.default.js",
+    "host": "/Users/lirunkai/Documents/website/server/node_modules/egg-sequelize/config/config.default.js",
+    "port": "/Users/lirunkai/Documents/website/server/node_modules/egg-sequelize/config/config.default.js",
+    "username": "/Users/lirunkai/Documents/website/server/node_modules/egg-sequelize/config/config.default.js"
   },
-  "key": "/Users/lirunkai/Documents/website/server/config/config.default.js",
-  "maxAge": "/Users/lirunkai/Documents/website/server/config/config.default.js",
-  "session": {
-    "maxAge": "/Users/lirunkai/Documents/website/server/node_modules/egg-session/config/config.default.js",
-    "key": "/Users/lirunkai/Documents/website/server/node_modules/egg-session/config/config.default.js",
-    "httpOnly": "/Users/lirunkai/Documents/website/server/node_modules/egg-session/config/config.default.js",
-    "encrypt": "/Users/lirunkai/Documents/website/server/node_modules/egg-session/config/config.default.js"
-  },
+  "websocket": "/Users/lirunkai/Documents/website/server/config/config.default.js",
   "security": {
-    "domainWhiteList": "/Users/lirunkai/Documents/website/server/node_modules/egg-security/config/config.default.js",
-    "protocolWhiteList": "/Users/lirunkai/Documents/website/server/node_modules/egg-security/config/config.default.js",
-    "defaultMiddleware": "/Users/lirunkai/Documents/website/server/node_modules/egg-security/config/config.default.js",
+    "domainWhiteList": "/Users/lirunkai/Documents/website/server/config/config.default.js",
     "csrf": {
+      "headerName": "/Users/lirunkai/Documents/website/server/config/config.default.js",
+      "ignoreJSON": "/Users/lirunkai/Documents/website/server/config/config.default.js",
       "enable": "/Users/lirunkai/Documents/website/server/node_modules/egg-security/config/config.default.js",
       "type": "/Users/lirunkai/Documents/website/server/node_modules/egg-security/config/config.default.js",
-      "ignoreJSON": "/Users/lirunkai/Documents/website/server/node_modules/egg-security/config/config.default.js",
       "useSession": "/Users/lirunkai/Documents/website/server/node_modules/egg-security/config/config.default.js",
       "cookieName": "/Users/lirunkai/Documents/website/server/node_modules/egg-security/config/config.default.js",
       "sessionName": "/Users/lirunkai/Documents/website/server/node_modules/egg-security/config/config.default.js",
-      "headerName": "/Users/lirunkai/Documents/website/server/node_modules/egg-security/config/config.default.js",
       "bodyName": "/Users/lirunkai/Documents/website/server/node_modules/egg-security/config/config.default.js",
       "queryName": "/Users/lirunkai/Documents/website/server/node_modules/egg-security/config/config.default.js",
       "refererWhiteList": "/Users/lirunkai/Documents/website/server/node_modules/egg-security/config/config.default.js"
     },
+    "protocolWhiteList": "/Users/lirunkai/Documents/website/server/node_modules/egg-security/config/config.default.js",
+    "defaultMiddleware": "/Users/lirunkai/Documents/website/server/node_modules/egg-security/config/config.default.js",
     "xframe": {
       "enable": "/Users/lirunkai/Documents/website/server/node_modules/egg-security/config/config.default.js",
       "value": "/Users/lirunkai/Documents/website/server/node_modules/egg-security/config/config.default.js"
@@ -99,6 +91,15 @@
       "ipBlackList": "/Users/lirunkai/Documents/website/server/node_modules/egg-security/config/config.default.js",
       "checkAddress": "/Users/lirunkai/Documents/website/server/node_modules/egg-security/config/config.default.js"
     }
+  },
+  "cors": "/Users/lirunkai/Documents/website/server/config/config.default.js",
+  "keys": "/Users/lirunkai/Documents/website/server/config/config.default.js",
+  "maxAge": "/Users/lirunkai/Documents/website/server/config/config.default.js",
+  "session": {
+    "maxAge": "/Users/lirunkai/Documents/website/server/node_modules/egg-session/config/config.default.js",
+    "key": "/Users/lirunkai/Documents/website/server/node_modules/egg-session/config/config.default.js",
+    "httpOnly": "/Users/lirunkai/Documents/website/server/node_modules/egg-session/config/config.default.js",
+    "encrypt": "/Users/lirunkai/Documents/website/server/node_modules/egg-session/config/config.default.js"
   },
   "helper": {
     "shtml": "/Users/lirunkai/Documents/website/server/node_modules/egg-security/config/config.default.js"
@@ -171,7 +172,6 @@
   "validate": "/Users/lirunkai/Documents/website/server/node_modules/egg-validate/config/config.default.js",
   "env": "/Users/lirunkai/Documents/website/server/node_modules/egg/config/config.default.js",
   "name": "/Users/lirunkai/Documents/website/server/node_modules/egg/config/config.default.js",
-  "keys": "/Users/lirunkai/Documents/website/server/node_modules/egg/config/config.default.js",
   "proxy": "/Users/lirunkai/Documents/website/server/node_modules/egg/config/config.default.js",
   "maxIpsCount": "/Users/lirunkai/Documents/website/server/node_modules/egg/config/config.default.js",
   "maxProxyCount": "/Users/lirunkai/Documents/website/server/node_modules/egg/config/config.default.js",
@@ -190,8 +190,13 @@
     "license": "/Users/lirunkai/Documents/website/server/node_modules/egg/config/config.default.js",
     "dependencies": {
       "egg": "/Users/lirunkai/Documents/website/server/node_modules/egg/config/config.default.js",
+      "egg-cors": "/Users/lirunkai/Documents/website/server/node_modules/egg/config/config.default.js",
+      "egg-sequelize": "/Users/lirunkai/Documents/website/server/node_modules/egg/config/config.default.js",
       "egg-socket.io": "/Users/lirunkai/Documents/website/server/node_modules/egg/config/config.default.js",
-      "egg-validate": "/Users/lirunkai/Documents/website/server/node_modules/egg/config/config.default.js"
+      "egg-validate": "/Users/lirunkai/Documents/website/server/node_modules/egg/config/config.default.js",
+      "egg-websocket": "/Users/lirunkai/Documents/website/server/node_modules/egg/config/config.default.js",
+      "mysql2": "/Users/lirunkai/Documents/website/server/node_modules/egg/config/config.default.js",
+      "sequelize-cli": "/Users/lirunkai/Documents/website/server/node_modules/egg/config/config.default.js"
     },
     "devDependencies": {
       "egg-bin": "/Users/lirunkai/Documents/website/server/node_modules/egg/config/config.default.js"
