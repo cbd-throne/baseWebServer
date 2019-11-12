@@ -34,6 +34,34 @@ class UserController extends Controller {
             }
         }
     }
+
+    async login() {
+        const { ctx } = this;
+        const {email, password } = ctx.request.body;
+        const User = ctx.model.User;
+        let user = await User.findOne({ where: { email: email}});
+        if(user) {
+            if(user.password == password) {
+                ctx.body = {
+                    code: 0,
+                    message: 'find user',
+                    data: user
+                }
+            } else {
+                ctx.body = {
+                    code: 1,
+                    message: 'password is wrong',
+                    data: null
+                }
+            }
+        } else {
+            ctx.body = {
+                code: 1,
+                message: 'email not found',
+                data: null
+            }
+        }
+    }
 }
 
 module.exports = UserController;
